@@ -1,0 +1,176 @@
+:root {
+  --primary-color: #ec0c94;
+  --secondary-color: #fc54c4;
+  --terceary-color: #a93484;
+  --cuarary-color: #ac6c9c;
+  --quintary-color: #ccacc4;
+
+  --text-color-dark: #333;
+  --text-color-light: #fff;
+  --background-light: #f4f6f8;
+  --background-card: #ffffff;
+  --background-card-hover: #eaeaea;
+  --background-fraccion: #f9f9f9;
+  --modal-overlay: rgba(0, 0, 0, 0.5);
+  --box-shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-modal: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: lato, sans-serif;
+  background: var(--background-light);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.contenedor {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--background-card);
+  border-radius: 15px;
+  box-shadow: var(--box-shadow-light);
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 15px;
+  text-align: center;
+}
+
+.card:hover {
+  background: var(--background-card-hover);
+  transform: scale(1.05);
+}
+
+.card .icon {
+  font-size: 16px;
+  margin: 0;
+  color: var(--text-color-dark);
+}
+
+/*Estillo del modal*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--modal-overlay);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-content {
+  background: var(--background-card);
+  padding: 25px;
+  border-radius: 12px;
+  width: 650px;
+  max-width: 95%;
+  max-height: 85vh;
+  align-content: center;
+  align-items: center;
+  text-align: justify;
+  box-shadow: var(--box-shadow-modal);
+  animation: aparecer 0.3s ease;
+  position: relative; /* para que el botón close se posicione bien*/
+}
+
+@keyframes aparecer {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.modal-content h2 {
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.modal-content h3 {
+  font-size: 18px;
+  margin: 15px 0 8px;
+  color: var(--primary-color);
+}
+
+.modal-content p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.fraccion {
+box-shadow: 0 4px 12px rgba(51, 51, 51, 0.3);
+  margin-bottom: 20px;
+  padding: 10px;
+  background: var(--background-fraccion);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 6px;
+}
+
+.acciones {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.col-izq {
+  /*config de la posicion de los iconos */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.col-der {
+  /*lo mismo perdo de lado derecho*/
+  display: flex;
+  flex-direction: row; /*lo hace en forma de lista*/
+  gap: 10px;
+  align-items: flex-start; /*Que comienze de arriba*/
+}
+
+.btn {
+  background: var(--secondary-color);
+  color: var(--terceary-color);
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--terceary-color);
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 28px;
+  color: var(--text-color-light);
+  cursor: pointer;
+}
