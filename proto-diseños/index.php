@@ -72,11 +72,48 @@
   <!-- Final de la imagen -->
   <!-- Inicio de la config de las modal -->
   <div class="contenedor">
-    <div class="card" onclick="openModal('modal1')">
-      <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
-      <h3>Marco normativo</h3>
-    </div>
+  <div class="card" onclick="openModal('modal1')">
+    <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
+    <h3>Marco normativo</h3>
   </div>
+
+  <div class="card" onclick="openModal('modal2')">
+    <div class="icon"><i class="fa-solid fa-sitemap"></i></div>
+    <h3>Marco normativo</h3>
+  </div>
+
+  <div class="card" onclick="openModal('modal3')">
+    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
+    <h3>Marco normativo</h3>
+  </div>
+
+  <div class="card" onclick="openModal('modal4')">
+    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
+    <h3>Marco normativo</h3>
+  </div>
+
+  <div class="card" onclick="openModal('modal5')">
+    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
+    <h3>Marco normativo</h3>
+  </div>
+
+  <div class="card" onclick="openModal('modal6')">
+    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
+    <h3>Marco normativo</h3>
+  </div>
+
+  <div class="card" onclick="openModal('modal7')">
+    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
+    <h3>Marco normativo</h3>
+  </div>
+
+  <div class="card" onclick="openModal('modal8')">
+    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
+    <h3>Marco normativo</h3>
+  </div>
+</div>
+
+  <!-- Inicio de la config de las modal2 -->
   <!-- Modal -->
   <div id="modal1" class="modal">
     <span class="close" onclick="closeModal('modal1')">&times;</span>
@@ -111,25 +148,7 @@
     </div>
   </div> <!--termina card 1 -->
   <!-- final de la config de las modal -->
-
-  <script>
-    function openModal(id) {
-      document.getElementById(id).style.display = 'flex';
-    }
-
-    function closeModal(id) {
-      document.getElementById(id).style.display = 'none';
-    }
-
-    //cierra el modal si se hace clic fuera del contenido
-    window.onclick = function(event) {
-      document.querySelectorAll('.modal').forEach(modal => {
-        if (event.target === modal) {
-          modal.style.display = 'none';
-        }
-      });
-    }
-  </script>
+  <script src="../scripts/movimientos.js"></script>
 </body>
 
 </html>
