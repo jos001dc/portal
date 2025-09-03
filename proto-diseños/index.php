@@ -14,9 +14,7 @@
   <!--inicio del navbar -->
   <nav class="navbar">
     <div class="navbar-container">
-      <div class="boton-inicio">
-        <a href="#">OPLE</a>
-      </div>
+      <button class="button-92" role="button">OPLE</button>
       <ul class="navbar-menu">
         <li class="menu-item">
           <a href="#" class="menu-link">Obligaciones por años <i class="fas fa-chevron-down"></i></a>
@@ -52,6 +50,7 @@
     </div>
   </nav>
   <!--final del navbar -->
+
   <!-- Inicio de la imagen -->
   <section class="banner-section" data-aos="fade-in">
     <div class="banner-overlay" data-aos="zoom-in">
@@ -64,54 +63,163 @@
   <div class="banner-over">
     <h1>ARTICULO 15</h1>
     <h4>INFORMACION PUBLICA DE OFICIO</h4>
-    <P>En terminos del articulo 15 de la ley 875 de Transparencia y Acceso a la Informacion Publica para
+    <P class="ajus">En terminos del articulo 15 de la ley 875 de Transparencia y Acceso a la Informacion Publica para
       el estado de Veracruz de Ignacio de la LLave, se debera publicar y mantener actualizada la siguiente informacion:
     </P>
     <h4>FRACCIONES</h4>
   </div>
   <!-- Final de la imagen -->
+
   <!-- Inicio de la config de las modal -->
   <div class="contenedor">
-  <div class="card" onclick="openModal('modal1')">
-    <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
+    <div class="card" onclick="openModal('modal1')">
+      <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
+      <h3 class="title">Marco normativo</h3>
+    </div>
 
-  <div class="card" onclick="openModal('modal2')">
-    <div class="icon"><i class="fa-solid fa-sitemap"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
+    <div class="card" onclick="openModal('modal2')">
+      <div class="icon"><i class="fa-solid fa-sitemap"></i></div>
+      <h3 class="title">Estructura Orgánizada</h3>
+    </div>
 
-  <div class="card" onclick="openModal('modal3')">
-    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
+    <div class="card" onclick="openModal('modal3')">
+      <div class="icon"><i class="fa-solid fa-users-rays"></i></div>
+      <h3 class="title">Faculdades de cada Área</h3>
+    </div>
 
-  <div class="card" onclick="openModal('modal4')">
-    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
+    <div class="card" onclick="openModal('modal4')">
+      <div class="icon"><i class="fas fa-bullseye"></i>
+      </div>
+      <h3 class="title">Metas y Objetivos</h3>
+    </div>
 
-  <div class="card" onclick="openModal('modal5')">
-    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
+    <div class="card" onclick="openModal('modal5')">
+      <div class="icon"><i class="fas fa-chart-line"></i>
+      </div>
+      <h3 class="title">Indicadores Relacionados con Temas de Interés</h3>
+    </div>
 
-  <div class="card" onclick="openModal('modal6')">
-    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
+    <div class="card" onclick="openModal('modal6')">
+      <div class="icon"><i class="fas fa-tasks"></i>
+      </div>
+      <h3 class="title">Indicadores de Objetivos y Resultados</h3>
+    </div>
 
-  <div class="card" onclick="openModal('modal7')">
-    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
+    <div class="card" onclick="openModal('modal7')">
+      <div class="icon"><i class="fas fa-users"></i>
+      </div>
+      <h3 class="title">Directivos de Servidores Públicos</h3>
+    </div>
 
-  <div class="card" onclick="openModal('modal8')">
-    <div class="icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
-    <h3>Marco normativo</h3>
-  </div>
-</div>
+    <div class="card" onclick="openModal('modal8')">
+      <div class="icon"><i class="fas fa-money-bill-wave"></i>
+      </div>
+      <h3 class="title">Remuneración de los Servidores Públicos</h3>
+    </div>
+    <div class="card" onclick="openModal('modal9')">
+      <div class="icon"><i class="fas fa-briefcase"></i>
+      </div>
+      <h3 class="title">Gastos de Representación y Viaticos</h3>
+    </div>
+    <div class="card" onclick="openModal('modal10')">
+      <div class="icon"><i class="fas fa-user-tie"></i>
+      </div>
+      <h3 class="title">Plazas</h3>
+    </div>
+    <div class="card" onclick="openModal('modal11')">
+      <div class="icon"><i class="fas fa-file-contract"></i>
+      </div>
+      <h3 class="title">Contrataciones de Servicios Profecionales por Honorarios</h3>
+    </div>
+    <div class="card" onclick="openModal('modal12')">
+      <div class="icon"><i class="fas fa-file-signature"></i>
+      </div>
+      <h3 class="title">Declaciones Patrimoniales de los Servidores Públicos</h3>
+    </div>
+    <div class="card" onclick="openModal('modal13')">
+      <div class="icon"><i class="fas fa-map-marker-alt"></i>
+      </div>
+      <h3 class="title">Domicilio</h3>
+    </div>
+    <div class="card" onclick="openModal('modal14')">
+      <div class="icon"><i class="fas fa-bullhorn"></i>
+      </div>
+      <h3 class="title">Convocatorias Para Cargos Públicos</h3>
+    </div>
+    <div class="card" onclick="openModal('modal15')">
+      <div class="icon"><i class="fas fa-hand-holding-usd"></i>
+      </div>
+      <h3 class="title">Programas De Subsidios (No Aplica)</h3>
+    </div>
+    <div class="card" onclick="openModal('modal16')">
+      <div class="icon"><i class="fas fa-clipboard-check"></i>
+      </div>
+      <h3 class="title">Condiciones Generales De Trabajo</h3>
+    </div>
+    <div class="card" onclick="openModal('modal17')">
+      <div class="icon"><i class="fas fa-id-card"></i>
+      </div>
+      <h3 class="title">Información Curricular</h3>
+    </div>
+    <div class="card" onclick="openModal('modal18')">
+      <div class="icon"><i class="fas fa-user-slash"></i>
+      </div>
+      <h3 class="title">Listado de Servidores Públicos con Sanciones Administrativas</h3>
+    </div>
+    <div class="card" onclick="openModal('modal19')">
+      <div class="icon"><i class="fas fa-concierge-bell"></i>
+      </div>
+      <h3 class="title">Servicios</h3>
+    </div>
+    <div class="card" onclick="openModal('modal20')">
+      <div class="icon"><i class="fas fa-folder-open"></i>
+      </div>
+      <h3 class="title">Trámites, Requisitos y Formatos</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-coins"></i>
+      </div>
+      <h3 class="title">Presupuesto Asignado</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-file-invoice-dollar"></i>
+      </div>
+      <h3 class="title">Deuda Pública (No APLICA)</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-broadcast-tower"></i>
+      </div>
+      <h3 class="title">Gastos Relativos A Comunicación social y Publicidad Oficial</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-search-dollar"></i>
+      </div>
+      <h3 class="title">Auditorias</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-file-alt"></i>
+      </div>
+      <h3 class="title">Dictaminación de los Estados Financieros</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-users-cog"></i>
+      </div>
+      <h3 class="title">Listado de Personas Físicas y Morales con Asignacion de Recursos Públicos</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-handshake"></i>
+      </div>
+      <h3 class="title">Concesiones, Contratos, Convenios, Permisos, Licencias o Autorizaciones</h3>
+    </div>
+    <div class="card" onclick="openModal('modal21')">
+      <div class="icon"><i class="fas fa-gavel"></i>
+      </div>
+      <h3 class="title">Adjudicacíones Directas, Invitación Restringida y Licitaciones</h3>
+    </div>
+
+  </div> <!-- Final de la config de las modal -->
+
+
 
   <!-- Inicio de la config de las modal2 -->
   <!-- Modal -->
@@ -152,3 +260,4 @@
 </body>
 
 </html>
+

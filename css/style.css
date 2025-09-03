@@ -1,10 +1,12 @@
 :root {
+  /* Colores principales existentes */
   --primary-color: #ec0c94;
   --secondary-color: #fc54c4;
   --terceary-color: #a93484;
   --cuarary-color: #ac6c9c;
   --quintary-color: #ccacc4;
 
+  /* Colores de texto y fondos */
   --text-color-dark: #333;
   --text-color-light: #fff;
   --background-light: #f4f6f8;
@@ -12,17 +14,26 @@
   --backgtround-dark2: #a3a3a3;
   --background-card-hover: #eaeaea;
   --background-fraccion: #f9f9f9;
-  --modal-overlay: rgba(0, 0, 0, 0.5);
+  --background-darksito: rgba(255, 255, 255, 0.2);
+  --backgrounddd: linear-gradient(135deg,#ea0d94, #000);
+
+  /* Sombras y efectos */
   --box-shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
   --box-shadow-modal: 0 5px 15px rgba(0, 0, 0, 0.3);
-  --gradient-primary: linear-gradient(135deg, #ec0c94, #a93484);
   --box-shadow-modal2: 0 10px 30px rgba(0, 0, 0, 0.15);
-  --bord-b: 1px solid white;
   --box-shadoww: 4px 12px rgba(0, 0, 0, 0.3);
-  --background-darksito: rgba(255, 255, 255, 0.2);
   --box-shadow2: 0 3px 10px rgba(0, 0, 0, 0.2);
   --box-shadow3: rgba(0, 0, 0, 0.4);
+  --bord-b: 1px solid white;
+
+  /* NUEVAS VARIABLES PARA .button-92 */
+  --button-text-color: #fff;
+  --button-bg-color: #004dff;
+  --button-gradient: linear-gradient(90deg, #ec0c94, #fff5, #a93484);
+  --button-text-shadow: #0004;
+  --button-box-shadow-inset: #0005;
 }
+
 
 body {
   font-family: lato, sans-serif;
@@ -31,17 +42,22 @@ body {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+  margin: 0%;
+  padding: 0%;
+  padding-top: 80px; /* o ajusta según la altura de tu navbar */
 }
 
 .navbar {
-  background: var(--gradient-primary);
+  background: var(--backgrounddd);
   padding: 0.8rem 2rem;
   border-radius: 0 0 20px 20px;
   box-shadow: var(--box-shadow-modal);
-  position: relative;
+  position: fixed; /* CAMBIADO de 'relative' a 'fixed' */
+  top: 0; /* lo ancla al top de la pantalla */
+  left: 0;
+  width: 100%; /* importante para que no se achique */
   z-index: 1000;
 }
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -119,28 +135,37 @@ body {
   color: var(--backgtround-dark2);
 }
 
-.boton-inicio a {
-  color: var(--cuarary-color);
+.button-92 {
+  --c: var(--button-text-color);
+  background: var(--button-gradient) var(--_p,100%) / 300% no-repeat,
+              var(--terceary-color);
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg * var(--_i, -1)));
+  text-shadow: calc(var(--_i, -1) * 0.08em) -0.01em 0 var(--c),
+               calc(var(--_i, -1) * -0.08em) 0.01em 2px var(--button-text-shadow);
+  outline-offset: 0.1em;
+  transition: 0.3s;
   font-weight: bold;
-  padding: 0.6rem 1.5rem;
-  border-radius: 40px;
-  text-decoration: none;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  box-shadow: var(--box-shadoww);
-  transition: all 0.3s ease-in-out;
-  border: 2px solid transparent;
+  font-size: 2rem;
+  margin: 0;
+  cursor: pointer;
+  padding: 0.1em 0.3em;
 }
 
-.boton-inicio a:hover {
-  color: var(--background-light);
-  transform: translateY(-2px);
+.button-92:hover,
+.button-92:focus-visible {
+  --_p: 0%;
+  --_i: 1;
 }
 
-.active {
-  background-color: var(--background-darksito);
-  font-weight: 600;
+.button-92:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9999px var(--button-box-shadow-inset);
+  transition: 0s;
 }
+
 
 @media(max-width: 728px) {
   .navbar-container {
@@ -155,9 +180,6 @@ body {
     margin-bottom: 1rem;
   }
 
-  .navbar-logo {
-    margin-top: 1rem;
-  }
 
 }
 
@@ -219,7 +241,13 @@ body {
   padding: 2rem;
   text-align: center;
   border-radius: 10px;
-
+}
+.ajus {
+  width: 66% !important;
+  margin: 20px auto !important;
+  line-height: 1.6 !important;
+  text-align: justify !important;
+  word-wrap: break-word !important;
 }
 
 /*Inicio de la config de la ventana modal*/
@@ -233,7 +261,7 @@ body {
 
 .card {
   width: 200px;
-  height: 180px;
+  height: 170px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,21 +271,30 @@ body {
   box-shadow: var(--box-shadow-light);
   cursor: pointer;
   transition: 0.3s;
-  padding: 15px;
+  padding: 16px;
   text-align: center;
+  color: var(--cuarary-color);
 }
 
-
 .card:hover {
-  background: var(--background-card-hover);
+  background: var(--primary-color);
   transform: scale(1.05);
 }
 
 .card .icon {
-  font-size: 16px;
-  margin: 0;
-  color: var(--text-color-dark);
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: var(--terceary-color);
 }
+
+/* NUEVO: Establece un alto fijo al texto para que no mueva el icono */
+.card .title {
+  min-height: 3em; /* o prueba con height: 50px según tu fuente */
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 /*Estillo del modal*/
 .modal {
