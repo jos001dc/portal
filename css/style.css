@@ -316,17 +316,25 @@ body {
   padding: 25px;
   border-radius: 12px;
   width: 650px;
-  max-width: 95%;
-  max-height: 85vh;
+  max-width: 100%;
+  max-height: 90vh;
   align-content: center;
   align-items: center;
   text-align: justify;
   box-shadow: var(--box-shadow-modal);
   animation: aparecer 0.3s ease;
   position: relative;
-  /* para que el botón close se posicione bien*/
+  overflow-y: auto;/*es un scroll permite*/
+  scrollbar-width: thin;
+  scrollbar-color: var(--background-light);
 }
-
+.modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: var(--background-light);
+  border-radius: 4px;
+}
 @keyframes aparecer {
   from {
     transform: scale(0.7);
