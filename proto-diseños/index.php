@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call" />
 </head>
 
 <body>
@@ -81,7 +82,7 @@
   <div class="contenedor">
     <div class="card" onclick="openModal('modal1')">
       <div class="icon"><i class="bi bi-journal-text"></i></div>
-      <h3 class="title">Marco normativo</h3>
+      <h3 class="title"> I.<br>Marco normativo</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -90,7 +91,7 @@
 
     <div class="card" onclick="openModal('modal2')">
       <div class="icon"><i class="bi bi-diagram-3"></i></div>
-      <h3 class="title">Estructura Orgánizada</h3>
+      <h3 class="title">II.<br>Estructura Orgánizada</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -99,7 +100,7 @@
 
     <div class="card" onclick="openModal('modal3')">
       <div class="icon"><i class="bi bi-shield-check"></i></div>
-      <h3 class="title">Faculdades de cada Área</h3>
+      <h3 class="title">III.<br>Faculdades de cada Área</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -109,7 +110,7 @@
     <div class="card" onclick="openModal('modal4')">
       <div class="icon"><i class="bi bi-flag"></i></i>
       </div>
-      <h3 class="title">Metas y Objetivos</h3>
+      <h3 class="title">IV.<br>Metas y Objetivos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -119,7 +120,7 @@
     <div class="card" onclick="openModal('modal5')">
       <div class="icon"><i class="bi bi-graph-up"></i>
       </div>
-      <h3 class="title">Indicadores Relacionados con Temas de Interés</h3>
+      <h3 class="title">V.<br>Indicadores Relacionados con Temas de Interés</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -129,7 +130,7 @@
     <div class="card" onclick="openModal('modal6')">
       <div class="icon"><i class="bi bi-bar-chart-line"></i>
       </div>
-      <h3 class="title">Indicadores de Objetivos y Resultados</h3>
+      <h3 class="title">VI.<br>Indicadores de Objetivos y Resultados</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -139,7 +140,7 @@
     <div class="card" onclick="openModal('modal7')">
       <div class="icon"><i class="bi bi-people"></i>
       </div>
-      <h3 class="title">Directivos de Servidores Públicos</h3>
+      <h3 class="title">VII.<br>Directivos de Servidores Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -149,27 +150,27 @@
     <div class="card" onclick="openModal('modal8')">
       <div class="icon"><i class="bi bi-cash-stack"></i>
       </div>
-      <h3 class="title">Remuneración de los Servidores Públicos</h3>
+      <h3 class="title">VIII.<br> Remuneración de los Servidores Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-    <!-- modificado -->
+  
     <div class="card" onclick="openModal('modal9')">
       <div class="icon"><i class="bi bi-receipt"></i>
       </div>
-      <h3 class="title">Gastos de Representación y Viaticos</h3>
+      <h3 class="title">IX.<br>Gastos de Representación y Viaticos</h3>
       <!-- Franja inferior que aparece en hover -->
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-    <!-- modificado -->
+    
     <div class="card" onclick="openModal('modal10')">
       <div class="icon"><i class="bi bi-person-workspace"></i></div>
-      <h3 class="title">Plazas</h3>
+      <h3 class="title">X.<br>Plazas</h3>
       <!-- Franja inferior que aparece en hover -->
       <div class="card-hover">
         <span>Ver más</span>
@@ -180,7 +181,7 @@
     <div class="card" onclick="openModal('modal11')">
       <div class="icon"><i class="bi bi-briefcase"></i>
       </div>
-      <h3 class="title">Contrataciones de Servicios Profecionales por Honorarios</h3>
+      <h3 class="title">XI.<br>Contrataciones de Servicios Profecionales por Honorarios</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -190,7 +191,7 @@
     <div class="card" onclick="openModal('modal12')">
       <div class="icon"><i class="bi bi-file-earmark-text"></i>
       </div>
-      <h3 class="title">Declaciones Patrimoniales de los Servidores Públicos</h3>
+      <h3 class="title">XII.<br>Declaciones Patrimoniales de los Servidores Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -200,7 +201,7 @@
     <div class="card" onclick="openModal('modal13')">
       <div class="icon"><i class="bi bi-house"></i>
       </div>
-      <h3 class="title">Domicilio</h3>
+      <h3 class="title">XIII.<br>Domicilio</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -210,7 +211,7 @@
     <div class="card" onclick="openModal('modal14')">
       <div class="icon"><i class="bi bi-megaphone"></i>
       </div>
-      <h3 class="title">Convocatorias Para Cargos Públicos</h3>
+      <h3 class="title">XIV.<br>Convocatorias Para Cargos Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -220,7 +221,7 @@
     <div class="card" onclick="openModal('modal15')">
       <div class="icon"><i class="bi bi-slash-circle"></i>
       </div>
-      <h3 class="title">Programas De Subsidios (No Aplica)</h3>
+      <h3 class="title">XV.<br>Programas De Subsidios (No Aplica)</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -230,7 +231,7 @@
     <div class="card" onclick="openModal('modal16')">
       <div class="icon"><i class="bi bi-journal-text"></i>
       </div>
-      <h3 class="title">Condiciones Generales De Trabajo</h3>
+      <h3 class="title">XVI.<br>Condiciones Generales De Trabajo</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -240,7 +241,7 @@
     <div class="card" onclick="openModal('modal17')">
       <div class="icon"><i class="bi bi-person-lines-fill"></i>
       </div>
-      <h3 class="title">Información Curricular</h3>
+      <h3 class="title">XVII.<br>Información Curricular</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -250,7 +251,7 @@
     <div class="card" onclick="openModal('modal18')">
       <div class="icon"><i class="bi bi-exclamation-octagon"></i>
       </div>
-      <h3 class="title">Listado de Servidores Públicos con Sanciones Administrativas</h3>
+      <h3 class="title">XVIII.<br>Listado de Servidores Públicos con Sanciones Administrativas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -260,7 +261,7 @@
     <div class="card" onclick="openModal('modal19')">
       <div class="icon"><i class="bi bi-tools"></i>
       </div>
-      <h3 class="title">Servicios</h3>
+      <h3 class="title">XIX.<br>Servicios</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -270,7 +271,7 @@
     <div class="card" onclick="openModal('modal20')">
       <div class="icon"><i class="bi bi-folder-check"></i>
       </div>
-      <h3 class="title">Trámites, Requisitos y Formatos</h3>
+      <h3 class="title">XX.<br>Trámites, Requisitos y Formatos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -280,7 +281,7 @@
     <div class="card" onclick="openModal('modal21')">
       <div class="icon"><i class="bi bi-cash-stack"></i>
       </div>
-      <h3 class="title">Presupuesto Asignado</h3>
+      <h3 class="title">XXI.<br>Presupuesto Asignado</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -290,7 +291,7 @@
     <div class="card" onclick="openModal('modal22')">
       <div class="icon"><i class="bi bi-slash-circle"></i>
       </div>
-      <h3 class="title">Deuda Pública (No APLICA)</h3>
+      <h3 class="title">XXII.<br>Deuda Pública (No APLICA)</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -300,7 +301,7 @@
     <div class="card" onclick="openModal('modal23')">
       <div class="icon"><i class="bi bi-chat-dots"></i>
       </div>
-      <h3 class="title">Gastos Relativos A Comunicación social y Publicidad Oficial</h3>
+      <h3 class="title">XXIII.<br>Gastos Relativos A Comunicación social y Publicidad Oficial</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -311,7 +312,7 @@
     <div class="card" onclick="openModal('modal24')">
       <div class="icon"><i class="bi bi-graph-up"></i>
       </div>
-      <h3 class="title">Auditorias</h3>
+      <h3 class="title">XXIV.<br>Auditorias</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -321,7 +322,7 @@
     <div class="card" onclick="openModal('modal25')">
       <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i>
       </div>
-      <h3 class="title">Dictaminación de los Estados Financieros</h3>
+      <h3 class="title">XXV.<br>Dictaminación de los Estados Financieros</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -331,7 +332,7 @@
     <div class="card" onclick="openModal('modal26')">
       <div class="icon"><i class="bi bi-people"></i>
       </div>
-      <h3 class="title">Listado de Personas Físicas y Morales con Asignacion de Recursos Públicos</h3>
+      <h3 class="title">XXVI.<br>Listado de Personas Físicas y Morales con Asignacion de Recursos Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -341,7 +342,7 @@
     <div class="card" onclick="openModal('modal27')">
       <div class="icon"><i class="bi bi-file-earmark-medical"></i>
       </div>
-      <h3 class="title">Concesiones, Contratos, Convenios, Permisos, Licencias o Autorizaciones</h3>
+      <h3 class="title">XXVII.<br>Concesiones, Contratos, Convenios, Permisos, Licencias o Autorizaciones</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -351,7 +352,7 @@
     <div class="card" onclick="openModal('modal28')">
       <div class="icon"><i class="fas fa-gavel"></i>
       </div>
-      <h3 class="title">Adjudicacíones Directas, Invitación Restringida y Licitaciones</h3>
+      <h3 class="title">XXVIII.<br>Adjudicacíones Directas, Invitación Restringida y Licitaciones</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -361,7 +362,7 @@
     <div class="card" onclick="openModal('modal29')">
       <div class="icon"><i class="fa-solid fa-file-lines"></i>
       </div>
-      <h3 class="title">Los Informes que por Disposición Legal Generen Los Sujetos Obligados</h3>
+      <h3 class="title">XXIX.<br>Los Informes que por Disposición Legal Generen Los Sujetos Obligados</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -371,7 +372,7 @@
     <div class="card" onclick="openModal('modal30')">
       <div class="icon"><i class="fa-solid fa-chart-line"></i>
       </div>
-      <h3 class="title">Estadísticas</h3>
+      <h3 class="title">XXX.<br>Estadísticas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -381,7 +382,7 @@
     <div class="card" onclick="openModal('modal31')">
       <div class="icon"><i class="fa-solid fa-chart-bar"></i>
       </div>
-      <h3 class="title">Informes de Avances Programáticos</h3>
+      <h3 class="title">XXXI.<br>Informes de Avances Programáticos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -391,7 +392,7 @@
     <div class="card" onclick="openModal('modal32')">
       <div class="icon"><i class="fa-solid fa-clipboard-list"></i>
       </div>
-      <h3 class="title">Padrón de Proveedores y contratistas</h3>
+      <h3 class="title">XXXII.<br>Padrón de Proveedores y contratistas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -401,7 +402,7 @@
     <div class="card" onclick="openModal('modal33')">
       <div class="icon"><i class="fa-solid fa-handshake"></i>
       </div>
-      <h3 class="title">Los Convenios de Coordinacion</h3>
+      <h3 class="title">XXXIII.<br>Los Convenios de Coordinacion</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -411,7 +412,7 @@
     <div class="card" onclick="openModal('modal34')">
       <div class="icon"><i class="fa-solid fa-boxes-stacked"></i>
       </div>
-      <h3 class="title">Inventario de Bienes muebles e inmuebles</h3>
+      <h3 class="title">XXXIV.<br>Inventario de Bienes muebles e inmuebles</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -421,7 +422,7 @@
     <div class="card" onclick="openModal('modal35')">
       <div class="icon"><i class="fa-solid fa-globe"></i>
       </div>
-      <h3 class="title">Recomendaciones de Organismos Públicos o Internacionales</h3>
+      <h3 class="title">XXXV.<br>Recomendaciones de Organismos Públicos o Internacionales</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -431,7 +432,7 @@
     <div class="card" onclick="openModal('modal36')">
       <div class="icon"><i class="fa-solid fa-scale-balanced"></i>
       </div>
-      <h3 class="title">Resoluciones y Laudos</h3>
+      <h3 class="title">XXXVI.<br>Resoluciones y Laudos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -441,7 +442,7 @@
     <div class="card" onclick="openModal('modal37')">
       <div class="icon"><i class="fa-solid fa-people-group"></i>
       </div>
-      <h3 class="title">Mecanismo de Participacíon Ciudadana</h3>
+      <h3 class="title">XXXVII.<br>Mecanismo de Participacíon Ciudadana</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -451,7 +452,7 @@
     <div class="card" onclick="openModal('modal38')">
       <div class="icon"><i class="fa-solid fa-ban"></i>
       </div>
-      <h3 class="title">Programas (NO Aplica)</h3>
+      <h3 class="title">XXXVIII.<br>Programas (NO Aplica)</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -461,7 +462,7 @@
     <div class="card" onclick="openModal('modal39')">
       <div class="icon"><i class="fa-solid fa-file-signature"></i>
       </div>
-      <h3 class="title">Actas, Acuerdos y Resoluciones</h3>
+      <h3 class="title">XXXIX.<br>Actas, Acuerdos y Resoluciones</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -471,7 +472,7 @@
     <div class="card" onclick="openModal('modal40')">
       <div class="icon"><i class="fa-solid fa-ban"></i>
       </div>
-      <h3 class="title">Evaluaciones y encuestas (NO APLICA)</h3>
+      <h3 class="title">XL.<br>Evaluaciones y encuestas (NO APLICA)</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -481,7 +482,7 @@
     <div class="card" onclick="openModal('modal41')">
       <div class="icon"><i class="fa-solid fa-book-open-reader"></i>
       </div>
-      <h3 class="title">Los Estudios Financiados con Recursos Públicos</h3>
+      <h3 class="title">XLI.<br>Los Estudios Financiados con Recursos Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -491,7 +492,7 @@
     <div class="card" onclick="openModal('modal42')">
       <div class="icon"><i class="fa-solid fa-ban"></i>
       </div>
-      <h3 class="title">Listados de Jubilados y Pensionados (NO APLICA)</h3>
+      <h3 class="title">XLII.<br>Listados de Jubilados y Pensionados (NO APLICA)</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -501,7 +502,7 @@
     <div class="card" onclick="openModal('modal43')">
       <div class="icon"><i class="fa-solid fa-sack-dollar"></i>
       </div>
-      <h3 class="title">Ingresos Recibidos</h3>
+      <h3 class="title">XLIII.<br>Ingresos Recibidos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -511,7 +512,7 @@
     <div class="card" onclick="openModal('modal44')">
       <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i>
       </div>
-      <h3 class="title">Donaciones Hechas a Terceros en Dinero o en Especie</h3>
+      <h3 class="title">XLIV.<br>Donaciones Hechas a Terceros en Dinero o en Especie</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -521,7 +522,7 @@
     <div class="card" onclick="openModal('modal45')">
       <div class="icon"><i class="fa-solid fa-folder-tree"></i>
       </div>
-      <h3 class="title">Catálogo de Disposicion y Guía de Archivos Documental</h3>
+      <h3 class="title">XLV.<br>Catálogo de Disposicion y Guía de Archivos Documental</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -533,7 +534,7 @@
         <div class="icon"><i class="fa-solid fa-users-gear"></i>
         </div>
       </div>
-      <h3 class="title">Consejos Consultivos</h3>
+      <h3 class="title">XLVI.<br>Consejos Consultivos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -543,7 +544,7 @@
     <div class="card" onclick="openModal('modal47')">
       <div class="icon"><i class="fa-solid fa-ban"></i>
       </div>
-      <h3 class="title">Listado de Solicitudes a Empresas Concesiones de Telecomunicaciones (NO APLICA)</h3>
+      <h3 class="title">XLVII.<br>Listado de Solicitudes a Empresas Concesiones de Telecomunicaciones (NO APLICA)</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -553,7 +554,7 @@
     <div class="card" onclick="openModal('modal48')">
       <div class="icon"><i class="fa-solid fa-gavel"></i>
       </div>
-      <h3 class="title">Las Enajenaciones y otros Actos Jurídicos</h3>
+      <h3 class="title">XLVIII.<br>Las Enajenaciones y otros Actos Jurídicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -563,7 +564,7 @@
     <div class="card" onclick="openModal('modal49')">
       <div class="icon"><i class="fa-solid fa-book"></i>
       </div>
-      <h3 class="title">Las Cuentas Publícas Estatales y Municipales</h3>
+      <h3 class="title">XLIX.<br>Las Cuentas Publícas Estatales y Municipales</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -573,7 +574,7 @@
     <div class="card" onclick="openModal('modal50')">
       <div class="icon"><i class="fa-solid fa-ban"></i>
       </div>
-      <h3 class="title">El Origen de los Fondos Auxiliares (NO APLICA)</h3>
+      <h3 class="title">L.<br>El Origen de los Fondos Auxiliares (NO APLICA)</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -583,7 +584,7 @@
     <div class="card" onclick="openModal('modal51')">
       <div class="icon"><i class="fa-solid fa-user-tie"></i>
       </div>
-      <h3 class="title">Relación de Servidores Públicas Comisionados</h3>
+      <h3 class="title">LI.<br>Relación de Servidores Públicas Comisionados</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -593,7 +594,7 @@
     <div class="card" onclick="openModal('modal52')">
       <div class="icon"><i class="fa-solid fa-lock"></i>
       </div>
-      <h3 class="title">Índices de Expedientes Clasificados como Reservados</h3>
+      <h3 class="title">LII.<br>Índices de Expedientes Clasificados como Reservados</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -603,7 +604,7 @@
     <div class="card" onclick="openModal('modal53')">
       <div class="icon"><i class="fa-solid fa-lock-open"></i>
       </div>
-      <h3 class="title">Infomación Desclasificada</h3>
+      <h3 class="title">LIII.<br>Infomación Desclasificada</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -613,7 +614,7 @@
     <div class="card" onclick="openModal('modal54')">
       <div class="icon"><i class="fa-solid fa-thumbtack"></i>
       </div>
-      <h3 class="title">Información Relevante</h3>
+      <h3 class="title">LIV.<br>Información Relevante</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -629,7 +630,8 @@
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-  </div> <!-- Final de la config de las modal -->
+  </div> 
+<!-- Final de la config de las modal -->
 
   <!-- Configuraciones de la ventana modal abierta -->
   <div id="modal1" class="modal">
@@ -649,39 +651,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Marco Normativo Aplicable al OPLE">FORMATO</a></th>
+              <td>Dirección Ejecutiva de Asusntos Jurídicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
       </div>
-    </div> <!--se cierra el div de fraccion -->
+    </div> 
   </div>
 
   <div id="modal2" class="modal">
@@ -700,32 +689,25 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estructura Orgánica">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Organigrama">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
@@ -757,32 +739,20 @@
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Facultades de cada área">Formato</a></th>
+              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!--se cierra el div de fraccion -->
+      </div>
     </div>
   </div>
 
@@ -803,32 +773,19 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Metas y Objetivos">Formato</a></th>
+              <td>Unidad de Técnica de Planeación</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
@@ -854,32 +811,19 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Indicadores de temas de Interés">Formato</a></th>
+              <td>Unidad Técnica de Planeación</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
@@ -911,32 +855,20 @@
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Indicadores de objetos y resultados">Formato</a></th>
+              <td>Unidad Técnica de Planeación</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!--se cierra el div de fraccion -->
+      </div>
     </div>
   </div>
 
@@ -956,32 +888,19 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dirección del OPLE">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
@@ -1007,38 +926,31 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Remuneración Bruta y neta">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Tabulador de Sueldos y Salarios">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!--se cierra el div de fraccion -->
+      </div>
     </div>
   </div>
 
@@ -1055,38 +967,25 @@
         Los gastos de representación y viaticos, así como el objeto e informe de comisión correspondiente. </p>
       <div class="fraccion">
         <h2>Publicaciones:</h2>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Gastos de representación">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!--se cierra el div de fraccion -->
+      </div>
     </div>
   </div>
 
@@ -1102,46 +1001,37 @@
       <p>
         El número total de las plazas y del personal de base y confianza, especificando el total de las vacantes, por nivel de puesto, para cada unidad administrativa.
       </p>
-      <!-- 🔽 Aquí empieza la fracción -->
       <div class="fraccion">
-        <!-- 🔽 Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Plazas Vacantes">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Total de plaza">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div> 
+    </div> 
   </div>
 
   <div id="modal11" class="modal">
@@ -1166,33 +1056,21 @@
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Personal Contratado por honorarios">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div> 
+    </div> 
   </div>
 
   <div id="modal12" class="modal">
@@ -1207,46 +1085,43 @@
       <p>
         La información, en versión pública, de las declaraciones patrimoniales, fisical y de intereses de los servidores públicos que asi lo determinan, en los sistemas habilitados para ello, de acuerdo a la normatividad aplicable.
       </p>
-      <!-- 🔽 Aquí empieza la fracción -->
       <div class="fraccion">
-        <!-- 🔽 Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Declaración de situación patrimonial">Formato A</a></th>
+              <td>Contraloria General</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Declaraciones fiscales">Formato B</a></th>
+              <td>Contraloria General</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Declaraciones de Interés">Formato C</a></th>
+              <td>Contraloria General</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal13" class="modal">
@@ -1261,46 +1136,31 @@
       <p>
         El domicilio de la Unidad de Transparencia, además de la Direccion electronica donde podrán recibirse las solicitudes para obtener la información.
       </p>
-      <!-- Aquí empieza la fracción -->
       <div class="fraccion">
-        <!-- Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dominio Oficial">Formato</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal14" class="modal">
@@ -1315,46 +1175,31 @@
       <p>
         Las convocatorias a concursos para ocupar cargos públicos y los resultados de los mismos.
       </p>
-      <!--Aquí empieza la fracción -->
       <div class="fraccion">
-        <!--Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 2</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 3</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Convocatorias">Formato</a></th>
+              <td>Dirección Ejecutiva de Organización Electoral</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal15" class="modal">
@@ -1369,34 +1214,29 @@
       <p>
         La información de los programas sociales, subsidios, estímulos y apoyos, en que deberán informar respecto de los programas de de transferencia, de servicios, de infraestructura social y de subsidio, que contendrá lo siguiente: a) Área; b) DenominaciÓn del programa; c) Periodo de vigencia; d) Diseño, objetivos y alcances; e) Metas físicas; f) PoblaciÓn beneficiada estimada; g) Monto aprobado, modificado y ejercido, así como los calendarios de su programaciÓn presupuestal; h) Requisitos y procedimientos de acceso; i) Procedimiento de queja o inconformidad ciudadana; j) Mecanismos de exigibilidad; k) Mecanismos de evaluaciÓn, informes de evaluaciÓn y seguimiento de recomendaciones; l) Indicadores con nombre, definiciÓn, método de cálculo, unidad de medida, dimensión, frecuencia de medición y nombre de las bases de datos utilizadas para su cálculo; m) Formas de participación social; n) Articulación con otros programas sociales; o) Vínculo a las reglas de operación o documento equivalente; p) Informes periódicos sobre la ejecución y los resultados de las evaluaciones realizadas; y q) Padrón de beneficiarios, mismo que deberá contener los siguientes datos: nombre de la persona física o denominaciÓn social de las personas morales beneficiarias, el monto, recurso, beneficio o apoyo otorgado para cada una de ellas, unidad territorial y, en su caso, edad y sexo.
       </p>
-      <!--Aquí empieza la fracción -->
       <div class="fraccion">
-        <!--Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">No Aplica</a></th>
+              <td>Unidad Técnica de Transparencia</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal16" class="modal">
@@ -1411,34 +1251,37 @@
       <p>
         Las condiciones generales de trabajo, contratos o convenios que regulan las relaciones laborales del personal de base o de confianza, así como los recursos públicos economicos, en especie o donativos, que sean entregados a los sindicatos y ejerzan como recursos públicos.
       </p>
-      <!--Aquí empieza la fracción -->
       <div class="fraccion">
-        <!--Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Normatividad laboral">Formato A</a></th>
+              <td>Dirección de Asuntos Juridicos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Recursos públicos entregados a Sindicatos">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div> 
+    </div> 
   </div>
 
   <div id="modal17" class="modal">
@@ -1453,34 +1296,31 @@
       <p>
         La información curricular, desde el nivel de jefe de departamiento o equivalente, hasta el titular del sujeto obligado, así como, en su caso, las sanciones administrativas de que haya sido objeto.
       </p>
-      <!--Aquí empieza la fracción -->
       <div class="fraccion">
-        <!--Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Información curricular">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div> 
+    </div>
   </div>
 
   <div id="modal18" class="modal">
@@ -1494,34 +1334,31 @@
       <h3>XVIII.LISTADO DE SERVIDORES PÚBLICOS CON SANCIONES ADMINISTRATIVAS </h3>
       <p>
         El listado de Servidores Públicos con sanciones administrativas definitivas, especificando la causa de sanciones y la disposicíon. </p>
-      <!--Aquí empieza la fracción -->
       <div class="fraccion">
-        <!--Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Sanciones administrativa">Formato</a></th>
+              <td>Contraloría General</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal19" class="modal">
@@ -1540,27 +1377,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIDACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Servicios">Formato</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal20" class="modal">
@@ -1576,32 +1412,30 @@
         Los trámites, requisitos y formatos que ofrecen.
       </p>
       <div class="fraccion">
-        <!--Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Tramites">Formato</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal21" class="modal">
@@ -1616,46 +1450,43 @@
       <p>
         La informacíon financiera sobre el presupuesto asignado, así como los informes del ejercicio trimestral del gasto, en término de la Ley General de Contabilidad Gubernamental y demás normatividad aplicable.
       </p>
-      <!--Aquí empieza la fracción -->
       <div class="fraccion">
-        <!--Separador agregado -->
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Presupuesto asignado">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes trimestrales">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Cuenta Pública">Formato C</a></th>
+              <td>Secretaria Ejecutiva</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal22" class="modal">
@@ -1675,28 +1506,24 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="NO APLICA">NO APLICA</a></th>
             </tr>
             <tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal23" class="modal">
@@ -1716,39 +1543,38 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Programa Anual">Formato A</a></th>
+              <td>Unidad Técnica de Comunicación Social</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Erogación de recursos">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Tiempos oficiales">Formato C</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y partidos políticos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal24" class="modal">
@@ -1768,39 +1594,32 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resultados de auditorias">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resultados de auditorias">Formato B</a></th>
+              <td>Contraloría General</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal25" class="modal">
@@ -1820,39 +1639,32 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dictaminación de estados financieros">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Contraloría General">Formato B</a></th>
+              <td>Dictaminación de estados financieros</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal26" class="modal">
@@ -1878,33 +1690,21 @@
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Personas fisicas asignadas para uso de recursos públicos">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal27" class="modal">
@@ -1924,27 +1724,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Concesiones, contratos, convenios, permisos, licencias o autorizaciones otorgados por el OPLE">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal28" class="modal">
@@ -1957,35 +1756,34 @@
       </p>
       <h3>XXVIII. ADJUDICACIÓN DIRECTA, INVITACIÓN RESTRINGIDA Y LICITACIÓN</h3>
       <p>
-        La información sobre los resultados sobre procedimiento de adjudicación directa, invitación restringida y licitación de cualquier naturaleza, incluyendo la Versión Pública del Expediente respectivo y de los contratos celebrados, que deberá contener, por lo menos, lo siguiente:
-        a) De licitaciones públicas o procedimientos de invitación restringida: 1. La convocatoria o invitación emitida, así como los fundamentos legales aplicados para llevarla a cabo; 2. Los nombres de los participantes o invitados; 3. El nombre del ganador y las razones que lo justifican; 4. El Área solicitante y la responsable de su ejecución; 5. Las convocatorias e invitaciones emitidas; 6. Los dictámenes y fallo de adjudicación; 7. El contrato y, en su caso, sus anexos; 8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda; 9. La partida presupuestal, de conformidad con el clasificador por objeto del gasto, en el caso de ser aplicable; 10. Origen de los recursos especificando si son federales, estatales o municipales, así como el tipo de fondo de participación o aportación respectiva; 11. Los convenios modificatorios que, en su caso, sean firmados, precisando el objeto y la fecha de celebración; 12. Los informes de avance físico y financiero sobre las obras o servicios contratados; 13. El convenio de terminación, y 14. El finiquito;
-        b) De las adjudicaciones directas: 1. La propuesta enviada por el participante; 2. Los motivos y fundamentos legales aplicados para llevarla a cabo; 3. La autorización del ejercicio de la opción; 4. En su caso, las cotizaciones consideradas, especificando los nombres de los Proveedores y los montos; 5. El nombre de la persona física o moral adjudicada; 6. La unidad administrativa solicitante y la responsable de su ejecución; 7. El número, fecha, el monto del contrato y el plazo de entrega o de ejecución de los servicios u obra; 8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda; 9. Los informes de avance sobre las obras o servicios contratados; 10. El convenio de terminación, y 11. El finiquito. </p>
+        La información sobre los resultados sobre procedimiento de adjudicación directa, invitación restringida y licitación de cualquier naturaleza, incluyendo la Versión Pública del Expediente respectivo y de los contratos celebrados, que deberá contener, por lo menos, lo siguiente:<br>
+        A) De licitaciones públicas o procedimientos de invitación restringida: 1. La convocatoria o invitación emitida, así como los fundamentos legales aplicados para llevarla a cabo; 2. Los nombres de los participantes o invitados; 3. El nombre del ganador y las razones que lo justifican; 4. El Área solicitante y la responsable de su ejecución; 5. Las convocatorias e invitaciones emitidas; 6. Los dictámenes y fallo de adjudicación; 7. El contrato y, en su caso, sus anexos; 8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda; 9. La partida presupuestal, de conformidad con el clasificador por objeto del gasto, en el caso de ser aplicable; 10. Origen de los recursos especificando si son federales, estatales o municipales, así como el tipo de fondo de participación o aportación respectiva; 11. Los convenios modificatorios que, en su caso, sean firmados, precisando el objeto y la fecha de celebración; 12. Los informes de avance físico y financiero sobre las obras o servicios contratados; 13. El convenio de terminación, y 14. El finiquito;<br>
+        B) De las adjudicaciones directas: 1. La propuesta enviada por el participante; 2. Los motivos y fundamentos legales aplicados para llevarla a cabo; 3. La autorización del ejercicio de la opción; 4. En su caso, las cotizaciones consideradas, especificando los nombres de los Proveedores y los montos; 5. El nombre de la persona física o moral adjudicada; 6. La unidad administrativa solicitante y la responsable de su ejecución; 7. El número, fecha, el monto del contrato y el plazo de entrega o de ejecución de los servicios u obra; 8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda; 9. Los informes de avance sobre las obras o servicios contratados; 10. El convenio de terminación, y 11. El finiquito. </p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Licitación pública">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal29" class="modal">
@@ -2005,45 +1803,44 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACION</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes">Formato A</a></th>
+              <td>Secretaría Ejecutiva</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informe">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes">Formato C</a></th>
+              <td>Contraloría General</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes">Formato D</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal30" class="modal">
@@ -2063,28 +1860,27 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estadisticas">Formato</a></th>
+              <td>Dirección Ejecutiva de Organización Electoral</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
-  </div>
+      </div>
+    </div>
+  </div> 
 
   <div id="modal31" class="modal">
     <span class="close" onclick="closeModal('modal10')">&times;</span>
@@ -2103,34 +1899,33 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estados financieros">Formato A</a></th>
+              <td>Dirección Ejecutivos de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estados financieros">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
-  </div>
+      </div>
+    </div>
+  </div> 
 
   <div id="modal32" class="modal">
     <span class="close" onclick="closeModal('modal10')">&times;</span>
@@ -2149,27 +1944,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Padrón de proveedores y contratistas">Formato 1</a></th>
+              <td>Dirección Ejecutiva de Administrativa</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal33" class="modal">
@@ -2189,34 +1983,33 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Convenios de coordinación, de concertación con el sector social o privado">Formato A</a></th>
+              <td>Dirección Ejecutiva de Asuntos Juridicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Convenios de coordinación, de concertación con el sector social o privado">Formato B</a></th>
+              <td>Secretaria Ejecutiva</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
-  </div>
+      </div>
+    </div>
+  </div> 
 
   <div id="modal34" class="modal">
     <span class="close" onclick="closeModal('modal10')">&times;</span>
@@ -2235,63 +2028,62 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario bienes muebles">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario altas">Formato B</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato C</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario bienes inmuebles">Formato D</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario altas">Formato E</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario Bajas">Formato F</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Bienes muebles e inmuebles donados">Formato G</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal35" class="modal">
@@ -2311,39 +2103,38 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Recomendaciónes emitidas por la Comisión Nacial de Derecho Humanos">Formato A</a></th>
+              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Caos especiales emitidos por la CNDH u otros Organismos">Formato B</a></th>
+              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Recomendaciónes emitidas por Organismos Internacionales">Formato C</a></th>
+              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal36" class="modal">
@@ -2363,27 +2154,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resoluciónes y laudos emitidos">Formato</a></th>
+              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal37" class="modal">
@@ -2394,7 +2184,7 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXXV. MECANISMO DE PARTICIPACIÓN CIUDADANA.</h3>
+      <h3>XXXVII. MECANISMO DE PARTICIPACIÓN CIUDADANA.</h3>
       <p>
         Los mecanismo de participación ciudadana.
       </p>
@@ -2403,33 +2193,32 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Mecanismo de Participación ciudadana">Formato A</a></th>
+              <td>Dirección Ejecutiva de Cpacitación Electorales y Educación Cívica</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Mecanismo de Participación Ciudadana">Formato B</a></th>
+              <td>Dirección Ejecutiva de Cpacitación Electorales y Educación Cívica</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal38" class="modal">
@@ -2449,27 +2238,23 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="NO APLICA">Formato</a></th>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal39" class="modal">
@@ -2489,117 +2274,116 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informe de sesiones">Formato A</a></th>
+              <td>Unidad Técnica de Transparencia, Dirección Ejecutiva de Organización Electoral, Dirección Ejecutiva de Capacitación Electoral y Educación Cívica, Dirección Ejecutiva de Prerrogativas y Partidos Políticos, Unidad Técnico de Comunicación Social, Secretaria Ejecutiva, Dirección Ejecutiva de Asusntos Jurídicos, Unidad Técnica de Igualdad de Género e Inclusión, Unidad Técnica del Cnetro de Formato y Desarrollo, Dirección Ejecutiva de Administración.</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informe de resoluciones">Formato B</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Integrantes del Comité de Transparencia">Formato C</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato D</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E1</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E2</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E3</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E4</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E5</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E6</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E7</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E8</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Calendario de Sesiones ordinarias">Formato E9</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato E10</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato E11</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato E12</a></th>
+              <td></td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal40" class="modal">
@@ -2619,27 +2403,23 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="NO APLICA">Formato</a></th>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal41" class="modal">
@@ -2659,27 +2439,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Los estudios financiados con recursos públicos">Formato</a></th>
+              <td>Dirección Ejecutiva de Capacitación Electoral y Educación Cívica</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal42" class="modal">
@@ -2699,27 +2478,23 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="NO APLICA">Formato</a></th>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal43" class="modal">
@@ -2739,27 +2514,32 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Ingresos recibidos">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Responsable de recibir, administrar y ejecer los ingresos.">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal44" class="modal">
@@ -2779,27 +2559,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Donaciones a terceros en dinero">Formato A</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal45" class="modal">
@@ -2819,39 +2598,34 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes de sesiones">Formato A</a></th>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes de resoluciones">Formato B</a></th>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informe de resoluciones">Formato C</a></th>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal46" class="modal">
@@ -2871,33 +2645,32 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Actas del Consejo Consultivos">Formato A</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Opiniones y recomendaciones del Consejo Consultivos">Formato B</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal47" class="modal">
@@ -2917,27 +2690,23 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="NO APLICA">Formato</a></th>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal48" class="modal">
@@ -2957,39 +2726,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal49" class="modal">
@@ -3009,27 +2765,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato</a></th>
+              <td>Secretaría Ejecutiva</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal50" class="modal">
@@ -3042,34 +2797,30 @@
       </p>
       <h3>L. EL ORIGEN DE LOS FONDOS AUXILIARES (NO APLICA).</h3>
       <p>
-       El origen de fondos auxiliares especiales y la aplicación que se haya hecho de los ingresos correlativos .
+        El origen de fondos auxiliares especiales y la aplicación que se haya hecho de los ingresos correlativos .
       </p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="NO APLICA">Formato</a></th>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal51" class="modal">
@@ -3089,27 +2840,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="El origen de los fondos auxiliares">Formato</a></th>
+              <td>Dirección Ejecutiva de Administración</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal52" class="modal">
@@ -3129,27 +2879,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato</a></th>
+              <td>Unidad Técnica de Tranparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal53" class="modal">
@@ -3169,27 +2918,26 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal54" class="modal">
@@ -3209,63 +2957,62 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
               <th scope="col"><i class="fa-solid fa-download"></i></th>
               <th scope="col">RESPONSABLE</th>
-              <th scope="col">Fecha de validacion</th>
-              <th scope="col">Fecha de Actualizacion</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Información de interés">Formato A1</a></th>
+              <td>Dirección Ejecutiva de Capacitación Electorales y Educación Cívica</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Información de Interés">Formato A2</a></th>
+              <td>Unidad Técnica del Centro de Formación y Desarrollo</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Preguntas frecuentes">Formato B1</a></th>
+              <td>Dirección Ejecutiva de Organización Electoral</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Preguntas frecuentes">Formato B2</a></th>
+              <td>Unidad Técnica del secretariado</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Preguntas frecuentes">Formato B3</a></th>
+              <td>Unidad Técnica de transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Preguntas frecuentes">Formato B4</a></th>
+              <td>Dirección Ejecutiva de Perrogativa</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Transparencia Proactiva">Formato C1</a></th>
+              <td>Unidad Técnica de Transparencia</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
   </div>
 
   <div id="modal55" class="modal">
@@ -3285,7 +3032,769 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato</a></th>
+              <td>Unidad Técnica de Transparencia</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!--Articulo 19 -->
+  <div class="banner-over">
+    <h1>ARTICULO 19</h1>
+    <h4>INFORMACION PUBLICA DE OFICIO</h4>
+    <P class="ajus">En terminos del articulo 19 de la ley 875 de Transparencia y Acceso a la Informacion Publica para
+      el estado de Veracruz de Ignacio de la LLave, se deberá publicar y mantener actualizada la siguiente informacion:
+    </P>
+    <h4>FRACCIONES</h4>
+  </div>
+  <div class="contenedor">
+    <div class="card" onclick="openModal('modalA')">
+      <div class="icon"><i class="bi bi-person-badge"></i></div>
+      <h3 class="title">A)<br>Partidos Políticos, Asociaciones y Agrupaciones Políticas y Ciudadanos</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalB')">
+      <div class="icon"><i class="bi bi-file-earmark-text"></i></div>
+      <h3 class="title">B)<br>Informes</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalC')">
+      <div class="icon"><i class="bi bi-map"></i></div>
+      <h3 class="title">C)<br>Geografía y Cartografía Electoral</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalD')">
+      <div class="icon"><i class="bi bi-card-checklist"></i></i>
+      </div>
+      <h3 class="title">D)<br>Registro de Candidatos a Cargos de Elección Popular</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalE')">
+      <div class="icon"><i class="bi bi-cash-stack"></i>
+      </div>
+      <h3 class="title">E)<br>Montos de Financiamiento</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalF')">
+      <div class="icon"><i class="bi bi-bar-chart-line"></i>
+      </div>
+      <h3 class="title">F)<br>Metología e Informes de Encuentas y Programas de Conteo Rápido</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalG')">
+      <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i>
+      </div>
+      <h3 class="title">G)<br>Metología e Informes del Programa de Resultados Preliminares Electorales</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalH')">
+      <div class="icon"><i class="bi bi-clipboard-data"></i>
+      </div>
+      <h3 class="title">H)<br>Cómputos Totales de las Elecciones</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalI')">
+      <div class="icon"><i class="bi bi-check-circle"></i>
+      </div>
+      <h3 class="title">I)<br>Resultado y Declaraciones de Validez de las Elecciones</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalJ')">
+      <div class="icon"><i class="bi bi-journal-check"></i></div>
+      <h3 class="title">J)<br>Dictamenes, Informes y Resoluciones sobre la Pérdida de Registro</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalK')">
+      <div class="icon"><i class="bi bi-broadcast"></i>
+      </div>
+      <h3 class="title">K)<br>Monitoreo de Medios</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalL')">
+      <div class="icon"><i class="bi bi-folder2-open"></i>
+      </div>
+      <h3 class="title">L)<br>Expedientes de Quejas</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalM')">
+      <div class="icon"><i class="bi bi-list-check"></i>
+      </div>
+      <h3 class="title">M)<br>Lista de Acuerdos, Sentencias, Resoluciones y Criterios Relevantes</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalN')">
+      <div class="icon"><i class="bi bi-search"></i>
+      </div>
+      <h3 class="title">N)<br>Resultados de los Procedimientos de Fiscalización</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalO')">
+      <div class="icon"><i class="bi bi-mic"></i>
+      </div>
+      <h3 class="title">O)<br>Versiones Estenográficas de las Sesiones Públicas</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+
+    <div class="card" onclick="openModal('modalP')">
+      <div class="icon"><i class="bi bi-pie-chart"></i>
+      </div>
+      <h3 class="title">P)<br>Estadísticas de los Medios de Impugnación</h3>
+      <div class="card-hover">
+        <span>Ver más</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalA" class="modal">
+    <span class="close" onclick="closeModal('modalA')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>A). PARTIDOS POLITICOS, ASOCIAONES Y AGRUPACIONES POLÍTICAS Y CIUDADANOS </h3>
+      <p>
+        Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos regístrados ante la autoridad electoral.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Normatividad Aplicable">Formato A</a></th>
+              <td>Dirección Ejecutiva de Prerrogativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Asociaciones Civiles y/o ciudadanos que realicen actividades de observación Electoral">Formato B</a></th>
+              <td>Secretaria Ejecutiva.</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalB" class="modal">
+    <span class="close" onclick="closeModal('modalB')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>B. INFORMES</h3>
+      <p>
+        Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos. </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes Presentados">Formato A</a></th>
+              <td>Dirección Ejecutiva de Fiscalización</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes y Dictámenes">Formato B</a></th>
+              <td>Dirección Ejecutiva de Fiscalización</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalC" class="modal">
+    <span class="close" onclick="closeModal('modalC')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>C. GEOGRAFÍA Y CARTOGRAFÍA ELECTORAL</h3>
+      <p>
+        La geografía y cartografía electoral. </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Normatividad">Formato A</a></th>
+              <td>Dirección Ejecutivo de Organización</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Geografía y Cartografía Electoral">Formato B</a></th>
+              <td>Direccíon Ejecutiva de Organizacíon</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estudios en matería de Geografía y Cartografía Electoral">Formato C</a></th>
+              <td></td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalD" class="modal">
+    <span class="close" onclick="closeModal('modalD')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>D. REGISTRO DE CANDIDATOS A CARGOS DE ELECCIÓN POPOULAR</h3>
+      <p>
+        El registro de candidatos a cargos de elección popular.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Registro de candidatos a cargos de elección popular">Formato A</a></th>
+              <td>Dirección Ejecutiva de Prerrogativas y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Sistemas de consultas de candidatos a cargos de elección popular">Formato B</a></th>
+              <td>Dirección Ejecutivo de Prerrogativas y Partídos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Candidatos electorales a cargos de elección popular">Formato C</a></th>
+              <td>Dirección Ejecutiva de Prerrogativas y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Sistemas de consulta de candidatos electos a cargos de elección popular">Formato D</a></th>
+              <td>Dirección Ejecutiva de Prerrogativas y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> 
+    </div>
+  </div>
+
+  <div id="modalE" class="modal">
+    <span class="close" onclick="closeModal('modalE')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>E. MONTOS DE FINANCIAMIENTO</h3>
+      <p>
+        Los montos de financiamiento público por actividades ordinarias, de campañas y específicas otorgadas a los partidos políticos,asociaciones y agrupaciones politicas o de ciudadanos, así como los montos autorizados de financiamiento privado y los topes de los gastos de compaña.</p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Montos Entregados">Formato A</a></th>
+              <td>Dirección Ejecutiva de Prerrogativas y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Montos Autorizados">Formato B</a></th>
+              <td>Dirección Ejecutiva de Prerrogativas y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato C</a></th>
+              <td>Dirección Ejecutiva de Prerrogativas y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalF" class="modal">
+    <span class="close" onclick="closeModal('modalF')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>F. METODOLOGÍA E INFORME DE ENCUESTAS Y PROGRAMA DE CONTEO RÁPIDO</h3>
+      <p>
+        La metodología e informe sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos financiados por las autoridades electorales competentes.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato A</a></th>
+              <td>Secretaría Ejecutiva</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato B</a></th>
+              <td>Secretaría Ejecutiva</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato C</a></th>
+              <td>Secretaría Ejecutiva</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato D</a></th>
+              <td>Secretaría Ejecutiva</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato E</a></th>
+              <td>Secretaría Ejecutiva</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato F</a></th>
+              <td>Secretaría Ejecutiva</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalG" class="modal">
+    <span class="close" onclick="closeModal('modalG')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>G. METODOLOGIA E INFORME DEL PROGRAMA DE RESULTADOS PRELIMINARES ELECTORALES</h3>
+      <p>
+        La metodología e informe del programa de Resultados Preliminares Electorales.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Metodología del PREP">Formato A</a></th>
+              <td>Unidad Técnica de Servicios Información</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resultados del PREP">Formato B</a></th>
+              <td>Unidad Técnica de Servicios Informaticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalH" class="modal">
+    <span class="close" onclick="closeModal('modalH')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>H. CÓMPUTO TOTALES DE LAS ELECCIONES</h3>
+      <p>
+        Los cómputos totales de las elecciones y procesos de participación ciudadana. </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resuldatos y Declaraciones de válidez">Formato</a></th>
+              <td>Dirección Ejecutivo de Organización Electoral</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalI" class="modal">
+    <span class="close" onclick="closeModal('modalI')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>I. RESULTADOS Y DECLARACIONES DE VALIDEZ DE LAS ELECCIONES.</h3>
+      <p>
+        Los resultados y declaraciones de validez de las elecciones.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resuldatos y Declaración de válidez">Formato</a></th>
+              <td>Dirección Ejecutiva de Organización Electoral</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalJ" class="modal">
+    <span class="close" onclick="closeModal('modalJ')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>J. DICTAMENES, INFORMES Y RESOLUCIONES SOBRE PÉRDIDA DE REGISTRO Y LIQUIDACIÓN DEL PATRIMONIO DE LOS PARTIDOS POLÍTICOS</h3>
+      <p>
+        Los dictámenes, informes y resoluciones sobre pérdidas de registro y liquidación del patrimonio de los partidos políticos.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dictámenes, Informes y Resoluciones">Formato</a></th>
+              <td>Dirección Ejecutiva de Fiscalización</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalK" class="modal">
+    <span class="close" onclick="closeModal('modalK')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>K. MONITOREO DE MEDIOS</h3>
+      <p>
+        El monitoreo de los medios.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Monitoreo a medios de comunicación">Formato A</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes, convenios, contratos y datos de la empresa encargada del monitoreo de medios">Formato B</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dictámenes, Informes y Resoluciones">Formato C</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato D</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Monitoreo a medios de comunicación">Formato E</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes, convenios, contratos y datos de la empresa encargada del monitoreo de medios">Formato F</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dictámenes, Informes y Resoluciones">Formato G</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato H</a></th>
+              <td>Dirección Ejecutiva de Prerrogrativa y Partidos Políticos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalL" class="modal">
+    <span class="close" onclick="closeModal('modalL')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>L. EXPEDIENTES DE QUEJAS</h3>
+      <p>
+        Los expedientes sobre quejas resueltas por violaciones al Código Electoral para el Estado.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
         <table class="table">
           <thead>
             <tr>
@@ -3297,20 +3806,175 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Expe1">Formato 1</a></th>
-              <td>Mark</td>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Quejas">Formato</a></th>
+              <td>Dirección Ejecutiva de Asusntos Jurídicos</td>
               <td>02/06/25</td>
               <td>09/09/25</td>
             </tr>
           </tbody>
         </table>
-      </div> <!-- cierre de la fraccion-->
-    </div> <!--se cierra del div del contenedor  -->
+      </div>
+    </div>
+  </div>
+
+  <div id="modalM" class="modal">
+    <span class="close" onclick="closeModal('modalM')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>XIV. LISTA DE ACUERDOS, SENTENCIAS, RESOLUCIONES Y CRITERIOS RELEVANTES</h3>
+      <p>
+        La lista de acuerdos, las sentencias, resoluciones y criterios relevantes, con los respectivos votos particulares o concurrentes, si los hubiere.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHAS DE VALIDACIÓN</th>
+              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Acuerdos, Sentencias, Resoluciones y Criterios Relevantes">Formato</a></th>
+              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalN" class="modal">
+    <span class="close" onclick="closeModal('modalN')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>N. RESULTADOS DE LOS PRECEDIMIENTOS DE FISCALIZACIÓN</h3>
+      <p>
+        El resultado de las revisiones, auditorias y verificaciones que se practiquen en los procedimientos de fiscalización.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resultados">Formato</a></th>
+              <td>Dirección Ejecutiva de la Unidad de Fiscalización</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalO" class="modal">
+    <span class="close" onclick="closeModal('modalO')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>O.VERSIONES ESTENOGRÁFICAS DE LAS SESIONES PÚBLICAS</h3>
+      <p>
+        Las versiones estenográficas de las sesiones públicas.
+       </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Versiones estenográficas">Formato</a></th>
+              <td>Unidad Técnica del Secretariado</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> 
+    </div> 
+  </div>
+
+  <div id="modalP" class="modal">
+    <span class="close" onclick="closeModal('modalP')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 19</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <h3>P.ESTADÍSTICAS DE LOS MEDIOS DE IMPUGNACIÓN</h3>
+      <p>
+        Estadisticas de los medios de impugnacion promovidos en contra de las resoluciones emitidas por la autoridad. 
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estadisticas">Formato</a></th>
+              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
+              <td>02/06/25</td>
+              <td>09/09/25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> 
+    </div> 
   </div>
 
 
 
-  
 
 
 
@@ -3327,6 +3991,50 @@
 
 
 
+
+
+
+
+
+  <!-- Inicio de footer -->
+  <footer>
+    <div class="footer-section">
+      <h3>Portal de Transparencia OPLE Veracruz</h3>
+      <p>© 2017 Unidad Técnica de Servicios Informáticos</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contáctanos</h3>
+      <ul>
+        <li><span class="material-symbols-outlined">call</span> <a href="#">TEL: 2281410700</a></li>
+        <li><span class="material-symbols-outlined">call</span> <a href="#">TEL: 2281410330</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Sitios de Interés</h3>
+      <ul>
+        <li><a href="#">INE</a></li>
+        <li><a href="#">FISCALÍA GENERAL DEL ESTADO DE VERACRUZ</a></li>
+        <li><a href="#">Fiscalía Especializada en Delitos Electorales</a></li>
+        <li><a href="#">Poder Judicial del Estado de Veracruz</a></li>
+        <li><a href="#">SCJN</a></li>
+        <li><a href="#">Tribunal Electoral de Veracruz</a></li>
+        <li><a href="#">Tribunal Electoral del Poder Judicial de la Federación</a></li>
+        <li><a href="#">Página Oficial del OPLE</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Síguenos</h3>
+      <ul class="social-icons">
+        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
 
   <!-- final de la config de las modal -->
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
