@@ -82,7 +82,8 @@
   <div class="contenedor">
     <div class="card" onclick="openModal('modal1')">
       <div class="icon"><i class="bi bi-journal-text"></i></div>
-      <h3 class="title"> I.<br>Marco normativo</h3>
+      <h2 class="titlee"> I.</h2>
+      <h3 class="title"><br>Marco normativo</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -91,7 +92,8 @@
 
     <div class="card" onclick="openModal('modal2')">
       <div class="icon"><i class="bi bi-diagram-3"></i></div>
-      <h3 class="title">II.<br>Estructura Orgánizada</h3>
+       <h2 class="titlee"> II.</h2>
+      <h3 class="title"><br>Estructura Orgánizada Completa</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -100,7 +102,8 @@
 
     <div class="card" onclick="openModal('modal3')">
       <div class="icon"><i class="bi bi-shield-check"></i></div>
-      <h3 class="title">III.<br>Faculdades de cada Área</h3>
+      <h2 class="titlee"> III.</h2>
+      <h3 class="title">Faculdades de cada Área</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -110,7 +113,8 @@
     <div class="card" onclick="openModal('modal4')">
       <div class="icon"><i class="bi bi-flag"></i></i>
       </div>
-      <h3 class="title">IV.<br>Metas y Objetivos</h3>
+      <h2 class="titlee"> IV.</h2>
+      <h3 class="title">Metas y Objetivos de las Áreas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -120,7 +124,8 @@
     <div class="card" onclick="openModal('modal5')">
       <div class="icon"><i class="bi bi-graph-up"></i>
       </div>
-      <h3 class="title">V.<br>Indicadores Relacionados con Temas de Interés</h3>
+      <h2 class="titlee"> V.</h2>
+      <h3 class="title">Indicadores Relacionados con Temas de Interés Público</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -130,7 +135,8 @@
     <div class="card" onclick="openModal('modal6')">
       <div class="icon"><i class="bi bi-bar-chart-line"></i>
       </div>
-      <h3 class="title">VI.<br>Indicadores de Objetivos y Resultados</h3>
+      <h2 class="titlee"> VI.</h2>
+      <h3 class="title">Directorio de todas las personas servidoras Públicas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -140,7 +146,8 @@
     <div class="card" onclick="openModal('modal7')">
       <div class="icon"><i class="bi bi-people"></i>
       </div>
-      <h3 class="title">VII.<br>Directivos de Servidores Públicos</h3>
+      <h2 class="titlee"> VII.</h2>
+      <h3 class="title">Remuneración de todas las personas servidoras Públicas de Base o Confianza</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -150,28 +157,29 @@
     <div class="card" onclick="openModal('modal8')">
       <div class="icon"><i class="bi bi-cash-stack"></i>
       </div>
-      <h3 class="title">VIII.<br> Remuneración de los Servidores Públicos</h3>
+      <h2 class="titlee"> VIII.</h2>
+      <h3 class="title"> Gastos de Representación y Viáticos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-  
+
     <div class="card" onclick="openModal('modal9')">
       <div class="icon"><i class="bi bi-receipt"></i>
       </div>
-      <h3 class="title">IX.<br>Gastos de Representación y Viaticos</h3>
-      <!-- Franja inferior que aparece en hover -->
+      <h2 class="titlee"> IX.</h2>
+      <h3 class="title">Numeros Total de las Plazas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-    
+
     <div class="card" onclick="openModal('modal10')">
       <div class="icon"><i class="bi bi-person-workspace"></i></div>
-      <h3 class="title">X.<br>Plazas</h3>
-      <!-- Franja inferior que aparece en hover -->
+      <h2 class="titlee">X.</h2>
+      <h3 class="title">Contrataciones de Servidores Profesionales por Honorarios</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -181,7 +189,8 @@
     <div class="card" onclick="openModal('modal11')">
       <div class="icon"><i class="bi bi-briefcase"></i>
       </div>
-      <h3 class="title">XI.<br>Contrataciones de Servicios Profecionales por Honorarios</h3>
+      <h2 class="titlee">XI.</h2>
+      <h3 class="title">Declaraciones Patrimoniales de las Personas Servidoras Públicas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -191,7 +200,8 @@
     <div class="card" onclick="openModal('modal12')">
       <div class="icon"><i class="bi bi-file-earmark-text"></i>
       </div>
-      <h3 class="title">XII.<br>Declaciones Patrimoniales de los Servidores Públicos</h3>
+      <h2 class="titlee"> XII.</h2>
+      <h3 class="title">Domicilio de la Unidad de Transparencia</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -201,14 +211,15 @@
     <div class="card" onclick="openModal('modal13')">
       <div class="icon"><i class="bi bi-house"></i>
       </div>
-      <h3 class="title">XIII.<br>Domicilio</h3>
+      <h2 class="titlee"> XIII.</h2>
+      <h3 class="title">Convocatorias para Ocupar Cargos Públicos y sus Resultados</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
 
-    <div class="card" onclick="openModal('modal14')">
+    <!-- <div class="card" onclick="openModal('modal14')">
       <div class="icon"><i class="bi bi-megaphone"></i>
       </div>
       <h3 class="title">XIV.<br>Convocatorias Para Cargos Públicos</h3>
@@ -216,12 +227,13 @@
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
-    </div>
+    </div> -->
 
     <div class="card" onclick="openModal('modal15')">
       <div class="icon"><i class="bi bi-slash-circle"></i>
       </div>
-      <h3 class="title">XV.<br>Programas De Subsidios (No Aplica)</h3>
+      <h2 class="titlee"> XV.</h2>
+      <h3 class="title">Condiciones Generales de Trabajo</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -231,7 +243,8 @@
     <div class="card" onclick="openModal('modal16')">
       <div class="icon"><i class="bi bi-journal-text"></i>
       </div>
-      <h3 class="title">XVI.<br>Condiciones Generales De Trabajo</h3>
+      <h2 class="titlee"> XVI.</h2>
+      <h3 class="title">Información Curricular</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -241,7 +254,8 @@
     <div class="card" onclick="openModal('modal17')">
       <div class="icon"><i class="bi bi-person-lines-fill"></i>
       </div>
-      <h3 class="title">XVII.<br>Información Curricular</h3>
+      <h2 class="titlee"> XVII.</h2>
+      <h3 class="title">Listado de personas Servidoras Públicas con Sanciones Administrativas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -249,9 +263,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal18')">
-      <div class="icon"><i class="bi bi-exclamation-octagon"></i>
+      <div class="icon"><i class="bi bi-people"></i>
       </div>
-      <h3 class="title">XVIII.<br>Listado de Servidores Públicos con Sanciones Administrativas</h3>
+      <h2 class="titlee"> XVIII.</h2>
+      <h3 class="title">Servicios y Trámites que Ofrecen</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -261,14 +276,15 @@
     <div class="card" onclick="openModal('modal19')">
       <div class="icon"><i class="bi bi-tools"></i>
       </div>
-      <h3 class="title">XIX.<br>Servicios</h3>
+      <h2 class="titlee"> XIX.</h2>
+      <h3 class="title">Información Financiera Sobre el Presupuesto Asignado</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
 
-    <div class="card" onclick="openModal('modal20')">
+    <!-- <div class="card" onclick="openModal('modal20')">
       <div class="icon"><i class="bi bi-folder-check"></i>
       </div>
       <h3 class="title">XX.<br>Trámites, Requisitos y Formatos</h3>
@@ -276,12 +292,13 @@
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
-    </div>
+    </div> -->
 
     <div class="card" onclick="openModal('modal21')">
-      <div class="icon"><i class="bi bi-cash-stack"></i>
+      <div class="icon"><i class="bi bi-wallet2"></i>
       </div>
-      <h3 class="title">XXI.<br>Presupuesto Asignado</h3>
+      <h2 class="titlee"> XXI.</h2>
+      <h3 class="title">Gastos Relativos a Comunicación Social y Públicidad Oficial</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -289,9 +306,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal22')">
-      <div class="icon"><i class="bi bi-slash-circle"></i>
+      <div class="icon"><i class="bi bi-clipboard-data"></i>
       </div>
-      <h3 class="title">XXII.<br>Deuda Pública (No APLICA)</h3>
+      <h2 class="titlee"> XXII.</h2>
+      <h3 class="title">Información de Resultados de las Auditorías al Ejercicio Presupuestal</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -299,9 +317,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal23')">
-      <div class="icon"><i class="bi bi-chat-dots"></i>
+      <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i>
       </div>
-      <h3 class="title">XXIII.<br>Gastos Relativos A Comunicación social y Publicidad Oficial</h3>
+      <h2 class="titlee"> XXIII.</h2>
+      <h3 class="title">Resultado de la Dictaminación de los Estados Financieros</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -310,9 +329,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal24')">
-      <div class="icon"><i class="bi bi-graph-up"></i>
+      <div class="icon"><i class="bi bi-journal-text"></i>
       </div>
-      <h3 class="title">XXIV.<br>Auditorias</h3>
+      <h2 class="titlee"> XXIV.</h2>
+      <h3 class="title">Listado de Personas Físicas y Morales con Asignación de Recursos Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -322,7 +342,8 @@
     <div class="card" onclick="openModal('modal25')">
       <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i>
       </div>
-      <h3 class="title">XXV.<br>Dictaminación de los Estados Financieros</h3>
+      <h2 class="titlee"> XXV.</h2>
+      <h3 class="title">Concesiones, Contratos, Convenios, Permisos, Licencias o Autorizaciones Otorgados</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -330,9 +351,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal26')">
-      <div class="icon"><i class="bi bi-people"></i>
+      <div class="icon"><i class="bi bi-file-earmark-lock"></i>
       </div>
-      <h3 class="title">XXVI.<br>Listado de Personas Físicas y Morales con Asignacion de Recursos Públicos</h3>
+      <h2 class="titlee"> XXVI.</h2>
+      <h3 class="title">Procedimientos de Adjudicación Directa, Invitación Restringida y Licitación</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -340,9 +362,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal27')">
-      <div class="icon"><i class="bi bi-file-earmark-medical"></i>
+      <div class="icon"><i class="bi bi-file-earmark-text"></i>
       </div>
-      <h3 class="title">XXVII.<br>Concesiones, Contratos, Convenios, Permisos, Licencias o Autorizaciones</h3>
+      <h2 class="titlee"> XXVII.</h2>
+      <h3 class="title">Información que Generen de Conformidad con las Disposiciones Jurídicas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -350,9 +373,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal28')">
-      <div class="icon"><i class="fas fa-gavel"></i>
+      <div class="icon"><i class="bi bi-clipboard-data"></i>
       </div>
-      <h3 class="title">XXVIII.<br>Adjudicacíones Directas, Invitación Restringida y Licitaciones</h3>
+      <h2 class="titlee"> XXVIII.</h2>
+      <h3 class="title">Estadisticas que se Generen en Cumplimiento a las Facultades</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -360,9 +384,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal29')">
-      <div class="icon"><i class="fa-solid fa-file-lines"></i>
+      <div class="icon"><i class=" bi bi-bar-chart-steps"></i>
       </div>
-      <h3 class="title">XXIX.<br>Los Informes que por Disposición Legal Generen Los Sujetos Obligados</h3>
+      <h2 class="titlee"> XXIX.</h2>
+      <h3 class="title">Informes de Avances Programáticos o Presupuestales</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -370,9 +395,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal30')">
-      <div class="icon"><i class="fa-solid fa-chart-line"></i>
+      <div class="icon"><i class="bi bi-person-badge"></i>
       </div>
-      <h3 class="title">XXX.<br>Estadísticas</h3>
+      <h2 class="titlee"> XXX.</h2>
+      <h3 class="title">Padrón de Proveedores y Contratistas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -380,9 +406,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal31')">
-      <div class="icon"><i class="fa-solid fa-chart-bar"></i>
+      <div class="icon"><i class="bi bi-diagram-3"></i>
       </div>
-      <h3 class="title">XXXI.<br>Informes de Avances Programáticos</h3>
+      <h2 class="titlee"> XXXI.</h2>
+      <h3 class="title">Convenios de Coordinación de Concertacion con los Sectores Social y Privado</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -390,9 +417,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal32')">
-      <div class="icon"><i class="fa-solid fa-clipboard-list"></i>
+      <div class="icon"><i class="bi bi-box-seam"></i>
       </div>
-      <h3 class="title">XXXII.<br>Padrón de Proveedores y contratistas</h3>
+      <h2 class="titlee"> XXXII.</h2>
+      <h3 class="title">Inventario de Bienes Muebles e Inmuebles</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -400,9 +428,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal33')">
-      <div class="icon"><i class="fa-solid fa-handshake"></i>
+      <div class="icon"><i class="bi bi-globe"></i>
       </div>
-      <h3 class="title">XXXIII.<br>Los Convenios de Coordinacion</h3>
+      <h2 class="titlee"> XXXIII.</h2>
+      <h3 class="title">Recomendaciones Emitidas por los Órganos Públicos del Estado Mexicano u Organismos Internacionales</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -410,9 +439,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal34')">
-      <div class="icon"><i class="fa-solid fa-boxes-stacked"></i>
+      <div class="icon"><i class="bi bi-journal-check"></i>
       </div>
-      <h3 class="title">XXXIV.<br>Inventario de Bienes muebles e inmuebles</h3>
+      <h2 class="titlee"> XXXIV.</h2>
+      <h3 class="title">Resoluciones que se Emitan en Proceso o  Procedimientos Seguidos en forma de Juicio</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -420,39 +450,32 @@
     </div>
 
     <div class="card" onclick="openModal('modal35')">
-      <div class="icon"><i class="fa-solid fa-globe"></i>
+      <div class="icon"><i class="bi bi-chat-dots"></i>
       </div>
-      <h3 class="title">XXXV.<br>Recomendaciones de Organismos Públicos o Internacionales</h3>
+      <h2 class="titlee"> XXXV.</h2>
+      <h3 class="title">Mecanismo de Participación Ciudadana</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-
+      <!-- 
     <div class="card" onclick="openModal('modal36')">
       <div class="icon"><i class="fa-solid fa-scale-balanced"></i>
       </div>
-      <h3 class="title">XXXVI.<br>Resoluciones y Laudos</h3>
+      <h2 class="titlee"> XXXVI.</h2>
+      <h3 class="title"></h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
-    </div>
+    </div>-->
 
     <div class="card" onclick="openModal('modal37')">
-      <div class="icon"><i class="fa-solid fa-people-group"></i>
+      <div class="icon"><i class="bi bi-people"></i>
       </div>
-      <h3 class="title">XXXVII.<br>Mecanismo de Participacíon Ciudadana</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div>
-
-    <div class="card" onclick="openModal('modal38')">
-      <div class="icon"><i class="fa-solid fa-ban"></i>
-      </div>
-      <h3 class="title">XXXVIII.<br>Programas (NO Aplica)</h3>
+      <h2 class="titlee"> XXXVII.</h2>
+      <h3 class="title">Actas y Resoluciones del Comité de Transparencia de los Sujetos Obligados</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -460,19 +483,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal39')">
-      <div class="icon"><i class="fa-solid fa-file-signature"></i>
+      <div class="icon"><i class="bi bi-bar-chart"></i>
       </div>
-      <h3 class="title">XXXIX.<br>Actas, Acuerdos y Resoluciones</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div>
-
-    <div class="card" onclick="openModal('modal40')">
-      <div class="icon"><i class="fa-solid fa-ban"></i>
-      </div>
-      <h3 class="title">XL.<br>Evaluaciones y encuestas (NO APLICA)</h3>
+      <h2 class="titlee"> XXXIX.</h2>
+      <h3 class="title">Estados Financiados con Recursos Públicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -480,9 +494,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal41')">
-      <div class="icon"><i class="fa-solid fa-book-open-reader"></i>
+      <div class="icon"><i class="bi bi-cash-stack"></i>
       </div>
-      <h3 class="title">XLI.<br>Los Estudios Financiados con Recursos Públicos</h3>
+      <h2 class="titlee"> XLI.</h2>
+      <h3 class="title">Ingresos Recibidos por Cualquier Concepto</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -490,9 +505,10 @@
     </div>
 
     <div class="card" onclick="openModal('modal42')">
-      <div class="icon"><i class="fa-solid fa-ban"></i>
+      <div class="icon"><i class="bi bi-wallet2"></i>
       </div>
-      <h3 class="title">XLII.<br>Listados de Jubilados y Pensionados (NO APLICA)</h3>
+      <h2 class="titlee"> XLII.</h2>
+      <h3 class="title">Donaciones Hechas a Terceros en Dinero o Especie</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -500,48 +516,45 @@
     </div>
 
     <div class="card" onclick="openModal('modal43')">
-      <div class="icon"><i class="fa-solid fa-sack-dollar"></i>
+      <div class="icon"><i class="bi bi-folder"></i>
       </div>
-      <h3 class="title">XLIII.<br>Ingresos Recibidos</h3>
+      <h2 class="titlee"> XLIII.</h2>
+      <h3 class="title">Catálogo de Disposición y Guía de Archivos Documental</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
 
-    <div class="card" onclick="openModal('modal44')">
-      <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i>
+    <!--
+     <div class="card" onclick="openModal('modal44')">
+      <div class="icon"><i class="bi bi-file-earmark-text"></i>
       </div>
-      <h3 class="title">XLIV.<br>Donaciones Hechas a Terceros en Dinero o en Especie</h3>
+      <h2 class="titlee"> XLIV.</h2>
+      <h3 class="title">Actas de Sesiones, Opiniones y Recomendaciones de los Consejos Consultivos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
+     -->
 
-    <div class="card" onclick="openModal('modal45')">
-      <div class="icon"><i class="fa-solid fa-folder-tree"></i>
-      </div>
-      <h3 class="title">XLV.<br>Catálogo de Disposicion y Guía de Archivos Documental</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div>
 
     <div class="card" onclick="openModal('modal46')">
       <div class="icon">
-        <div class="icon"><i class="fa-solid fa-users-gear"></i>
+        <div class="icon"><i class="bi bi-info-circle"></i>
         </div>
       </div>
-      <h3 class="title">XLVI.<br>Consejos Consultivos</h3>
+      <h2 class="titlee"> XLVI.</h2>
+      <h3 class="title">Información que sea de Utilidad o se Considere Relevante</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
 
-    <div class="card" onclick="openModal('modal47')">
+<!--
+        <div class="card" onclick="openModal('modal47')">
       <div class="icon"><i class="fa-solid fa-ban"></i>
       </div>
       <h3 class="title">XLVII.<br>Listado de Solicitudes a Empresas Concesiones de Telecomunicaciones (NO APLICA)</h3>
@@ -630,48 +643,63 @@
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-  </div> 
-<!-- Final de la config de las modal -->
+      -->
+  </div>  <!-- Final de la config de las modal -->
+ 
 
   <!-- Configuraciones de la ventana modal abierta -->
-  <div id="modal1" class="modal">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 15</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>I. Marco Normativo</h3>
-      <p>
-        El marco normativo aplicable al sujeto obligado, en el que deberá incluirse leyes, códigos, reglamentos, decretos de creación, manuales administrativos, reglas de operación, criterios, políticas, entre otros.
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Marco Normativo Aplicable al OPLE">FORMATO</a></th>
-              <td>Dirección Ejecutiva de Asusntos Jurídicos</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
-        </table>
+<div id="modal1" class="modal">
+  <span class="close" onclick="closeModal('modal1')">&times;</span>
+  <div class="modal-content">
+    <h2>Articulo 15</h2>
+    <p>
+      <strong>Información Pública de Oficio</strong><br>
+      En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+    </p>
+    <hr class="separ">
+    <h3>I. Marco Normativo</h3>
+    <p>
+      El marco normativo aplicable al sujeto obligado, en el que deberá incluirse leyes, códigos, reglamentos, decretos de creación, manuales administrativos, reglas de operación, criterios, políticas, entre otros.
+    </p>
+    <div class="fraccion">
+      <div class="separador">
+        <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+        <span class="texto">Publicaciones</span>
       </div>
-    </div> 
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"><i class="fa-solid fa-download"></i></th>
+            <th scope="col">RESPONSABLE</th>
+            <th scope="col">FECHA DE VALIDACIÓN</th>
+            <th scope="col">FECHA DE ACTUALIZACIÓN</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
+</div>
 
   <div id="modal2" class="modal">
     <span class="close" onclick="closeModal('modal2')">&times;</span>
@@ -681,7 +709,8 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>I. ESTRUCTURA ORGÁNICA</h3>
+      <hr class="separ">
+      <h3>I. ESTRUCTURA ORGÁNICA COMPLETA</h3>
       <p>
         Su estructura orgánica completa, en un formato que permita vincular cada parte de la estructura, las atribuciones y responsabilidades que le corresponden a cada servidor público, prestador de servicios profesionales o miembro de los sujetos obligados, de conformidad con las disposiciones aplicables. </p>
       <div class="fraccion">
@@ -699,19 +728,45 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Estructura Orgánica Completa">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva Administraión</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estructura Orgánica">Formato A</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Organigrama">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Organigrama">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+        </tbody>
         </table>
       </div>
     </div>
@@ -725,6 +780,7 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
+      <hr class="separ">
       <h3>III. Facultades de Cada Área</h3>
       <p>
         Las facultades de cada Área. </p>
@@ -733,7 +789,6 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
@@ -744,12 +799,25 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Facultades de cada área">Formato</a></th>
-              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Facultades de cada área">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
@@ -764,7 +832,8 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>IV. Metas y Objetivos</h3>
+      <hr class="separ">
+      <h3>IV. Metas y Objetivos de las Áreas</h3>
       <p>
         Las metas y objetivos de las Áreas de conformidad con sus programas operativos.
       </p>
@@ -783,15 +852,28 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Metas y Objetivos">Formato</a></th>
-              <td>Unidad de Técnica de Planeación</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Metas y Objetivos">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Unidad Técnicas de Planeación</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
-      </div> <!--se cierra el div de fraccion -->
+      </div> 
     </div>
   </div>
 
@@ -803,7 +885,8 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>V. Indicadores Relacionados con Temas de Interés</h3>
+      <hr class="separ">
+      <h3>V. Indicadores Relacionados con Temas de Interés Públicos</h3>
       <p>
         Los indicadores relacionados con temas de interés público o trascendencia social que conforme a sus funciones, deban establecer</p>
       <div class="fraccion">
@@ -821,15 +904,28 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Indicadores de temas de Interés">Formato</a></th>
-              <td>Unidad Técnica de Planeación</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Indicadores de temas interés">
+                <ul>
+                  <li> Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Unida Técnica de Planeación</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
-      </div> <!--se cierra el div de fraccion -->
+      </div>
     </div>
   </div>
 
@@ -841,15 +937,16 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>VI. Indicadores de Objetos y Resultados</h3>
+      <h3>VI. DIRECTORIO DE TODAS LAS PERSONAS SERVIDORAS PÚBLICAS</h3>
       <p>
-        Los indicadores que perimten rendir cuenta de sus objetos y resultados. </p>
+        El directivo de todos los Servidores Públicos, a partir del nivel de jefe de dapartamento o su equivalente, o de menor nivel, cuando se brinde atencíon al público;
+         realicen actos de autoridad o presten servicios profesionales bajo el régimen de confianza u honorarios y personal de base. El directorio deberá incluir, al menos el nombre, cargo o nombramiento asignado, nivel del puesto en la estructura orgánica, fecha de alta en el cargo, número telefónico, domicilio para recibir correspondencia
+          y Dirección de correo electrónico oficiales. </p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
@@ -860,12 +957,25 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Indicadores de objetos y resultados">Formato</a></th>
-              <td>Unidad Técnica de Planeación</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Directorio del OPLE">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
@@ -880,9 +990,11 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>VII. Directorio de Servidores Públicos</h3>
+      <hr class="separ">
+      <h3>VII. REMUNERACIÓN DE TODAS LAS PERSONAS SERVIDORAS PÚBLICAS DE BASE O CONFIANZA</h3>
       <p>
-        El directorio de todos los Servidores Públicos, a partir del nivel de jefe de departamento o su equivalente, o de menor nivel, cuando se brinde atención al público; manejen o apliquen recursos públicos; realicen actos de autoridad o presten servicios profesionales bajo el régimen de confianza u honorarios y personal de base. El directorio deberá incluir, al menos el nombre, cargo o nombramiento asignado, nivel del puesto en la estructura orgánica, fecha de alta en el cargo, número telefónico, domicilio para recibir correspondencia y Dirección de correo electrónico oficiales. </p>
+        La remuneración bruta y neta de todos los Servidores Públicos de base o de confianza, de todas las percepciones, incluyendo sueldos, prestaciones, gratificaciones, primas, comisiones, dietas, bonos, estímulos, ingresos y sistemas de compensación
+        , señalando la periodicidad de dicha remuneración.
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -891,22 +1003,46 @@
         <table class="table">
           <thead>
             <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dirección del OPLE">Formato</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Remuneración Bruta y neta">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Tabulador de Sueldos y Salarios">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
-      </div> <!--se cierra el div de fraccion -->
+      </div>
     </div>
   </div>
 
@@ -918,9 +1054,10 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>VIII. Remuneración de los Servidores Públicos</h3>
+      <hr class="separ">
+      <h3>VIII. GASTOS DE REPRESENTACIÓN Y VIÁTICOS</h3>
       <p>
-        La remuneración bruta y neta de todos los Servidores Públicos de base o de confianza, de todas las percepciones, incluyendo sueldos, prestaciones, gratificaciones, primas, comisiones, dietas, bonos, estímulos, ingresos y sistemas de compensación, señalando la periodicidad de dicha remuneración. </p>
+        Los gastos de representación y viaticos, así como el objeto de informw de comisión correspondiente. </p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -937,17 +1074,24 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Remuneración Bruta y neta">Formato A</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Tabulador de Sueldos y Salarios">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Gastos de representación">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
@@ -962,42 +1106,8 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>IX. Gastos de Representación y Viáticos</h3>
-      <p>
-        Los gastos de representación y viaticos, así como el objeto e informe de comisión correspondiente. </p>
-      <div class="fraccion">
-        <h2>Publicaciones:</h2>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Gastos de representación">Formato</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div id="modal10" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 15</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>X. Plazas</h3>
+      <hr class="separ">
+      <h3>X. NUMEROS DE PLAZAS</h3>
       <p>
         El número total de las plazas y del personal de base y confianza, especificando el total de las vacantes, por nivel de puesto, para cada unidad administrativa.
       </p>
@@ -1017,24 +1127,50 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Plazas Vacantes">Formato A</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Total de plaza">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Plazas Vacantes">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Total de Plazas">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
-      </div> 
-    </div> 
+      </div>
+    </div>
   </div>
 
-  <div id="modal11" class="modal">
+  <div id="modal10" class="modal">
     <span class="close" onclick="closeModal('modal10')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
@@ -1042,7 +1178,8 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XI. CONTRATACIONES DE SERVICOS PROFECIONALES POR HONORARIOS</h3>
+      <hr class="separ">
+      <h3>X. CONTRATACIONES DE SERVICOS PROFECIONALES POR HONORARIOS</h3>
       <p> Las contrataciones de servicos profecionales por honoracios, señalando los nombres de los prestadores de servicios, los servicios contrataciones, el monto de los honorarios y el periodo de contratación.
       </p>
       <div class="fraccion">
@@ -1050,7 +1187,6 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
@@ -1062,26 +1198,40 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Personal Contratado por honorarios">Formato</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Personal Contratado por Honorarios">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
-      </div> 
-    </div> 
+      </div>
+    </div>
   </div>
 
-  <div id="modal12" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal11" class="modal">
+    <span class="close" onclick="closeModal('modal11')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XII. DECLARACIONES PATRIMONIALES DE LO SERVICOS PÚBLICOS</h3>
+      <hr class="separ">
+      <h3>XI. DECLARACIONES PATRIMONIALES DE LO SERVICOS PÚBLICOS</h3>
       <p>
         La información, en versión pública, de las declaraciones patrimoniales, fisical y de intereses de los servidores públicos que asi lo determinan, en los sistemas habilitados para ello, de acuerdo a la normatividad aplicable.
       </p>
@@ -1101,38 +1251,78 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Declaración de situación patrimonial">Formato A</a></th>
-              <td>Contraloria General</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Declaraciones fiscales">Formato B</a></th>
-              <td>Contraloria General</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Declaraciones de Interés">Formato C</a></th>
-              <td>Contraloria General</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Declaración de Situación patrimonial">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Contraloria General</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Declaraciones Fiscales">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Contraloria General</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Declaraciones Interés">
+                <ul>
+                  <li>Formato C</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Contraloria General</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal13" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal12" class="modal">
+    <span class="close" onclick="closeModal('modal12')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XIII. DOMICILIO</h3>
+      <hr class="separ">
+      <h3>XII. DOMICILIO DE LA UNIDAD DE TRANSPARENCIA</h3>
       <p>
         El domicilio de la Unidad de Transparencia, además de la Direccion electronica donde podrán recibirse las solicitudes para obtener la información.
       </p>
@@ -1152,26 +1342,40 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dominio Oficial">Formato</a></th>
-              <td>Unidad Técnica de Transparencia</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Domicilio Oficial">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Unidad Técnica de Transparencia</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal14" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal13" class="modal">
+    <span class="close" onclick="closeModal('modal13')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XIV. CONVOCATORIA PARA CARGOS PÚBLICOS </h3>
+      <hr class="separ">
+      <h3>XIV. CONVOCATORIA PARA CARGOS PÚBLICOS Y SUS RESULTADOS </h3>
       <p>
         Las convocatorias a concursos para ocupar cargos públicos y los resultados de los mismos.
       </p>
@@ -1191,11 +1395,24 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Convocatorias">Formato</a></th>
-              <td>Dirección Ejecutiva de Organización Electoral</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Convocatorias">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Organización Electoral</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
@@ -1203,51 +1420,15 @@
   </div>
 
   <div id="modal15" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+    <span class="close" onclick="closeModal('modal15')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XV. PROGRAMAS DE SUBSIDIOS (NO APLICA)</h3>
-      <p>
-        La información de los programas sociales, subsidios, estímulos y apoyos, en que deberán informar respecto de los programas de de transferencia, de servicios, de infraestructura social y de subsidio, que contendrá lo siguiente: a) Área; b) DenominaciÓn del programa; c) Periodo de vigencia; d) Diseño, objetivos y alcances; e) Metas físicas; f) PoblaciÓn beneficiada estimada; g) Monto aprobado, modificado y ejercido, así como los calendarios de su programaciÓn presupuestal; h) Requisitos y procedimientos de acceso; i) Procedimiento de queja o inconformidad ciudadana; j) Mecanismos de exigibilidad; k) Mecanismos de evaluaciÓn, informes de evaluaciÓn y seguimiento de recomendaciones; l) Indicadores con nombre, definiciÓn, método de cálculo, unidad de medida, dimensión, frecuencia de medición y nombre de las bases de datos utilizadas para su cálculo; m) Formas de participación social; n) Articulación con otros programas sociales; o) Vínculo a las reglas de operación o documento equivalente; p) Informes periódicos sobre la ejecución y los resultados de las evaluaciones realizadas; y q) Padrón de beneficiarios, mismo que deberá contener los siguientes datos: nombre de la persona física o denominaciÓn social de las personas morales beneficiarias, el monto, recurso, beneficio o apoyo otorgado para cada una de ellas, unidad territorial y, en su caso, edad y sexo.
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">No Aplica</a></th>
-              <td>Unidad Técnica de Transparencia</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div id="modal16" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 15</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>XVI.CONDICIONES GENERALES</h3>
+      <hr class="separ">
+      <h3>XV.CONDICIONES GENERALES DEL TRABAJO</h3>
       <p>
         Las condiciones generales de trabajo, contratos o convenios que regulan las relaciones laborales del personal de base o de confianza, así como los recursos públicos economicos, en especie o donativos, que sean entregados a los sindicatos y ejerzan como recursos públicos.
       </p>
@@ -1267,32 +1448,59 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Normatividad laboral">Formato A</a></th>
-              <td>Dirección de Asuntos Juridicos</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Recursos públicos entregados a Sindicatos">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Normatividad">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección de Asuntos Jurídicos</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Recursos públicos entregados a Sindicatos">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
-      </div> 
-    </div> 
+      </div>
+    </div>
   </div>
 
-  <div id="modal17" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal16" class="modal">
+    <span class="close" onclick="closeModal('modal16')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XVII. INFORMACÍON CURRICULAR</h3>
+      <hr class="separ">
+      <h3>XVI. INFORMACÍON CURRICULAR</h3>
       <p>
         La información curricular, desde el nivel de jefe de departamiento o equivalente, hasta el titular del sujeto obligado, así como, en su caso, las sanciones administrativas de que haya sido objeto.
       </p>
@@ -1311,27 +1519,41 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Información curricular">Formato</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+         <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Información Curricular">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
-      </div> 
+      </div>
     </div>
   </div>
 
-  <div id="modal18" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal17" class="modal">
+    <span class="close" onclick="closeModal('modal17')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XVIII.LISTADO DE SERVIDORES PÚBLICOS CON SANCIONES ADMINISTRATIVAS </h3>
+      <hr class="separ">
+      <h3>XVIII.LISTADO DE PERSONAS SERVIDORAS PÚBLICAS CON SANCIONES ADMINISTRATIVAS </h3>
       <p>
         El listado de Servidores Públicos con sanciones administrativas definitivas, especificando la causa de sanciones y la disposicíon. </p>
       <div class="fraccion">
@@ -1349,29 +1571,44 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Sanciones administrativa">Formato</a></th>
-              <td>Contraloría General</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+         <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Sanciones administrativas">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Contraloría General</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal19" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal18" class="modal">
+    <span class="close" onclick="closeModal('modal18')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XIX. SERVICIOS</h3>
+      <hr class="separ">
+      <h3>XIX. SERVICIOS Y TRAMITES QUE OFRECEN</h3>
       <p>
-        Los servicos que ofrece señalando los requisitos para acceder a ellos. </p>
+        Los servicos que ofrece señalando los requisitos para acceder a ellos. 
+      </p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1387,66 +1624,41 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Servicios">Formato</a></th>
-              <td>Unidad Técnica de Transparencia</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+         <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Servicios">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Unidad Técnica de Transparencia</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal20" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal19" class="modal">
+    <span class="close" onclick="closeModal('modal19')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XX. TRÁMITES, REQUISITOS Y FORMATOS</h3>
-      <p>
-        Los trámites, requisitos y formatos que ofrecen.
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Tramites">Formato</a></th>
-              <td>Unidad Técnica de Transparencia</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div id="modal21" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 15</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>XXI. PRESUPUESTOS ASIGNADOS</h3>
+      <hr class="separ">
+      <h3>XIX. INFORMACIÓN FINANCIERA SOBRE EL PRESUPUESTOS ASIGNADOS</h3>
       <p>
         La informacíon financiera sobre el presupuesto asignado, así como los informes del ejercicio trimestral del gasto, en término de la Ley General de Contabilidad Gubernamental y demás normatividad aplicable.
       </p>
@@ -1466,75 +1678,78 @@
           </thead>
           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Presupuesto asignado">Formato A</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes trimestrales">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Cuenta Pública">Formato C</a></th>
-              <td>Secretaria Ejecutiva</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Presupuesto Asignado">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Informes trimestrales">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Cuenta pública">
+                <ul>
+                  <li>Formato C</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Secretaria Ejecutiva</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal22" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+   <div id="modal21" class="modal">
+    <span class="close" onclick="closeModal('modal21')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXII. DEUDA PÚBLICA</h3>
-      <p>
-        La información relativa a la deuda pública, en términos de la normatividad aplicable.
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="NO APLICA">NO APLICA</a></th>
-            </tr>
-            <tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div id="modal23" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 15</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>XXIII. GASTOS RELATIVOS A COMUNICACIÓN SOCIAL Y PUBLICIDAD OFICIAL</h3>
+      <hr class="separ">
+      <h3>XXI. GASTOS RELATIVOS A COMUNICACIÓN SOCIAL Y PUBLICIDAD OFICIAL</h3>
       <p>
         Los montos destinados a gastos relativos a comunicación social y publicidad oficial desglosada por tipo de medio, proveedores, números de contrato o compaña.
       </p>
@@ -1552,40 +1767,152 @@
               <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
-          <tbody class="table-group-divider">
+                    <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Programa Anual">Formato A</a></th>
-              <td>Unidad Técnica de Comunicación Social</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Erogación de recursos">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Tiempos oficiales">Formato C</a></th>
-              <td>Dirección Ejecutiva de Prerrogrativa y partidos políticos</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Programa Anual">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Unidad Técnica de Comunicación Social</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Errogación de recursos">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Tiempo oficiales">
+                <ul>
+                  <li>Formato C</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Prerrogativas y Partidos Políticos</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal24" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal22" class="modal">
+    <span class="close" onclick="closeModal('modal22')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXIV. AUDITORIAS</h3>
+      <hr class="separ">
+      <h3>XXII. INFORMES DE RESULTADOS DE LAS AUDITORIAS AL EJERCICIO PRESUPUESTAL</h3>
+      <p>
+        Los informes de resultados de las auditorias al ejercicio presupuestal de cada sujeto obligado que se realicen y, en su caso, las aclaraciones que corresponda.
+      </p>
+      <div class="fraccion">
+        <div class="separador">
+          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+          <span class="texto">Publicaciones</span>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><i class="fa-solid fa-download"></i></th>
+              <th scope="col">RESPONSABLE</th>
+              <th scope="col">FECHA DE VALIDACIÓN</th>
+              <th scope="col">FECHA DE ACTUALIZACÓN</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Resultados de auditorias">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Resuldatos de auditorias">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Contraloría General</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal23" class="modal">
+    <span class="close" onclick="closeModal('modal23')">&times;</span>
+    <div class="modal-content">
+      <h2>Articulo 15</h2>
+      <p>
+        <strong>Información Pública de Oficio</strong><br>
+        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+      </p>
+      <hr class="separ">
+      <h3>XXIII. RESULTADOS DE LA DICTAMINACIÓN DE LOS ESTADOS FINANCIEROS</h3>
       <p>
         Los informes de resultados de las auditorías al ejercicio presupuestal de cada sujeto obligado que se realicen y, en su caso, las aclaraciones que correspondan.
       </p>
@@ -1603,79 +1930,61 @@
               <th scope="col">FECHA DE ACTUALIZACIÓN</th>
             </tr>
           </thead>
-          <tbody class="table-group-divider">
+           <tbody class="table-group-divider">
             <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resultados de auditorias">Formato A</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Resultados de auditorias">Formato B</a></th>
-              <td>Contraloría General</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Dictaminación de estados financieros">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Dictaminación de estados financieros">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Contraloría General</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal25" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal24" class="modal">
+    <span class="close" onclick="closeModal('modal24')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXV. DICTAMINACIÓN DE LOS ESTADOS FINANCIEROS</h3>
-      <p>
-        El resultado de la dictaminación de los estados financieros.
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Dictaminación de estados financieros">Formato A</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Contraloría General">Formato B</a></th>
-              <td>Dictaminación de estados financieros</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div id="modal26" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 15</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>XXVI. LISTADOS DE PERSONAS FÍSICAS Y MORALES CON ASIGNACIÓN DE RECURSOS PÚBLICO </h3>
+      <hr class="separ">
+      <h3>XXIV. LISTADOS DE PERSONAS FÍSICAS Y MORALES CON ASIGNACIÓN DE RECURSOS PÚBLICO </h3>
       <p>
         Los montos,criteriós, convocatorias, listado de personas físicas o morales a quienes, por cualquier motivo, se les asigne o permita usar recursos públicos o, e los términos de las disposiciones aplicables, realicen actos de autoridad. Asimismo, los informes que dichas personas les entreguen sobre el uso y destino de dichos recursos.
       </p>
@@ -1684,7 +1993,6 @@
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
           <span class="texto">Publicaciones</span>
         </div>
-        <!-- tablas -->
         <table class="table">
           <thead>
             <tr>
@@ -1695,27 +2003,41 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Personas fisicas asignadas para uso de recursos públicos">Formato</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Personas fisicas asignadas para uso de recursos públicos">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal27" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal25" class="modal">
+    <span class="close" onclick="closeModal('modal25')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXVII. CONCESIONES, CONTRATOS, CONVENIOS, PERMISOS, LICENCIAS O AUTORIZACIONES OTORGADAS. </h3>
+      <hr class="separ">
+      <h3>XXV. CONCESIONES, CONTRATOS, CONVENIOS, PERMISOS, LICENCIAS O AUTORIZACIONES OTORGADAS.</h3>
       <p>
         Las concesiones, contratos, convenios, permisos, licencias o autorizaciones otorgados, especificando los titurales de aquéllos, debido publicarse su objeto, nombre o razón social del titular, vigencia, tipo, términos, condiciones, monto y modificaciones, así como si el procedimiento involucra el aprovechamiento de bienes, servicios y/o recursos públicos.
       </p>
@@ -1734,27 +2056,41 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Concesiones, contratos, convenios, permisos, licencias o autorizaciones otorgados por el OPLE">Formato</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+           <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Concesiones,contratos,convenios,permisos,licencias o autorizaciones otorgados por el OPLE">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal28" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal26" class="modal">
+    <span class="close" onclick="closeModal('modal26')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXVIII. ADJUDICACIÓN DIRECTA, INVITACIÓN RESTRINGIDA Y LICITACIÓN</h3>
+      <hr class="separ">
+      <h3>XXVI. PROCEDIMIENTOS DE ADJUDICACIÓN DIRECTA, INVITACIÓN RESTRINGIDA Y LICITACIÓN</h3>
       <p>
         La información sobre los resultados sobre procedimiento de adjudicación directa, invitación restringida y licitación de cualquier naturaleza, incluyendo la Versión Pública del Expediente respectivo y de los contratos celebrados, que deberá contener, por lo menos, lo siguiente:<br>
         A) De licitaciones públicas o procedimientos de invitación restringida: 1. La convocatoria o invitación emitida, así como los fundamentos legales aplicados para llevarla a cabo; 2. Los nombres de los participantes o invitados; 3. El nombre del ganador y las razones que lo justifican; 4. El Área solicitante y la responsable de su ejecución; 5. Las convocatorias e invitaciones emitidas; 6. Los dictámenes y fallo de adjudicación; 7. El contrato y, en su caso, sus anexos; 8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda; 9. La partida presupuestal, de conformidad con el clasificador por objeto del gasto, en el caso de ser aplicable; 10. Origen de los recursos especificando si son federales, estatales o municipales, así como el tipo de fondo de participación o aportación respectiva; 11. Los convenios modificatorios que, en su caso, sean firmados, precisando el objeto y la fecha de celebración; 12. Los informes de avance físico y financiero sobre las obras o servicios contratados; 13. El convenio de terminación, y 14. El finiquito;<br>
@@ -1774,27 +2110,41 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Licitación pública">Formato</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Licitación Pública">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal29" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal27" class="modal">
+    <span class="close" onclick="closeModal('modal27')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXIX. LOS INFORMES QUE POR DISPOSICIÓN LEGAL GENEREN LOS SUJETOS OBLIGADOS. </h3>
+      <hr class="separ">
+      <h3>XXIX. INFORMES QUE GENEREN DE CONFORMIDAD CON LAS DISPOSICIONES JURÍDICAS. </h3>
       <p>
         Los informes que por disposición legal generen los sujetos obligados.
       </p>
@@ -1813,45 +2163,98 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes">Formato A</a></th>
-              <td>Secretaría Ejecutiva</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informe">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes">Formato C</a></th>
-              <td>Contraloría General</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Informes">Formato D</a></th>
-              <td>Unidad Técnica de Transparencia</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Secretaría Ejecutiva</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+           <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <ul>
+                  <li>Formato C</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Contraloría General</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <ul>
+                  <li>Formato D</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Unida Técnica de Transparencia</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal30" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal28" class="modal">
+    <span class="close" onclick="closeModal('modal28')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXX. ESTADISTICAS.</h3>
+      <hr class="separ">
+      <h3>XXX. ESTADISTICAS QUE SE GENEREN EN CUMPLIMIENTO A LAS FACULTADES.</h3>
       <p>
         Las estadísticas que generen en cumplimiento de sus facultades, competencias o funciones con la mayor desagregación posible.
       </p>
@@ -1870,27 +2273,41 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estadisticas">Formato</a></th>
-              <td>Dirección Ejecutiva de Organización Electoral</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Estadisticas">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Organización Electoral</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
-  </div> 
+  </div>
 
-  <div id="modal31" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal29" class="modal">
+    <span class="close" onclick="closeModal('modal29')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXXI. INFORMES DE AVANCES PROGRAMÁTICOS.</h3>
+      <hr class="separ">
+      <h3>XXXI. INFORMES DE AVANCES PROGRAMÁTICOS O PRESUPUESTAL.</h3>
       <p>
         Informes de avances programáticos o presupuestales, balances generales y su estado financiero.
       </p>
@@ -1909,33 +2326,60 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estados financieros">Formato A</a></th>
-              <td>Dirección Ejecutivos de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estados financieros">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Estados financieros">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Estados Financieros">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
-  </div> 
+  </div>
 
-  <div id="modal32" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal30" class="modal">
+    <span class="close" onclick="closeModal('modal30')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXXII. PADRÓN DE PROVEEDORES Y CONTRATISTA.</h3>
+      <hr class="separ">
+      <h3>XXX. PADRÓN DE PROVEEDORES Y CONTRATISTA.</h3>
       <p>
         Padrón de proveedores y contratista.
       </p>
@@ -1954,27 +2398,41 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Padrón de proveedores y contratistas">Formato 1</a></th>
-              <td>Dirección Ejecutiva de Administrativa</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Padrón de proveedores y contratista">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
 
-  <div id="modal33" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal31" class="modal">
+    <span class="close" onclick="closeModal('modal31')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XXXIII. LOS CONVENIOS DE COORDINACIÓN.</h3>
+      <hr class="separ">
+      <h3>XXXI. CONVENIOS DE COORDINACIÓN DE COORDINACIÓN CON LOS SECTORES SOCIAL Y PRIVADO.</h3>
       <p>
         Los convenios de coordinación de concertación con los sectores social y privado.
       </p>
@@ -1993,32 +2451,59 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Convenios de coordinación, de concertación con el sector social o privado">Formato A</a></th>
-              <td>Dirección Ejecutiva de Asuntos Juridicos</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Convenios de coordinación, de concertación con el sector social o privado">Formato B</a></th>
-              <td>Secretaria Ejecutiva</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Convenios de coordinación, de concentración con el sector social y privado">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>            
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Convenios de coordinación, de concertación social y privado">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Secretaria Ejecutiva</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
           </tbody>
         </table>
       </div>
     </div>
-  </div> 
+  </div>
 
-  <div id="modal34" class="modal">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
+  <div id="modal32" class="modal">
+    <span class="close" onclick="closeModal('modal32')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 15</h2>
       <p>
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
+      <hr class="separ">
       <h3>XXXIV. INVENTARIO DE BIENES MUEBLES E INMUEBLES.</h3>
       <p>
         El inventario de bienes muebles e inmuebles en posición y propiedad.
@@ -2038,42 +2523,120 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario bienes muebles">Formato A</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario altas">Formato B</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="">Formato C</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario bienes inmuebles">Formato D</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario altas">Formato E</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Inventario Bajas">Formato F</a></th>
-              <td>Dirección Ejecutiva de Administración</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Inventarios bienes muebles">
+                <ul>
+                  <li>Formato A</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Inventario Alta">
+                <ul>
+                  <li>Formato B</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="">
+                <ul>
+                  <li>Formato C</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Inventario bienes inmuebles">
+                <ul>
+                  <li>Formato D</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Inventario altas">
+                <ul>
+                  <li>Formato E</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <a href="archivos/expe1.xlsx" class="btn" title="Inventario bajas">
+                <ul>
+                  <li>Formato F</li>
+                  <li>Downloading</li>
+                  <li>Open File</li>
+                </ul>
+                <div>
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="4 12 10 18 20 6"></polyline>
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <td>Dirección Ejecutiva de Administración</td>
+            <td>02/06/25</td>
+            <td>09/09/25</td>
+          </tr>
             <tr>
               <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Bienes muebles e inmuebles donados">Formato G</a></th>
               <td>Dirección Ejecutiva de Administración</td>
@@ -3066,7 +3629,8 @@
   <div class="contenedor">
     <div class="card" onclick="openModal('modalA')">
       <div class="icon"><i class="bi bi-person-badge"></i></div>
-      <h3 class="title">A)<br>Partidos Políticos, Asociaciones y Agrupaciones Políticas y Ciudadanos</h3>
+      <h2 class="titlee"> A.</h2>
+      <h3 class="title"><br>Listado de Partidos Políticos, Asociaciones y Agrupaciones Políticas o de Ciudadanos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3075,7 +3639,8 @@
 
     <div class="card" onclick="openModal('modalB')">
       <div class="icon"><i class="bi bi-file-earmark-text"></i></div>
-      <h3 class="title">B)<br>Informes</h3>
+      <h2 class="titlee">B.</h2>
+      <h3 class="title"><br>Informes Presentados por los Partidos Políticos, Asociaciones, Agrupaciones Políticas o de Ciudadanos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3084,7 +3649,8 @@
 
     <div class="card" onclick="openModal('modalC')">
       <div class="icon"><i class="bi bi-map"></i></div>
-      <h3 class="title">C)<br>Geografía y Cartografía Electoral</h3>
+      <h2 class="titlee">C.</h2>
+      <h3 class="title"><br>Geografia y Cartografía Electoral</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3094,7 +3660,8 @@
     <div class="card" onclick="openModal('modalD')">
       <div class="icon"><i class="bi bi-card-checklist"></i></i>
       </div>
-      <h3 class="title">D)<br>Registro de Candidatos a Cargos de Elección Popular</h3>
+      <h2 class="titlee">D.</h2>
+      <h3 class="title">Registro de Candidatos a Cargos de Elección Popular</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3104,7 +3671,8 @@
     <div class="card" onclick="openModal('modalE')">
       <div class="icon"><i class="bi bi-cash-stack"></i>
       </div>
-      <h3 class="title">E)<br>Montos de Financiamiento</h3>
+      <h2 class="titlee">E.</h2>
+      <h3 class="title">Montos de Financiamiento Público por Actividades Ordinarias, Financiamiento Privado y Topes de Campaña</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3114,7 +3682,8 @@
     <div class="card" onclick="openModal('modalF')">
       <div class="icon"><i class="bi bi-bar-chart-line"></i>
       </div>
-      <h3 class="title">F)<br>Metología e Informes de Encuentas y Programas de Conteo Rápido</h3>
+      <h2 class="titlee">F.</h2>
+      <h3 class="title">Metología e Informes Sobre la Publicación de Encuestas y Conteos Rápidos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3124,7 +3693,8 @@
     <div class="card" onclick="openModal('modalG')">
       <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i>
       </div>
-      <h3 class="title">G)<br>Metología e Informes del Programa de Resultados Preliminares Electorales</h3>
+      <h2 class="titlee">G.</h2>
+      <h3 class="title">Metología e Informes del Programa de Resultados Preliminares</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3134,7 +3704,8 @@
     <div class="card" onclick="openModal('modalH')">
       <div class="icon"><i class="bi bi-clipboard-data"></i>
       </div>
-      <h3 class="title">H)<br>Cómputos Totales de las Elecciones</h3>
+      <h2 class="titlee">H.</h2>
+      <h3 class="title">Cómputos Totales de las Elecciones y Procesos de Participacion Ciudadana</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3144,7 +3715,8 @@
     <div class="card" onclick="openModal('modalI')">
       <div class="icon"><i class="bi bi-check-circle"></i>
       </div>
-      <h3 class="title">I)<br>Resultado y Declaraciones de Validez de las Elecciones</h3>
+      <h2 class="titlee">I.</h2>
+      <h3 class="title">Resultado y Declaraciones de Validez de las Elecciones</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3153,7 +3725,8 @@
 
     <div class="card" onclick="openModal('modalJ')">
       <div class="icon"><i class="bi bi-journal-check"></i></div>
-      <h3 class="title">J)<br>Dictamenes, Informes y Resoluciones sobre la Pérdida de Registro</h3>
+      <h2 class="titlee">J.</h2>
+      <h3 class="title">Dictamenes, Informes y Resoluciones sobre Pérdida de Registro y Liquidación de los Partidos Politicos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3163,7 +3736,8 @@
     <div class="card" onclick="openModal('modalK')">
       <div class="icon"><i class="bi bi-broadcast"></i>
       </div>
-      <h3 class="title">K)<br>Monitoreo de Medios</h3>
+      <h2 class="tittle">K.</h2>
+      <h3 class="title">Monitoreo de Medios</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3173,17 +3747,8 @@
     <div class="card" onclick="openModal('modalL')">
       <div class="icon"><i class="bi bi-folder2-open"></i>
       </div>
-      <h3 class="title">L)<br>Expedientes de Quejas</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div>
-
-    <div class="card" onclick="openModal('modalM')">
-      <div class="icon"><i class="bi bi-list-check"></i>
-      </div>
-      <h3 class="title">M)<br>Lista de Acuerdos, Sentencias, Resoluciones y Criterios Relevantes</h3>
+      <h2 class="tittle">L.</h2>
+      <h3 class="title">Expedientes sobre Quejas Resueltas por Violaciones al Código Electoral</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3193,27 +3758,19 @@
     <div class="card" onclick="openModal('modalN')">
       <div class="icon"><i class="bi bi-search"></i>
       </div>
-      <h3 class="title">N)<br>Resultados de los Procedimientos de Fiscalización</h3>
+      <h2 class="titlee">N.</h2>
+      <h3 class="title">Resultados de Revisiones,Auiditorias y Verificaciones que se Practiquen en los Procedimientos de Fiscalización</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
 
-    <div class="card" onclick="openModal('modalO')">
+    <div class="card" onclick="openModal('modalñ')">
       <div class="icon"><i class="bi bi-mic"></i>
       </div>
-      <h3 class="title">O)<br>Versiones Estenográficas de las Sesiones Públicas</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div>
-
-    <div class="card" onclick="openModal('modalP')">
-      <div class="icon"><i class="bi bi-pie-chart"></i>
-      </div>
-      <h3 class="title">P)<br>Estadísticas de los Medios de Impugnación</h3>
+      <h2 class="titlee">Ñ.</h2>
+      <h3 class="title">Versiones Estenográficas de las Sesiones Públicas</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3229,6 +3786,7 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
+      <hr class="separ">
       <h3>A). PARTIDOS POLITICOS, ASOCIAONES Y AGRUPACIONES POLÍTICAS Y CIUDADANOS </h3>
       <p>
         Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos regístrados ante la autoridad electoral.
@@ -3413,7 +3971,7 @@
             </tr>
           </tbody>
         </table>
-      </div> 
+      </div>
     </div>
   </div>
 
@@ -3895,7 +4453,7 @@
     </div>
   </div>
 
-  <div id="modalO" class="modal">
+  <div id="modalñ" class="modal">
     <span class="close" onclick="closeModal('modalO')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 19</h2>
@@ -3906,7 +4464,7 @@
       <h3>O.VERSIONES ESTENOGRÁFICAS DE LAS SESIONES PÚBLICAS</h3>
       <p>
         Las versiones estenográficas de las sesiones públicas.
-       </p>
+      </p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3930,69 +4488,9 @@
             </tr>
           </tbody>
         </table>
-      </div> 
-    </div> 
+      </div>
+    </div>
   </div>
-
-  <div id="modalP" class="modal">
-    <span class="close" onclick="closeModal('modalP')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 19</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 19 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>P.ESTADÍSTICAS DE LOS MEDIOS DE IMPUGNACIÓN</h3>
-      <p>
-        Estadisticas de los medios de impugnacion promovidos en contra de las resoluciones emitidas por la autoridad. 
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Estadisticas">Formato</a></th>
-              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
-        </table>
-      </div> 
-    </div> 
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

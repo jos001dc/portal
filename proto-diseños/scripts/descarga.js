@@ -8,21 +8,29 @@
     document.body.removeChild(enlace);
   }
 
-  // Detectar todos los botones con clase "btn"
-  const botones = document.querySelectorAll('.btn');
+  document.addEventListener('DOMContentLoaded', () => {
+    const botones = document.querySelectorAll('.btn');
 
-  botones.forEach(boton => {
-    boton.addEventListener('click', function (e) {
-      e.preventDefault();
+    botones.forEach(boton => {
+      boton.addEventListener('click', function (e) {
+        e.preventDefault();
 
-      // Extraer ID del botón, por ejemplo: "btn-formato1" -> "formato1"
-      const id = boton.id; // ej. "btn-formato1"
-      if (!id.startsWith('btn-')) return; // Ignora botones que no tengan el formato esperado
+        if (boton.classList.contains('loading')) return;
 
-      const nombreArchivo = id.replace('btn-', '') + '.xlsx'; // "formato1.xlsx"
-      const ruta = 'archivos/' + nombreArchivo;
+        // Obtener el archivo desde el href
+        const ruta = boton.getAttribute('href');
+        const nombreArchivo = ruta.split('/').pop(); // ejemplo: "expe1.xlsx"
 
-      descargarArchivo(ruta, nombreArchivo);
+        // Animación
+        boton.classList.add('loading');
+        setTimeout(() => {
+          boton.classList.remove('loading');
+          boton.classList.add('done'); // ✅ mostrar check
+        }, 2500);
+
+        // Descargar archivo
+        descargarArchivo(ruta, nombreArchivo);
+      });
     });
   });
 
