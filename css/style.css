@@ -324,8 +324,7 @@ body {
   background: var(--background-card);
   padding: 25px;
   border-radius: 12px;
-  width: 650px;
-  max-width: 100%;
+  width: 940px;
   max-height: 90vh;
   align-content: center;
   align-items: center;
@@ -392,7 +391,7 @@ body {
 .fraccion::before {
   content: "";
   position: absolute;
-  width: 649px;
+  width: 930px;
   height: 9px;
   background: var(--primary-color);
 }
@@ -432,6 +431,9 @@ body {
     .table td {
       text-align: justify;
     }
+    .table li{
+      text-align: center;
+    }
 
     .table thead th {
       background: #f8f9fa;
@@ -463,6 +465,7 @@ body {
 
     .btn ul {
       margin: 0;
+      width: 130px;
       padding: 12px 25px; /* 🔹 un poco más pequeño */
       list-style: none;
       text-align: center;
