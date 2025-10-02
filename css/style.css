@@ -157,7 +157,7 @@ body {
 
 
 }
-
+/*Seccion del banner, y banner-over*/
 .banner-section {
   position: relative;
   background-image: url('../image/ople.jpg');
@@ -217,16 +217,35 @@ body {
   text-align: center;
   border-radius: 10px;
 }
-
-.ajus {
-  width: 66% !important;
-  margin: 20px auto !important;
-  line-height: 1.6 !important;
-  text-align: justify !important;
-  word-wrap: break-word !important;
+.btn-elegante {
+  background: linear-gradient(135deg, var(--primary-color), var(--terceary-color));
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(172, 108, 156, 0.3);
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
 }
 
-/*Inicio de la config de la ventana modal*/
+.btn-elegante:hover {
+  background: linear-gradient(135deg, var(--secondary-color), var(--cuarary-color));
+  box-shadow: 0 6px 12px rgba(172, 108, 156, 0.5);
+  transform: translateY(-2px);
+}
+.btn-elegante:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(172, 108, 156, 0.4);
+}
+
+
+/*toda la config de la ventana modal cerrada*/
 .contenedor {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
@@ -306,6 +325,7 @@ body {
   transform: translateX(5px) rotate(-15deg);
 }
 
+/*config de ventana modal abierta toda*/
 .modal {
   display: none;
   position: fixed;
@@ -579,8 +599,6 @@ body {
       75%, 100% { transform: scaleY(1); border-radius: 0; }
     }
 
-
-
 .close {
   position: absolute;
   top: 15px;
@@ -588,40 +606,6 @@ body {
   font-size: 28px;
   color: var(--text-color-light);
   cursor: pointer;
-}
-
-.btn-elegante {
-  background: linear-gradient(135deg, var(--primary-color), var(--terceary-color));
-  color: white;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5em;
-  padding: 0.75em 1.5em;
-  font-size: 1rem;
-  font-weight: 500;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(172, 108, 156, 0.3);
-  transition: all 0.3s ease;
-  letter-spacing: 0.5px;
-}
-
-.btn-elegante:hover {
-  background: linear-gradient(135deg, var(--secondary-color), var(--cuarary-color));
-  box-shadow: 0 6px 12px rgba(172, 108, 156, 0.5);
-  transform: translateY(-2px);
-}
-
-.btn-elegante:active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 6px rgba(172, 108, 156, 0.4);
-}
-
-.btn-icon {
-  width: 1.2em;
-  height: 1.2em;
-  fill: currentColor;
 }
 
 .separador {
@@ -642,7 +626,14 @@ body {
   font-size: 1.3rem;
   color: #fff;
 }
+.separ {
+  border: none;
+  border-top: 2px solid #c1c1c1; /* color y grosor */
+  margin: 10px 0; /* espacio arriba y abajo */
+  width: 100%; 
+}
 
+/*config del footer*/
 footer {
   margin-top: 10%;
   background: var(--quintary-color);
@@ -737,14 +728,6 @@ footer {
     transform: translateX(-50%);
   }
 }
-
-.separ {
-  border: none;
-  border-top: 2px solid #c1c1c1; /* color y grosor */
-  margin: 10px 0; /* espacio arriba y abajo */
-  width: 100%; /* o ajustado según prefieras */
-}
-
 
 
 
