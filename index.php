@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
@@ -20,7 +20,7 @@
   <!--inicio del navbar -->
   <nav class="navbar">
     <div class="navbar-container">
-      <button class="btn-elegante"><img src="../json/wired-outline-63-home-hover-3d-roll.gif" alt="" width="30" height="30">
+      <button class="btn-elegante"><img src="./json/wired-outline-63-home-hover-3d-roll.gif" alt="" width="30" height="30">
         <span>OPLE</span>
       </button>
       <ul class="navbar-menu">
@@ -215,16 +215,6 @@
       </div>
     </div>
 
-    <!-- <div class="card" onclick="openModal('modal14')">
-      <div class="icon"><i class="bi bi-megaphone"></i>
-      </div>
-      <h3 class="title">XIV.<br>Convocatorias Para Cargos Públicos</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div> -->
-
     <div class="card" onclick="openModal('modal15')">
       <div class="icon"><i class="bi bi-slash-circle"></i>
       </div>
@@ -247,18 +237,6 @@
       </div>
     </div>
 
-    <!-- 
-    <div class="card" onclick="openModal('modal17')">
-      <div class="icon"><i class="bi bi-person-lines-fill"></i>
-      </div>
-      <h2 class="titlee"> XVII.</h2>
-      <h3 class="title">Listado de personas Servidoras Públicas con Sanciones Administrativas</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div>-->
-
     <div class="card" onclick="openModal('modal18')">
       <div class="icon"><i class="bi bi-people"></i>
       </div>
@@ -280,16 +258,6 @@
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-
-    <!-- <div class="card" onclick="openModal('modal20')">
-      <div class="icon"><i class="bi bi-folder-check"></i>
-      </div>
-      <h3 class="title">XX.<br>Trámites, Requisitos y Formatos</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div> -->
 
     <div class="card" onclick="openModal('modal21')">
       <div class="icon"><i class="bi bi-wallet2"></i>
@@ -456,17 +424,6 @@
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
-    <!-- 
-    <div class="card" onclick="openModal('modal36')">
-      <div class="icon"><i class="fa-solid fa-scale-balanced"></i>
-      </div>
-      <h2 class="titlee"> XXXVI.</h2>
-      <h3 class="title"></h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div>-->
 
     <div class="card" onclick="openModal('modal37')">
       <div class="icon"><i class="bi bi-people"></i>
@@ -523,18 +480,6 @@
       </div>
     </div>
 
-    <!-- Aun no se sabe si poner o quitar
-    <div class="card" onclick="openModal('modal44')">
-      <div class="icon"><i class="bi bi-file-earmark-text"></i>
-      </div>
-      <h2 class="titlee"> XLIV.</h2>
-      <h3 class="title">Actas de Sesiones, Opiniones y Recomendaciones de los Consejos Consultivos</h3>
-      <div class="card-hover">
-        <span>Ver más</span>
-        <i class="bi bi-arrow-right"></i>
-      </div>
-    </div> -->
-
     <div class="card" onclick="openModal('modal45')">
       <div class="icon">
         <div class="icon"><i class="bi bi-info-circle"></i>
@@ -581,7 +526,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn">
+                <a href="./art50/fracciones/01/F1juridico2025 (3).xlsx" class="btn">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -613,7 +558,7 @@
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
       <hr class="separ">
-      <h3>I. ESTRUCTURA ORGÁNICA COMPLETA</h3>
+      <h3>II. ESTRUCTURA ORGÁNICA COMPLETA</h3>
       <p>
         Su estructura orgánica completa, en un formato que permita vincular cada parte de la estructura, las atribuciones y responsabilidades que le corresponden a cada servidor público, prestador de servicios profesionales o miembro de los sujetos obligados, de conformidad con las disposiciones aplicables. </p>
       <div class="fraccion">
@@ -633,7 +578,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Estructura Orgánica Completa">
+                <a href="./art50/fracciones/02/F2Aadmon2025.xlsx" class="btn" title="Estructura Orgánica Completa">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -652,7 +597,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Organigrama">
+                <a href="./art50/fracciones/02/F2Badmon2025.xlsx" class="btn" title="Organigrama">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -704,7 +649,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Facultades de cada área">
+                <a href="./art50/fracciones/03/F3juridico2025.xlsx" class="btn" title="Facultades de cada área">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -757,7 +702,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Metas y Objetivos">
+                <a href="./art50/fracciones/04/F4planeacion2025.xlsx" class="btn" title="Metas y Objetivos">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -809,7 +754,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Indicadores de temas interés">
+                <a href="./art50/fracciones/05/F5planeacion2025.xlsx" class="btn" title="Indicadores de temas interés">
                   <ul>
                     <li> Formato A</li>
                     <li>Downloading</li>
@@ -862,7 +807,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Directorio del OPLE">
+                <a href="./art50/fracciones/06/F6planeacion2025.xlsx" class="btn" title="Directorio del OPLE">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -907,7 +852,7 @@
           <thead>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Remuneración Bruta y neta">
+                <a href="./art50/fracciones/07/F8Aadmon2025.xlsx" class="btn" title="Remuneración Bruta y neta">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -926,9 +871,9 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Tabulador de Sueldos y Salarios">
+                <a href="./art50/fracciones/07/F8Badmon2025.xlsx" class="btn" title="Tabulador de Sueldos y Salarios">
                   <ul>
-                    <li>Formato A</li>
+                    <li>Formato B</li>
                     <li>Downloading</li>
                     <li>Open File</li>
                   </ul>
@@ -978,7 +923,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Gastos de representación">
+                <a href="./art50/fracciones/08/F9admon2025.xlsx" class="btn" title="Gastos de representación">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1031,7 +976,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Plazas Vacantes">
+                <a href="./art50/fracciones/09/F10Aadmon2025.xlsx" class="btn" title="Plazas Vacantes">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1050,7 +995,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Total de Plazas">
+                <a href="./art50/fracciones/09/F10Badmon2025.xlsx" class="btn" title="Total de Plazas">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -1102,7 +1047,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Personal Contratado por Honorarios">
+                <a href="./art50/fracciones/10/F11admon2025.xlsx" class="btn" title="Personal Contratado por Honorarios">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1155,7 +1100,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Declaración de Situación patrimonial">
+                <a href="./art50/fracciones/11/F12Acontraloria2025.xlsx" class="btn" title="Declaración de Situación patrimonial">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1174,7 +1119,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Declaraciones Fiscales">
+                <a href="./art50/fracciones/11/F12Bcontraloria2025.xlsx" class="btn" title="Declaraciones Fiscales">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -1193,7 +1138,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Declaraciones Interés">
+                <a href="./art50/fracciones/11/F12Ccontraloria2025.xlsx" class="btn" title="Declaraciones Interés">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -1246,7 +1191,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Domicilio Oficial">
+                <a href="./art50/fracciones/12/F13transparencia2025.xlsx" class="btn" title="Domicilio Oficial">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1299,7 +1244,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Convocatorias">
+                <a href="./art50/fracciones/13/F14organizacion2025.xlsx" class="btn" title="Convocatorias">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1352,7 +1297,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Normatividad">
+                <a href="./art50/fracciones/15/F16Ajuridico2025.xlsx" class="btn" title="Normatividad">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1371,7 +1316,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Recursos públicos entregados a Sindicatos">
+                <a href="./art50/fracciones/15/F16admon2025.xlsx" class="btn" title="Recursos públicos entregados a Sindicatos">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -1424,7 +1369,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Información Curricular">
+                <a href="./art50/fracciones/16/F17admon2025.xlsx" class="btn" title="Información Curricular">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1476,7 +1421,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Sanciones administrativas">
+                <a href="./art50/fracciones/17/F18contraloria2025.xlsx" class="btn" title="Sanciones administrativas">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1529,7 +1474,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Servicios">
+                <a href="./art50/fracciones/18/F19transparencia2025.xlsx" class="btn" title="Servicios">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1582,7 +1527,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Presupuesto Asignado">
+                <a href="./art50/fracciones/19/F21Aadmon2025.xlsx" class="btn" title="Presupuesto Asignado">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1601,7 +1546,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes trimestrales">
+                <a href="./art50/fracciones/19/F21Badmon2025.xlsx" class="btn" title="Informes trimestrales">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -1620,7 +1565,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Cuenta pública">
+                <a href="#" class="btn" title="Cuenta pública">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -1673,7 +1618,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Programa Anual">
+                <a href="./art50/fracciones/21/F23Acomunicacion2025.xlsx" class="btn" title="Programa Anual">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1692,7 +1637,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Errogación de recursos">
+                <a href="./art50/fracciones/21/F23Badmon2025.xlsx" class="btn" title="Errogación de recursos">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -1711,7 +1656,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Tiempo oficiales">
+                <a href="./art50/fracciones/21/F23Cprerrogativas2025.xlsx" class="btn" title="Tiempo oficiales">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -1764,7 +1709,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Resultados de auditorias">
+                <a href="./art50/fracciones/22/F24admon2025.xlsx" class="btn" title="Resultados de auditorias">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1783,7 +1728,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Resuldatos de auditorias">
+                <a href="./art50/fracciones/22/F24contraloria2025.xlsx" class="btn" title="Resuldatos de auditorias">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -1836,7 +1781,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Dictaminación de estados financieros">
+                <a href="./art50/fracciones/23/F25admon2025.xlsx" class="btn" title="Dictaminación de estados financieros">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1855,7 +1800,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Dictaminación de estados financieros">
+                <a href="./art50/fracciones/23/F25contraloria2025.xlsx" class="btn" title="Dictaminación de estados financieros">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -1908,7 +1853,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Personas fisicas asignadas para uso de recursos públicos">
+                <a href="./art50/fracciones/24/F26admon2025.xlsx" class="btn" title="Personas fisicas asignadas para uso de recursos públicos">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -1961,7 +1906,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Concesiones,contratos,convenios,permisos,licencias o autorizaciones otorgados por el OPLE">
+                <a href="./art50/fracciones/25/F27admon2025.xlsx" class="btn" title="Concesiones,contratos,convenios,permisos,licencias o autorizaciones otorgados por el OPLE">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2015,7 +1960,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Licitación Pública">
+                <a href="./art50/fracciones/26/F28Aadmon2025.xlsx" class="btn" title="Licitación Pública">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2068,7 +2013,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <a href="./art50/fracciones/27/F29secretaria2025.xlsx" class="btn" title="Informes">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2087,7 +2032,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <a href="./art50/fracciones/27/F29admon2025.xlsx" class="btn" title="Informes">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -2106,7 +2051,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <a href="./art50/fracciones/27/F29contraloria2025.xlsx" class="btn" title="Informes">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -2125,7 +2070,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes">
+                <a href="./art50/fracciones/27/F29Transparencia2025.xlsx" class="btn" title="Informes">
                   <ul>
                     <li>Formato D</li>
                     <li>Downloading</li>
@@ -2178,7 +2123,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Estadisticas">
+                <a href="./art50/fracciones/28/F30organizacion2025.xlsx" class="btn" title="Estadisticas">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2231,7 +2176,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Estados financieros">
+                <a href="./art50/fracciones/29/F31Aadmon2025.xlsx" class="btn" title="Estados financieros">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2250,7 +2195,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Estados Financieros">
+                <a href="./art50/fracciones/29/F31Badmon2025.xlsx" class="btn" title="Estados Financieros">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -2303,7 +2248,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Padrón de proveedores y contratista">
+                <a href="./art50/fracciones/30/F32admon2025.xlsx" class="btn" title="Padrón de proveedores y contratista">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2356,7 +2301,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Convenios de coordinación, de concentración con el sector social y privado">
+                <a href="./art50/fracciones/31/F33juridico2025.xlsx" class="btn" title="Convenios de coordinación, de concentración con el sector social y privado">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2375,7 +2320,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Convenios de coordinación, de concertación social y privado">
+                <a href="./art50/fracciones/31/F33secretaria2025.xlsx" class="btn" title="Convenios de coordinación, de concertación social y privado">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -2428,7 +2373,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Inventarios bienes muebles">
+                <a href="./art50/fracciones/32/F34Aadmon2025.xlsx" class="btn" title="Inventarios bienes muebles">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2447,7 +2392,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Inventario Alta">
+                <a href="./art50/fracciones/32/F34Badmon2025.xlsx" class="btn" title="Inventario Alta">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -2466,7 +2411,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art50/fracciones/32/F34Cadmon2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -2485,7 +2430,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Inventario bienes inmuebles">
+                <a href="./art50/fracciones/32/F34Dadmon2025.xlsx" class="btn" title="Inventario bienes inmuebles">
                   <ul>
                     <li>Formato D</li>
                     <li>Downloading</li>
@@ -2504,7 +2449,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Inventario altas">
+                <a href="./art50/fracciones/32/F34Eadmon2025.xlsx" class="btn" title="Inventario altas">
                   <ul>
                     <li>Formato E</li>
                     <li>Downloading</li>
@@ -2523,7 +2468,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Inventario bajas">
+                <a href="./art50/fracciones/32/F34Fadmon2025.xlsx" class="btn" title="Inventario bajas">
                   <ul>
                     <li>Formato F</li>
                     <li>Downloading</li>
@@ -2542,7 +2487,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Bienes muebles e inmuebles donados">
+                <a href="./art50/fracciones/32/F34Gadmon2025.xlsx" class="btn" title="Bienes muebles e inmuebles donados">
                   <ul>
                     <li>FormatoG</li>
                     <li>Downloading</li>
@@ -2595,7 +2540,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Recomendaciones emitidas por la comisión Nacional de Derechos Humanos">
+                <a href="./art50/fracciones/33/F35Ajuridico2025.xlsx" class="btn" title="Recomendaciones emitidas por la comisión Nacional de Derechos Humanos">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2614,7 +2559,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Casos especiales emitidas por la CNDH u otros organismo">
+                <a href="./art50/fracciones/33/F35Bjuridico2025.xlsx" class="btn" title="Casos especiales emitidas por la CNDH u otros organismo">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -2633,7 +2578,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Recomendaciones emitidas por Organismos internacionales">
+                <a href="./art50/fracciones/33/F35Cjuridico2025.xlsx" class="btn" title="Recomendaciones emitidas por Organismos internacionales">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -2686,7 +2631,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Resoluciones y laudos emitidos">
+                <a href="./art50/fracciones/34/F36juridico2025.xlsx" class="btn" title="Resoluciones y laudos emitidos">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2739,7 +2684,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/formato1.xlsx" class="btn" title="Mecanismos de Participación Ciudadana">
+                <a href="./art50/fracciones/35/F37Acapacitacion2025.xlsx" class="btn" title="Mecanismos de Participación Ciudadana">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2758,7 +2703,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Mecanismo de Participación Ciudadana">
+                <a href="./art50/fracciones/35/F37Bcapacitacion2025.xlsx" class="btn" title="Mecanismo de Participación Ciudadana">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -2811,7 +2756,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes de sesiones">
+                <a href="./art50/fracciones/37/F39Atransparencia2025.xlsx" class="btn" title="Informes de sesiones">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -2830,7 +2775,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes de resoluciones">
+                <a href="./art50/fracciones/37/F39Btransparencia2025.xlsx" class="btn" title="Informes de resoluciones">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -2849,7 +2794,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Integrantes de Comitéc de Transparencia">
+                <a href="./art50/fracciones/37/F39Ctransparencia2025.xlsx" class="btn" title="Integrantes de Comitéc de Transparencia">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -2868,7 +2813,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
+                <a href="./art50/fracciones/37/F39Dtransparencia2025.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
                   <ul>
                     <li>Formato D</li>
                     <li>Downloading</li>
@@ -2887,7 +2832,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E1Aorganizacion2025.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
                   <ul>
                     <li>Formato E1</li>
                     <li>Downloading</li>
@@ -2906,7 +2851,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E2capacitacion2025.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
                   <ul>
                     <li>Formato E2</li>
                     <li>Downloading</li>
@@ -2925,7 +2870,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E3prerrogativas2025.xlsx" class="btn" title="Calendario de Sesiones ordinarias">
                   <ul>
                     <li>Formato E3</li>
                     <li>Downloading</li>
@@ -2944,7 +2889,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E4Comunicacion2025.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
                   <ul>
                     <li>Formato E4</li>
                     <li>Downloading</li>
@@ -2963,7 +2908,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
+                <a href="./art50/fracciones/37/art15/F39e5secretaria2025.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
                   <ul>
                     <li>Formato E5</li>
                     <li>Downloading</li>
@@ -2982,7 +2927,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E6juridico2025.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
                   <ul>
                     <li>Formato E6</li>
                     <li>Downloading</li>
@@ -3001,7 +2946,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E7genero2025.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
                   <ul>
                     <li>Formato E7</li>
                     <li>Downloading</li>
@@ -3020,7 +2965,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E8formacion2025.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
                   <ul>
                     <li>Formato E8</li>
                     <li>Downloading</li>
@@ -3039,7 +2984,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
+                <a href="./art50/fracciones/37/art15/F39E9admon2025.xlsx" class="btn" title="Calendario de Sesiones Ordinarias">
                   <ul>
                     <li>Formato E9</li>
                     <li>Downloading</li>
@@ -3058,7 +3003,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art50/fracciones/37/art15/F39planeacion2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato E10</li>
                     <li>Downloading</li>
@@ -3077,7 +3022,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art50/fracciones/37/art15/F39E11odes2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato E11</li>
                     <li>Downloading</li>
@@ -3096,7 +3041,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art50/fracciones/37/art15/F39E12transparencia2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato E12</li>
                     <li>Downloading</li>
@@ -3149,7 +3094,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/formato1.xlsx" class="btn" title="Los estudios financiados con recursos Públicos">
+                <a href="./art50/fracciones/39/F41capacitacion2025.xlsx" class="btn" title="Los estudios financiados con recursos Públicos">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -3201,7 +3146,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/formato1.xlsx" class="btn" title="Ingresos Recibidos">
+                <a href="./art50/fracciones/41/F43Aadmon2025.xlsx" class="btn" title="Ingresos Recibidos">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -3220,7 +3165,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Responsable de recibir, administrar y ejercer los ingresos">
+                <a href="./art50/fracciones/41/F43Badmon2025.xlsx" class="btn" title="Responsable de recibir, administrar y ejercer los ingresos">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -3273,7 +3218,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/formato1.xlsx" class="btn" title="Donaciones a terceros en dinero">
+                <a href="./art50/fracciones/42/F44Aadmon2025.xlsx" class="btn" title="Donaciones a terceros en dinero">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -3326,7 +3271,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/formato1.xlsx" class="btn" title="Informes de sesiones">
+                <a href="./art50/fracciones/43/F45Atransparencia2025.xlsx" class="btn" title="Informes de sesiones">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -3345,7 +3290,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes de Resoluciones">
+                <a href="./art50/fracciones/43/F45Btransparencia2025.xlsx" class="btn" title="Informes de Resoluciones">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -3364,7 +3309,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/formato2.xlsx" class="btn" title="Informes de resoluciones">
+                <a href="./art50/fracciones/43/F45Ctransparencia2025.xlsx" class="btn" title="Informes de resoluciones">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -3386,78 +3331,6 @@
       </div>
     </div>
   </div>
-
-  <!-- <div id="modal44" class="modal">
-    <span class="close" onclick="closeModal('modal35')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 15</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 15 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <hr class="separ">
-      <h3>XLIV. ACTAS DE SESIONES, OPINIONES Y RECOMENDACIONES DE LOS CONSEJOS CONSULTIVOS.</h3>
-      <p>
-        Las actas de sesiones ordinarias y extraordinarias, asi como las opiniones y recomendaciones que emitan, en su caso, los consejos consultivos.
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-         <tr>
-            <th scope="row">
-              <a href="archivos/formato1.xlsx" class="btn" title="Actas del Consejo Consultivo">
-                <ul>
-                  <li>Formato A</li>
-                  <li>Downloading</li>
-                  <li>Open File</li>
-                </ul>
-                <div>
-                  <svg viewBox="0 0 24 24">
-                    <polyline points="4 12 10 18 20 6"></polyline>
-                  </svg>
-                </div>
-              </a>
-            </th>
-            <td>Formatos Unidad Técnica de Transparencia</td>
-            <td>02/06/25</td>
-            <td>09/09/25</td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <a href="archivos/expe1.xlsx" class="btn" title="Opiniones y recomendaciones del Consejo Consultivo">
-                <ul>
-                  <li>Formato B</li>
-                  <li>Downloading</li>
-                  <li>Open File</li>
-                </ul>
-                <div>
-                  <svg viewBox="0 0 24 24">
-                    <polyline points="4 12 10 18 20 6"></polyline>
-                  </svg>
-                </div>
-              </a>
-            </th>
-            <td>Formato Unidad Técnica del Consejo de Transparencia</td>
-            <td>02/06/25</td>
-            <td>09/09/25</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div> -->
 
   <div id="modal45" class="modal">
     <span class="close" onclick="closeModal('modal35')">&times;</span>
@@ -3489,7 +3362,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/formato1.xlsx" class="btn" title="Información de interes">
+                <a href="./art50/fracciones/45/F48Acapacitacion2025.xlsx" class="btn" title="Información de interes">
                   <ul>
                     <li>Formato A1</li>
                     <li>Downloading</li>
@@ -3508,7 +3381,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Información de interes">
+                <a href="./art50/fracciones/45/F48Aformacion2025.xlsx" class="btn" title="Información de interes">
                   <ul>
                     <li>Formato A2</li>
                     <li>Downloading</li>
@@ -3527,7 +3400,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Preguntas frecuentes">
+                <a href="./art50/fracciones/45/F48Borganizacion2025.xlsx" class="btn" title="Preguntas frecuentes">
                   <ul>
                     <li>Formato B1</li>
                     <li>Downloading</li>
@@ -3546,7 +3419,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Preguntas Frecuentes">
+                <a href="./art50/fracciones/45/F48Bsecretariado2025.xlsx" class="btn" title="Preguntas Frecuentes">
                   <ul>
                     <li>Formato B2</li>
                     <li>Downloading</li>
@@ -3565,7 +3438,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Preguntas Frecuentes">
+                <a href="./art50/fracciones/45/F48Btransparencia2025.xlsx" class="btn" title="Preguntas Frecuentes">
                   <ul>
                     <li>Formato B3</li>
                     <li>Downloading</li>
@@ -3584,7 +3457,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Preguntas Frecuentes">
+                <a href="./art50/fracciones/45/F54Bprerrogativas2025.xlsx" class="btn" title="Preguntas Frecuentes">
                   <ul>
                     <li>Formato B4</li>
                     <li>Downloading</li>
@@ -3603,7 +3476,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Transparencia Proactiva">
+                <a href="./art50/fracciones/45/F48Ctransparencia2025.xlsx" class="btn" title="Transparencia Proactiva">
                   <ul>
                     <li>Formato C1</li>
                     <li>Downloading</li>
@@ -3805,7 +3678,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Normatividad aplicable">
+                <a href="./art55/incisos/a/FA1prerrogativas2025.xlsx" class="btn" title="Normatividad aplicable">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -3824,7 +3697,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Asociaciones civiles y/o ciudadanos que realicen actividades de observación electoral">
+                <a href="./art55/incisos/a/FA2secretaria2025.xlsx" class="btn" title="Asociaciones civiles y/o ciudadanos que realicen actividades de observación electoral">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -3876,7 +3749,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes presentados">
+                <a href="./art55/incisos/b/FB1fiscalizacion2025.xlsx" class="btn" title="Informes presentados">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -3895,7 +3768,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes y Dictámenes">
+                <a href="./art55/incisos/b/FA2secretaria2025.xlsx" class="btn" title="Informes y Dictámenes">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -3948,7 +3821,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Registro de candidatos a cargos de elección popular">
+                <a href="./art55/incisos/d/FD1prerrogativas2025.xlsx" class="btn" title="Registro de candidatos a cargos de elección popular">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -3967,7 +3840,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="sistemas de consulta de candidatos a cargos de elección popular">
+                <a href="./art55/incisos/d/FD2prerrogativas2025.xlsx" class="btn" title="sistemas de consulta de candidatos a cargos de elección popular">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -3986,7 +3859,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Candidatos electos a cargos de elección popular">
+                <a href="./art55/incisos/d/FD3prerrogativas2025.xlsx" class="btn" title="Candidatos electos a cargos de elección popular">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -4005,7 +3878,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Sistema de consulta electos a cargo de elección popular">
+                <a href="./art55/incisos/d/FD4prerrogativas2025.xlsx" class="btn" title="Sistema de consulta electos a cargo de elección popular">
                   <ul>
                     <li>Formato D</li>
                     <li>Downloading</li>
@@ -4036,6 +3909,7 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
+      <hr class="separ">
       <h3>E. MONTOS DE FINANCIAMIENTO</h3>
       <p>
         Los montos de financiamiento público por actividades ordinarias, de campañas y específicas otorgadas a los partidos políticos,asociaciones y agrupaciones politicas o de ciudadanos, así como los montos autorizados de financiamiento privado y los topes de los gastos de compaña.</p>
@@ -4056,7 +3930,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Montos Entregados">
+                <a href="./art55/incisos/e/FE1prerrogativas2025.xlsx" class="btn" title="Montos Entregados">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4075,7 +3949,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Montos Autorizados">
+                <a href="./art55/incisos/e/FE2prerrogativas2025.xlsx" class="btn" title="Montos Autorizados">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -4094,7 +3968,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/e/FE3prerrogativas2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -4147,7 +4021,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/f/FG1secretaria2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4166,7 +4040,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/f/FG2secretaria2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -4185,7 +4059,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/f/FG3secretaria2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -4204,7 +4078,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/f/FG4secretaria2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato D</li>
                     <li>Downloading</li>
@@ -4223,7 +4097,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/f/FG5secretaria2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato E</li>
                     <li>Downloading</li>
@@ -4242,7 +4116,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/f/FG6secretaria2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato F</li>
                     <li>Downloading</li>

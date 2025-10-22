@@ -509,7 +509,7 @@ body {
     .btn > div {
       position: relative;
       width: 45px;
-      height: 45px;
+      height: 46px;
       background: var(--primary-color);
     }
 
@@ -560,15 +560,15 @@ body {
 
     /* Animaciones */
     .btn.loading ul {
-      animation: text 2s linear forwards 0.13s;
+      animation: text 3s linear forwards 0.10s;
     }
 
     .btn.loading > div:before {
-      animation: line 2s linear forwards 0.13s;
+      animation: line 3s linear forwards 0.10s;
     }
 
     .btn.loading > div:after {
-      animation: background 2s linear forwards 0.13s;
+      animation: background 3s linear forwards 0.10s;
     }
 
     .btn.done svg polyline {
@@ -589,7 +589,7 @@ body {
       5%, 10% { transform: translateY(-25px); }
       40% { transform: translateY(-15px); }
       65% { transform: translateY(0); }
-      75%, 100% { transform: translateY(25px); }
+      75%, 100% { transform: translateY(30px); }
     }
 
     @keyframes background {
