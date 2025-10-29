@@ -13,58 +13,85 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call" />
 </head>
 
 <body>
   <!--inicio del navbar -->
-  <nav class="navbar">
-    <div class="navbar-container">
-      <button class="btn-elegante"><img src="./json/wired-outline-63-home-hover-3d-roll.gif" alt="" width="30" height="30">
-        <span>OPLE</span>
-      </button>
-      <ul class="navbar-menu">
-        <li class="menu-item">
-          <a href="#" class="menu-link">Obligaciones por años <i class="fas fa-chevron-down"></i></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">2025</a></li>
-            <li><a href="#">2024</a></li>
-            <li><a href="#">2023</a></li>
-            <li><a href="#">2022</a></li>
-            <li><a href="#">2021</a></li>
-            <li><a href="#">2020</a></li>
-            <li><a href="#">2018-2019</a></li>
-            <li><a href="#">2015-2017</a></li>
-          </ul>
-        </li>
-        <li class="menu-item dropdown">
-          <a href="#" class="menu-link">LGTAIP <i class="fas fa-chevron-down"></i></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Articulo 70</a></li>
-            <li><a href="#">Articulo 70</a></li>
-          </ul>
-        </li>
-        <li class="menu-item dropdown">
-          <a href="#" class="menu-link">LEY 875 <i class="fas fa-chevron-down"></i></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Articulo 15</a></li>
-            <li><a href="#">Articulo 19</a></li>
-          </ul>
-        </li>
-        <li class="menu-item">
-          <a href="#" class="menu-link">LEY 848 (ABROGADA)</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!--final del navbar -->
+   <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <a href="https://www.oplever.org.mx/inicio_2025/" class="nav__logo" target="_blank" rel="noopener noreferrer">
+          <i class="ri-home-line"></i> OPLE
+        </a>
 
-  <!-- Inicio de la imagen -->
-  <section class="banner-section" data-aos="fade-in">
+        <div class="nav__toggle" id="nav-toggle" aria-expanded="false">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <a href="#" class="nav__link">
+              Obligaciones por años
+              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </a>
+
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2025</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2024</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2023</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2022</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2021</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2020</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2018–2019</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-share-forward-fill"></i> 2015–2017</a></li>
+            </ul>
+          </li>
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <a href="#" class="nav__link">
+              LGTAIP
+              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </a>
+
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link"><i class="ri-article-fill"></i> ARTÍCULO 70</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-article-fill"></i> ARTÍCULO 71</a></li>
+            </ul>
+          </li>
+
+          <!--=============== DROPDOWN 3 ===============-->
+          <li class="dropdown__item">
+            <a href="#" class="nav__link">
+              LEY 875
+              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </a>
+
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link"><i class="ri-article-fill"></i> ARTÍCULO 15</a></li>
+              <li><a href="#" class="dropdown__link"><i class="ri-article-fill"></i> ARTÍCULO 19</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#" class="nav__link">LEY 848 (ABROGADA)</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--inicio de la imagen  -->
+    <section class="banner-section" data-aos="fade-in">
     <div class="banner-overlay" data-aos="zoom-in">
       <h2 class="banner-title" data-aos="fade-up">Transparencia y Acceso a la Información</h2>
       <p class="banner-subtitle" data-aos="fade-up" data-aos-delay="200">Consulta nuestras obligaciones conforme a la ley</p>
-      <a href="#tabla" class="banner-button" data-aos="fade-up" data-aos-delay="400">Ver información</a>
+      <a href="https://www.plataformadetransparencia.org.mx/Inicio" class="banner-button" data-aos="fade-up" data-aos-delay="400">Te invitamos a consultar el SIPOT</a>
     </div>
   </section>
   <!--texto del articulo50 con el texto -->
@@ -72,10 +99,11 @@
     <h1>ARTICULO 50</h1>
     <h4>Obligaciones de Transparencia comunes</h4>
   </div>
-  <!-- Final de la imagen -->
+   <!-- Final de la imagen -->
 
   <!-- Inicio de la config de las modal -->
   <div class="contenedor">
+
     <div class="card" onclick="openModal('modal1')">
       <div class="icon"><i class="bi bi-journal-text"></i></div>
       <h2 class="titlee"> I.</h2>
@@ -495,7 +523,7 @@
   </div> <!-- Final de la config de las modal -->
 
 
- <!-- Configuraciones de la ventana modal abierta -->
+  <!-- Configuraciones de la ventana modal abierta -->
   <div id="modal1" class="modal">
     <span class="close" onclick="closeModal('modal1')">&times;</span>
     <div class="modal-content">
@@ -582,7 +610,6 @@
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
-                    <li>Open File</li>
                   </ul>
                   <div>
                     <svg viewBox="0 0 24 24">
@@ -905,7 +932,7 @@
       <hr class="separ">
       <h3>VIII. GASTOS DE REPRESENTACIÓN Y VIÁTICOS</h3>
       <p>
-        Los gastos de representación y viaticos, así como el objeto de informw de comisión correspondiente. </p>
+        Los gastos de representación y viaticos, así como el objeto e informe de comisión correspondiente. </p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3343,7 +3370,7 @@
       <hr class="separ">
       <h3>XLVI. INFORMACIÓN QUE SEA UTILIDAD O SE CONSIDERE RELEVANTE.</h3>
       <p>
-        Cualquier otra información que sea de utilidad o se considere relevante, además de la que, con base en la información estadisticas, responda a las preguntas hechas con más frecuencia por el público.
+        Las actas de sesiones ordinarias y extraordinarias, así como las opiniones y recomendaciones que emitan, en su caso, los consejos consultivos.
       </p>
       <div class="fraccion">
         <div class="separador">
@@ -3507,6 +3534,7 @@
   </div>
 
   <div class="contenedor">
+
     <div class="card" onclick="openModal('modalA')">
       <div class="icon"><i class="bi bi-person-badge"></i></div>
       <h2 class="titlee"> A.</h2>
@@ -3606,7 +3634,7 @@
     <div class="card" onclick="openModal('modalK')">
       <div class="icon"><i class="bi bi-broadcast"></i>
       </div>
-      <h2 class="tittle">K.</h2>
+      <h2 class="titlee">K.</h2>
       <h3 class="title">Monitoreo de Medios</h3>
       <div class="card-hover">
         <span>Ver más</span>
@@ -3617,7 +3645,7 @@
     <div class="card" onclick="openModal('modalL')">
       <div class="icon"><i class="bi bi-folder2-open"></i>
       </div>
-      <h2 class="tittle">L.</h2>
+      <h2 class="titlee">L.</h2>
       <h3 class="title">Expedientes sobre Quejas Resueltas por Violaciones al Código Electoral</h3>
       <div class="card-hover">
         <span>Ver más</span>
@@ -3912,7 +3940,7 @@
       <hr class="separ">
       <h3>E. MONTOS DE FINANCIAMIENTO</h3>
       <p>
-        Los montos de financiamiento público por actividades ordinarias, de campañas y específicas otorgadas a los partidos políticos,asociaciones y agrupaciones politicas o de ciudadanos, así como los montos autorizados de financiamiento privado y los topes de los gastos de compaña.</p>
+        Los montos de financiamiento público por actividades ordinarias, financiamiento privado y topes de campaña .</p>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4169,7 +4197,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Metodologia del PREP">
+                <a href="./art55/incisos/g/FH1informatica2025.xlsx" class="btn" title="Metodologia del PREP">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4188,7 +4216,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Resultados del PREP">
+                <a href="./art55/incisos/g/FH2informatica2025.xlsx" class="btn" title="Resultados del PREP">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -4240,7 +4268,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Resultados y Declaraciones de valídez">
+                <a href="./art55/incisos/h/FH1organizacion2025.xlsx" class="btn" title="Resultados y Declaraciones de valídez">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4293,7 +4321,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Resultados y Declaraciones de valídez">
+                <a href="./art55/incisos/i/FI1organizacion2025.xlsx" class="btn" title="Resultados y Declaraciones de valídez">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4346,7 +4374,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Dictámenes, Informes y Resoluciones">
+                <a href="./art55/incisos/j/FM2fiscalizacion2025.xlsx" class="btn" title="Dictámenes, Informes y Resoluciones">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4399,7 +4427,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Monitoreo a medios de comunicación">
+                <a href="./art55/incisos/k/FK1prerrogativas2025.xlsx" class="btn" title="Monitoreo a medios de comunicación">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4418,7 +4446,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes, convenios,contratos y datos de la empresa encargada del monitoreo de medios">
+                <a href="./art55/incisos/k/FK2prerrogativas2025.xlsx" class="btn" title="Informes, convenios,contratos y datos de la empresa encargada del monitoreo de medios">
                   <ul>
                     <li>Formato B</li>
                     <li>Downloading</li>
@@ -4437,7 +4465,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Dictámenes, Informes y Resoluciones">
+                <a href="./art55/incisos/k/FK3prerrogativas2025.xlsx" class="btn" title="Dictámenes, Informes y Resoluciones">
                   <ul>
                     <li>Formato C</li>
                     <li>Downloading</li>
@@ -4456,7 +4484,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/k/FK4prerrogativas2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato D</li>
                     <li>Downloading</li>
@@ -4475,7 +4503,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Monitoreo a medios de comunicación">
+                <a href="./art55/incisos/k/FK1fiscalizacion2025.xlsx" class="btn" title="Monitoreo a medios de comunicación">
                   <ul>
                     <li>Formato E</li>
                     <li>Downloading</li>
@@ -4494,7 +4522,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Informes,convenios,contratos y datos de las empresa encargada del monitoreo de medios">
+                <a href="./art55/incisos/k/FK2fiscalizacion2025.xlsx" class="btn" title="Informes,convenios,contratos y datos de las empresa encargada del monitoreo de medios">
                   <ul>
                     <li>Formato F</li>
                     <li>Downloading</li>
@@ -4513,7 +4541,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Dictamenes,Informes y Resoluciones">
+                <a href="./art55/incisos/k/FK3fiscalizacion2025.xlsx" class="btn" title="Dictamenes,Informes y Resoluciones">
                   <ul>
                     <li>Formato G</li>
                     <li>Downloading</li>
@@ -4532,7 +4560,7 @@
             </tr>
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="">
+                <a href="./art55/incisos/K/FK4fiscalizacion2025.xlsx" class="btn" title="">
                   <ul>
                     <li>Formato H</li>
                     <li>Downloading</li>
@@ -4585,7 +4613,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Quejas">
+                <a href="./art55/incisos/l/FLjuridico2025.xlsx" class="btn" title="Quejas">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4608,45 +4636,6 @@
     </div>
   </div>
 
-  <div id="modalM" class="modal">
-    <span class="close" onclick="closeModal('modalM')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 55</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <h3>XIV. LISTA DE ACUERDOS, SENTENCIAS, RESOLUCIONES Y CRITERIOS RELEVANTES</h3>
-      <p>
-        La lista de acuerdos, las sentencias, resoluciones y criterios relevantes, con los respectivos votos particulares o concurrentes, si los hubiere.
-      </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHAS DE VALIDACIÓN</th>
-              <th scope="col">FECHAS DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row"><a href="archivos/expe1.xlsx" class="btn" id="btn-expe1" title="Acuerdos, Sentencias, Resoluciones y Criterios Relevantes">Formato</a></th>
-              <td>Dirección Ejecutiva de Asuntos Jurídicos</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
   <div id="modalN" class="modal">
     <span class="close" onclick="closeModal('modalN')">&times;</span>
     <div class="modal-content">
@@ -4657,7 +4646,7 @@
       </p>
       <h3>N. RESULTADOS DE REVISIONES, AUDITORIAS Y VERIFICACIONES QUE SE PRACTIQUEN EN EL PROCEDIMIENTO DE FISCALIZACIÓN</h3>
       <p>
-        El resultado de las revisiones, auditorias y verificaciones que se practiquen en los procedimientos de fiscalización.
+        El resultado de las revisiones, auditorias y verificaciones que se practiquen en los procedimientos de fiscalización respectivo. 
       </p>
       <div class="fraccion">
         <div class="separador">
@@ -4676,7 +4665,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Resultados">
+                <a href="./art55/incisos/n/FN1fiscalizacion2025.xlsx" class="btn" title="Resultados">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4729,7 +4718,7 @@
           <tbody class="table-group-divider">
             <tr>
               <th scope="row">
-                <a href="archivos/expe1.xlsx" class="btn" title="Versiones estenográficas">
+                <a href="./art55/incisos/ñ/FO1secretariado2025.xlsx" class="btn" title="Versiones estenográficas">
                   <ul>
                     <li>Formato A</li>
                     <li>Downloading</li>
@@ -4795,9 +4784,11 @@
   </footer>
 
   <!-- final de la config de las modal -->
+  <script src="./scripts/nav.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./scripts/movimientos.js"></script>
   <script src="./scripts/descarga.js"></script>
+
   </script>
   <!-- AOS JS -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
