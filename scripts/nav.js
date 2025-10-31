@@ -1,104 +1,75 @@
-/*=============== SHOW MENU ===============*/
+/*=============== MOSTRAR / OCULTAR MENÚ PRINCIPAL ===============*/
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
-        nav = document.getElementById(navId)
+        nav = document.getElementById(navId);
 
   // Evita errores si los elementos no existen
-  if (!toggle || !nav) return
+  if (!toggle || !nav) return;
 
-  // Cuando se hace clic en el ícono de menú
+  // Cuando se hace clic en el ícono de menú (hamburguesa)
   toggle.addEventListener('click', (e) => {
-    e.stopPropagation()
+    e.stopPropagation();
 
     // Alterna la clase para mostrar/ocultar el menú
-    nav.classList.toggle('show-menu')
+    nav.classList.toggle('show-menu');
 
     // Alterna el ícono (hamburguesa / cerrar)
-    toggle.classList.toggle('show-icon')
+    toggle.classList.toggle('show-icon');
 
     // Actualiza el atributo aria-expanded para accesibilidad
-    const expanded = nav.classList.contains('show-menu')
-    toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false')
-  })
-}
+    const expanded = nav.classList.contains('show-menu');
+    toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  });
+};
 
 // Inicializa el menú
-showMenu('nav-toggle', 'nav-menu')
+showMenu('nav-toggle', 'nav-menu');
 
-/*=============== MEJORAS DE ACCESIBILIDAD Y DROPDOWNS ===============*/
+
+/*=============== ACCESIBILIDAD Y DROPDOWNS ===============*/
 (function() {
-  const toggle = document.getElementById('nav-toggle')
-  const nav = document.getElementById('nav-menu')
+  const toggle = document.getElementById('nav-toggle');
+  const nav = document.getElementById('nav-menu');
 
   // Actualiza aria-expanded según el estado del menú
   const updateAria = () => {
-    if (!toggle || !nav) return
-    const expanded = nav.classList.contains('show-menu')
-    toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false')
-  }
+    if (!toggle || !nav) return;
+    const expanded = nav.classList.contains('show-menu');
+    toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  };
 
   // Observa cambios de clase en el menú para mantener aria-expanded actualizado
   if (nav) {
-    const obs = new MutationObserver(updateAria)
-    obs.observe(nav, { attributes: true, attributeFilter: ['class'] })
+    const obs = new MutationObserver(updateAria);
+    obs.observe(nav, { attributes: true, attributeFilter: ['class'] });
   }
-  updateAria()
-
-  // Cierra el menú al presionar ESC
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      if (nav) nav.classList.remove('show-menu')
-      if (toggle) toggle.classList.remove('show-icon')
-      updateAria()
-      document.querySelectorAll('.dropdown__item.show-dropdown')
-        .forEach(d => d.classList.remove('show-dropdown'))
-    }
-  })
-
-  // Cierra el menú al hacer clic fuera
-  document.addEventListener('click', (e) => {
-    const insideNav = e.target.closest('#nav-menu') || e.target.closest('#nav-toggle')
-    if (!insideNav) {
-      if (nav) nav.classList.remove('show-menu')
-      if (toggle) toggle.classList.remove('show-icon')
-      updateAria()
-      document.querySelectorAll('.dropdown__item.show-dropdown')
-        .forEach(d => d.classList.remove('show-dropdown'))
-    }
-  })
+  updateAria();
 
   /*=============== DROPDOWNS EN MÓVIL ===============*/
-  const dropdownItems = document.querySelectorAll('.dropdown__item')
+  const dropdownItems = document.querySelectorAll('.dropdown__item');
 
   dropdownItems.forEach(item => {
-    const trigger = item.querySelector('.nav__link')
-    if (!trigger) return
+    const trigger = item.querySelector('.nav__link');
+    if (!trigger) return;
 
-    // Al hacer clic en el título del dropdown
     trigger.addEventListener('click', (ev) => {
       if (window.innerWidth <= 1118) { // Solo en pantallas pequeñas
-        ev.preventDefault()
-        ev.stopPropagation()
+        ev.preventDefault();
+        ev.stopPropagation();
 
-        // Cierra otros dropdowns
-        dropdownItems.forEach(d => { if (d !== item) d.classList.remove('show-dropdown') })
+        // Verifica si el dropdown actual está abierto
+        const isOpen = item.classList.contains('show-dropdown');
 
-        // Alterna el dropdown actual
-        item.classList.toggle('show-dropdown')
-      }
-    })
+        // Cierra todos los demás dropdowns abiertos
+        document.querySelectorAll('.dropdown__item.show-dropdown').forEach(i => {
+          i.classList.remove('show-dropdown');
+        });
 
-    // Cierra el menú y dropdown al hacer clic en un enlace interno
-    item.querySelectorAll('.dropdown__link').forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.stopPropagation()
-        if (window.innerWidth <= 1118) {
-          if (nav) nav.classList.remove('show-menu')
-          if (toggle) toggle.classList.remove('show-icon')
-          updateAria()
-          item.classList.remove('show-dropdown')
+        // Si no estaba abierto, lo abre
+        if (!isOpen) {
+          item.classList.add('show-dropdown');
         }
-      })
-    })
-  })
-})()
+      }
+    });
+  });
+})();

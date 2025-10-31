@@ -22,7 +22,7 @@
    <header class="header">
     <nav class="nav container">
       <div class="nav__data">
-        <a href="https://www.oplever.org.mx/inicio_2025/" class="nav__logo" target="_blank" rel="noopener noreferrer">
+        <a href="https://www1.oplever.org.mx/" class="nav__logo" target="_blank" rel="noopener noreferrer">
           <i class="ri-home-line"></i> OPLE
         </a>
 
@@ -35,10 +35,10 @@
       <!--=============== NAV MENU ===============-->
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-          <!--=============== DROPDOWN 1 ===============-->
+          <!--=============== Opcion 1 ===============-->
           <li class="dropdown__item">
             <a href="#" class="nav__link">
-              Obligaciones por años
+              OBLIGFACIONES POR AÑOS
               <i class="ri-arrow-down-s-line dropdown__arrow"></i>
             </a>
 
@@ -54,7 +54,7 @@
             </ul>
           </li>
 
-          <!--=============== DROPDOWN 2 ===============-->
+          <!--=============== Opcion 2 ===============-->
           <li class="dropdown__item">
             <a href="#" class="nav__link">
               LGTAIP
@@ -67,7 +67,7 @@
             </ul>
           </li>
 
-          <!--=============== DROPDOWN 3 ===============-->
+          <!--=============== Opcion 3 ===============-->
           <li class="dropdown__item">
             <a href="#" class="nav__link">
               LEY 875
@@ -91,7 +91,7 @@
     <div class="banner-overlay" data-aos="zoom-in">
       <h2 class="banner-title" data-aos="fade-up">Transparencia y Acceso a la Información</h2>
       <p class="banner-subtitle" data-aos="fade-up" data-aos-delay="200">Consulta nuestras obligaciones conforme a la ley</p>
-      <a href="https://www.plataformadetransparencia.org.mx/Inicio" class="banner-button" data-aos="fade-up" data-aos-delay="400">Te invitamos a consultar el SIPOT</a>
+      <a href="https://www.plataformadetransparencia.org.mx/Inicio" class="banner-button" data-aos="fade-up" data-aos-delay="400" target="_blank" rel="noreferrer">Te invitamos a consultar el SIPOT</a>
     </div>
   </section>
   <!--texto del articulo50 con el texto -->
@@ -4761,14 +4761,14 @@
     <div class="footer-section">
       <h3>Sitios de Interés</h3>
       <ul>
-        <li><a href="#">INE</a></li>
-        <li><a href="#">FISCALÍA GENERAL DEL ESTADO DE VERACRUZ</a></li>
-        <li><a href="#">Fiscalía Especializada en Delitos Electorales</a></li>
-        <li><a href="#">Poder Judicial del Estado de Veracruz</a></li>
-        <li><a href="#">SCJN</a></li>
-        <li><a href="#">Tribunal Electoral de Veracruz</a></li>
-        <li><a href="#">Tribunal Electoral del Poder Judicial de la Federación</a></li>
-        <li><a href="#">Página Oficial del OPLE</a></li>
+        <li><a href="https://ine.mx/" target="_blank" rel="noopener noreferrer">INE</a></li>
+        <li><a href="https://fiscaliaveracruz.gob.mx/" target="_blank" rel="noopener noreferrer">FISCALÍA GENERAL DEL ESTADO DE VERACRUZ</a></li>
+        <li><a href="https://fiscaliaveracruz.gob.mx/fiscalia-especializada-en-delitos-electorales/" target="_blank" rel="noppener noreferrer">Fiscalía Especializada en Delitos Electorales</a></li>
+        <li><a href="https://www.pjeveracruz.gob.mx/" target="_blank" rel="noopener norferrer">Poder Judicial del Estado de Veracruz</a></li>
+        <li><a href="https://www.scjn.gob.mx/" target="_blank" rel="noopener noreferrer">SCJN</a></li>
+        <li><a href="https://teever.gob.mx/tev2022/" target="_blank" rel="noopener noreferrer">Tribunal Electoral de Veracruz</a></li>
+        <li><a href="https://www.te.gob.mx/" target="_blank" rel="noopener noreferrer">Tribunal Electoral del Poder Judicial de la Federación</a></li>
+        <li><a href="https://www.oplever.org.mx/inicio_2025/" target="_blank" rel="noopener noreferrer">Página Oficial del OPLE</a></li>
       </ul>
     </div>
 
@@ -4788,14 +4788,12 @@
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./scripts/movimientos.js"></script>
   <script src="./scripts/descarga.js"></script>
-
-  </script>
-  <!-- AOS JS -->
+ 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 1000, // duración de la animación (milisegundos)
-      once: true // solo se anima una vez
+      duration: 1000, 
+      once: true 
     });
   </script>
 </body>
