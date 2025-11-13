@@ -456,11 +456,10 @@ a {
 
 
 .card {
-  width: 230px;
-  height: 255px;
+  width: 240px;
+  height: 280px;
   display: grid;
   grid-template-rows: 50px 50px 1fr;
-  /* tres filas */
   justify-items: center;
   align-items: center;
   background: var(--background-card);
@@ -473,6 +472,7 @@ a {
   text-align: center;
   color: var(--cuarary-color);
   padding: 10px;
+
 }
 
 .card .icon {
@@ -482,13 +482,13 @@ a {
 
 .card .titlee {
   font-size: 35px;
-  margin-top: 50px;
+  margin-top: 30px;
 
 }
 
 .card .title {
   font-size: 19px;
-  margin: 10px;
+  margin: 5px;
   text-align: left;
 }
 
@@ -527,7 +527,7 @@ a {
   .contenedor {
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     max-width: 100%;
-    padding: 85px;
+    padding: 86px;
   }
 }
 
