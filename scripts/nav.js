@@ -3,22 +3,39 @@ const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId);
 
-  // Evita errores si los elementos no existen
   if (!toggle || !nav) return;
 
-  // Cuando se hace clic en el ícono de menú (hamburguesa)
+  // Mostrar / ocultar al pulsar el ícono
   toggle.addEventListener('click', (e) => {
     e.stopPropagation();
 
-    // Alterna la clase para mostrar/ocultar el menú
-    nav.classList.toggle('show-menu');
+    if (window.innerWidth <= 1118) {
+      nav.classList.toggle('show-menu');
+      toggle.classList.toggle('show-icon');
 
-    // Alterna el ícono (hamburguesa / cerrar)
-    toggle.classList.toggle('show-icon');
+      const expanded = nav.classList.contains('show-menu');
+      toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    }
+  });
 
-    // Actualiza el atributo aria-expanded para accesibilidad
-    const expanded = nav.classList.contains('show-menu');
-    toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  // Cierra el menú si se hace clic fuera (solo en móvil)
+  document.addEventListener('click', (e) => {
+    if (window.innerWidth <= 1118) {
+      if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+        nav.classList.remove('show-menu');
+        toggle.classList.remove('show-icon');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    }
+  });
+
+  // Si se cambia el tamaño a escritorio, resetea todo
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 1118) {
+      nav.classList.remove('show-menu');
+      toggle.classList.remove('show-icon');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
   });
 };
 
@@ -31,14 +48,12 @@ showMenu('nav-toggle', 'nav-menu');
   const toggle = document.getElementById('nav-toggle');
   const nav = document.getElementById('nav-menu');
 
-  // Actualiza aria-expanded según el estado del menú
   const updateAria = () => {
     if (!toggle || !nav) return;
     const expanded = nav.classList.contains('show-menu');
     toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
   };
 
-  // Observa cambios de clase en el menú para mantener aria-expanded actualizado
   if (nav) {
     const obs = new MutationObserver(updateAria);
     obs.observe(nav, { attributes: true, attributeFilter: ['class'] });
@@ -53,22 +68,19 @@ showMenu('nav-toggle', 'nav-menu');
     if (!trigger) return;
 
     trigger.addEventListener('click', (ev) => {
-      if (window.innerWidth <= 1118) { // Solo en pantallas pequeñas
+      if (window.innerWidth <= 1118) {
         ev.preventDefault();
         ev.stopPropagation();
 
-        // Verifica si el dropdown actual está abierto
         const isOpen = item.classList.contains('show-dropdown');
 
-        // Cierra todos los demás dropdowns abiertos
+        // Cierra los demás dropdowns
         document.querySelectorAll('.dropdown__item.show-dropdown').forEach(i => {
           i.classList.remove('show-dropdown');
         });
 
-        // Si no estaba abierto, lo abre
-        if (!isOpen) {
-          item.classList.add('show-dropdown');
-        }
+        // Abre el actual
+        if (!isOpen) item.classList.add('show-dropdown');
       }
     });
   });

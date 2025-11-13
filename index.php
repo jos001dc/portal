@@ -19,7 +19,7 @@
 
 <body>
   <!--inicio del navbar -->
-   <header class="header">
+  <header class="header">
     <nav class="nav container">
       <div class="nav__data">
         <a href="https://www1.oplever.org.mx/" class="nav__logo" target="_blank" rel="noopener noreferrer">
@@ -85,21 +85,40 @@
       </div>
     </nav>
   </header>
-
   <!--inicio de la imagen  -->
-    <section class="banner-section" data-aos="fade-in">
+  <section class="banner-section" data-aos="fade-in">
     <div class="banner-overlay" data-aos="zoom-in">
       <h2 class="banner-title" data-aos="fade-up">Transparencia y Acceso a la Información</h2>
       <p class="banner-subtitle" data-aos="fade-up" data-aos-delay="200">Consulta nuestras obligaciones conforme a la ley</p>
       <a href="https://www.plataformadetransparencia.org.mx/Inicio" class="banner-button" data-aos="fade-up" data-aos-delay="400" target="_blank" rel="noreferrer">Te invitamos a consultar el SIPOT</a>
     </div>
+
+    <div class="indicador">
+      <span class="scroll-indicador">Scroll</span>
+      <i class="fa-solid fa-arrow-down"></i>
+    </div>
+
+
   </section>
+
+
+
+
+
+
+
+
+
   <!--texto del articulo50 con el texto -->
   <div class="banner-over">
     <h1>ARTICULO 50</h1>
     <h4>Obligaciones de Transparencia comunes</h4>
   </div>
-   <!-- Final de la imagen -->
+  <!-- Final de la imagen -->
+
+
+
+
 
   <!-- Inicio de la config de las modal -->
   <div class="contenedor">
@@ -904,7 +923,7 @@
               <td>10/07/2024</td>
               <td>30/07/2024</td>
             </tr>
-             <tr>
+            <tr>
               <th scope="row">
                 <a href="./art50/fracciones/07/F7Badmon2025.xlsx" class="btn" title="Tabulador de Sueldos y Salarios">
                   <ul>
@@ -1187,8 +1206,8 @@
                 </a>
               </th>
               <td>Contraloria General</td>
-             <td>11/07/2024</td>
-             <td>30/07/2024</td>
+              <td>11/07/2024</td>
+              <td>30/07/2024</td>
             </tr>
           </tbody>
         </table>
@@ -1426,7 +1445,7 @@
       </div>
     </div>
   </div>
-        <!--  
+  <!--  
 <div id="modal17" class="modal">
     <span class="close" onclick="closeModal('modal17')">&times;</span>
     <div class="modal-content">
@@ -4655,7 +4674,7 @@
       </p>
       <h3>N. Resultados de revisiones, auditorías y verificaciones que se practiquen en los procedimientos de fiscalización</h3>
       <p>
-        El resultado de las revisiones, auditorias y verificaciones que se practiquen en los procedimientos de fiscalización respectivo. 
+        El resultado de las revisiones, auditorias y verificaciones que se practiquen en los procedimientos de fiscalización respectivo.
       </p>
       <div class="fraccion">
         <div class="separador">
@@ -4797,12 +4816,12 @@
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./scripts/movimientos.js"></script>
   <script src="./scripts/descarga.js"></script>
- 
+
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 1000, 
-      once: true 
+      duration: 1000,
+      once: true
     });
   </script>
 </body>
