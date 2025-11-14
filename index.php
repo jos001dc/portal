@@ -4672,7 +4672,7 @@
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>N. Resultados de revisiones, auditorías y verificaciones que se practiquen en los procedimientos de fiscalización</h3>
+      <h3>N). Resultados de revisiones, auditorías y verificaciones que se practiquen en los procedimientos de fiscalización</h3>
       <p>
         El resultado de las revisiones, auditorias y verificaciones que se practiquen en los procedimientos de fiscalización respectivo.
       </p>
@@ -4717,7 +4717,7 @@
   </div>
 
   <div id="modalñ" class="modal">
-    <span class="close" onclick="closeModal('modalO')">&times;</span>
+    <span class="close" onclick="closeModal('modalñ')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
       <p>
@@ -4725,7 +4725,7 @@
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
       <hr class="separ">
-      <h3>O).Versiones estenográficas de las sesiones públicas</h3>
+      <h3>Ñ).Versiones estenográficas de las sesiones públicas</h3>
       <p>
         Las versiones estenográficas de las sesiones públicas.
       </p>
