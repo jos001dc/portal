@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal Transparencia</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <!--tipo de letra-->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -547,15 +548,18 @@
     <span class="close" onclick="closeModal('modal1')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>I. Marco normativo</h3>
+      <div class="junto">
+        <h3>I. Marco normativo.</h3>
       <p>
-        El marco normativo aplicable al sujeto obligado, en el que deberá incluirse leyes, códigos, reglamentos, decretos de creación, manuales administrativos, reglas de operación, criterios, políticas, entre otros.
+        El marco normativo aplicable al sujeto obligado, en el que deberá incluirse leyes
+        , códigos, reglamentos, decretos de creación, manuales administrativos, reglas de operación, criterios, políticas, entre otros.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -600,14 +604,20 @@
     <span class="close" onclick="closeModal('modal2')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>II. Estructura orgánica completa</h3>
+      <div class="junto">
+        <h3>II. Estructura orgánica completa.</h3>
       <p>
-        Su estructura orgánica completa, en un formato que permita vincular cada parte de la estructura, las atribuciones y responsabilidades que le corresponden a cada servidor público, prestador de servicios profesionales o miembro de los sujetos obligados, de conformidad con las disposiciones aplicables. </p>
+        Su estructura orgánica completa, en un formato que permita vincular cada parte de la estructura,
+         las atribuciones y responsabilidades que le corresponden a cada servidor público,
+          prestador de servicios profesionales o miembro de los sujetos obligados, de conformidad con las disposiciones aplicables.
+         </p>
+
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -670,14 +680,18 @@
     <span class="close" onclick="closeModal('modal3')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>III. Facultades de cada área</h3>
+      <div class="junto">
+        <h3>III. Facultades de cada área.</h3>
       <p>
-        Las facultades de cada área. </p>
+        Las facultades de cada área.
+       </p>
+
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -722,15 +736,17 @@
     <span class="close" onclick="closeModal('modal4')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>IV. Metas y objetivos de las áreas</h3>
+      <div class="junto">
+        <h3>IV. Metas y objetivos de las áreas.</h3>
       <p>
         Las metas y objetivos de las áreas de conformidad con sus programas operativos.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -775,14 +791,18 @@
     <span class="close" onclick="closeModal('modal5')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>V. Indicadores relacionados con temas de interés público</h3>
+      <div class="junto">
+        <h3>V. Indicadores relacionados con temas de interés público.</h3>
       <p>
-        Los indicadores relacionados con temas de interés público o trascendencia social que conforme a sus funciones, deban establecer</p>
+        Los indicadores relacionados con temas de interés público o trascendencia social que conforme a sus funciones, deban establecer.
+      </p>
+
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -827,15 +847,20 @@
     <span class="close" onclick="closeModal('modal6')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>VI. Directorio de todas las personas servidoras públicas</h3>
+      <div class="junto">
+        <h3>VI. Directorio de todas las personas servidoras públicas.</h3>
       <p>
         El directivo de todos los servidores públicos, a partir del nivel de jefe de dapartamento o su equivalente, o de menor nivel, cuando se brinde atencíon al público;
         realicen actos de autoridad o presten servicios profesionales bajo el régimen de confianza u honorarios y personal de base. El directorio deberá incluir, al menos el nombre, cargo o nombramiento asignado, nivel del puesto en la estructura orgánica, fecha de alta en el cargo, número telefónico, domicilio para recibir correspondencia
-        y Dirección de correo electrónico oficiales. </p>
+        y Dirección de correo electrónico oficiales.
+       </p>
+
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -880,15 +905,18 @@
     <span class="close" onclick="closeModal('modal7')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>VII. Remuneración de todas las personas servidoras públicas de base o confianza</h3>
+      <div class="junto">
+        <h3>VII. Remuneración de todas las personas servidoras públicas de base o confianza.</h3>
       <p>
         La remuneración bruta y neta de todos los servidores públicos de base o de confianza, de todas las percepciones, incluyendo sueldos, prestaciones, gratificaciones, primas, comisiones, dietas, bonos, estímulos, ingresos y sistemas de compensación
         , señalando la periodicidad de dicha remuneración.
+      </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -952,14 +980,18 @@
     <span class="close" onclick="closeModal('modal8')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>VIII.Gastos de representación y viáticos</h3>
+      <div class="junto">
+        <h3>VIII.Gastos de representación y viáticos.</h3>
       <p>
-        Los gastos de representación y viaticos, así como el objeto e informe de comisión correspondiente. </p>
+        Los gastos de representación y viaticos, así como el objeto e informe de comisión correspondiente.
+       </p>
+
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1004,15 +1036,17 @@
     <span class="close" onclick="closeModal('modal9')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>IX. Números total de las plazas</h3>
+      <div class="junto">
+        <h3>IX. Números total de las plazas.</h3>
       <p>
         El número total de las plazas y del personal de base y confianza, especificando el total de las vacantes, por nivel de puesto, para cada unidad administrativa.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1076,14 +1110,17 @@
     <span class="close" onclick="closeModal('modal10')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>X. Contrataciones de servidores profesionales por honorarios</h3>
-      <p> Las contrataciones de servicos profecionales por honoracios, señalando los nombres de los prestadores de servicios, los servicios contrataciones, el monto de los honorarios y el periodo de contratación.
+      <div class="junto">
+        <h3>X. Contrataciones de servidores profesionales por honorarios.</h3>
+      <p> Las contrataciones de servicos profecionales por honoracios, señalando los nombres de los prestadores de servicios
+        , los servicios contrataciones, el monto de los honorarios y el periodo de contratación.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1128,15 +1165,18 @@
     <span class="close" onclick="closeModal('modal11')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XI. Declaraciones patrimoniales de las personas servidoras públicas</h3>
+      <div class="junto">
+        <h3>XI. Declaraciones patrimoniales de las personas servidoras públicas.</h3>
       <p>
-        La información, en versión pública, de las declaraciones patrimoniales, fisical y de intereses de los servidores públicos que asi lo determinan, en los sistemas habilitados para ello, de acuerdo a la normatividad aplicable.
+        La información, en versión pública, de las declaraciones patrimoniales, fisical y de intereses de los servidores públicos que asi lo determinan
+        , en los sistemas habilitados para ello, de acuerdo a la normatividad aplicable.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1219,15 +1259,17 @@
     <span class="close" onclick="closeModal('modal12')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XII.Domicilio de la Unidad de Transparencia</h3>
+      <div class="junto">
+        <h3>XII.Domicilio de la Unidad de Transparencia.</h3>
       <p>
         El domicilio de la Unidad de Transparencia, además de la Direccion electronica donde podrán recibirse las solicitudes para obtener la información.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1272,15 +1314,17 @@
     <span class="close" onclick="closeModal('modal13')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XIII. Convocatorias para ocupar cargos públicos y sus resultados</h3>
+      <div class="junto">
+        <h3>XIII. Convocatorias para ocupar cargos públicos y sus resultados.</h3>
       <p>
         Las convocatorias a concursos para ocupar cargos públicos y los resultados de los mismos.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1325,15 +1369,18 @@
     <span class="close" onclick="closeModal('modal15')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XV.Condiciones generales de trabajo</h3>
+      <div class="junto">
+        <h3>XV.Condiciones generales de trabajo.</h3>
       <p>
-        Las condiciones generales de trabajo, contratos o convenios que regulan las relaciones laborales del personal de base o de confianza, así como los recursos públicos economicos, en especie o donativos, que sean entregados a los sindicatos y ejerzan como recursos públicos.
+        Las condiciones generales de trabajo, contratos o convenios que regulan las relaciones laborales del personal de base o de confianza
+        , así como los recursos públicos economicos, en especie o donativos, que sean entregados a los sindicatos y ejerzan como recursos públicos.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1397,15 +1444,18 @@
     <span class="close" onclick="closeModal('modal16')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 5 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XVI. Información curricular</h3>
+      <div class="junto">
+        <h3>XVI. Información curricular.</h3>
       <p>
-        La información curricular, desde el nivel de jefe de departamiento o equivalente, hasta el titular del sujeto obligado, así como, en su caso, las sanciones administrativas de que haya sido objeto.
+        La información curricular, desde el nivel de jefe de departamiento o equivalente, hasta el titular del sujeto obligado, así como
+        , en su caso, las sanciones administrativas de que haya sido objeto.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1445,73 +1495,22 @@
       </div>
     </div>
   </div>
-  <!--  
-<div id="modal17" class="modal">
-    <span class="close" onclick="closeModal('modal17')">&times;</span>
-    <div class="modal-content">
-      <h2>Articulo 50</h2>
-      <p>
-        <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
-      </p>
-      <hr class="separ">
-      <h3>XVIII.LISTADO DE PERSONAS SERVIDORAS PÚBLICAS CON SANCIONES ADMINISTRATIVAS </h3>
-      <p>
-        El listado de Servidores Públicos con sanciones administrativas definitivas, especificando la causa de sanciones y la disposicíon. </p>
-      <div class="fraccion">
-        <div class="separador">
-          <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
-          <span class="texto">Publicaciones</span>
-        </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><i class="fa-solid fa-download"></i></th>
-              <th scope="col">RESPONSABLE</th>
-              <th scope="col">FECHA DE VALIDACIÓN</th>
-              <th scope="col">FECHA DE ACTUALIZACIÓN</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr>
-              <th scope="row">
-                <a href="./art50/fracciones/17/F18contraloria2025.xlsx" class="btn" title="Sanciones administrativas">
-                  <ul>
-                    <li>Formato A</li>
-                    <li>Downloading</li>
-                    <li>Open File</li>
-                  </ul>
-                  <div>
-                    <svg viewBox="0 0 24 24">
-                      <polyline points="4 12 10 18 20 6"></polyline>
-                    </svg>
-                  </div>
-                </a>
-              </th>
-              <td>Contraloría General</td>
-              <td>02/06/25</td>
-              <td>09/09/25</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div> 
-  -->
 
   <div id="modal18" class="modal">
     <span class="close" onclick="closeModal('modal18')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XIX. Servicios y trámites que ofrecen</h3>
+      <div class="junto">
+        <h3>XVIII. Servicios y trámites que ofrecen.</h3>
       <p>
         Los servicos que ofrece señalando los requisitos para acceder a ellos.
       </p>
+      </div>
+
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1556,15 +1555,20 @@
     <span class="close" onclick="closeModal('modal19')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XIX. Información financiera sobre el presupuesto asignado</h3>
+
+      <div class="junto">
+        <h3>XIX. Información financiera sobre el presupuesto asignado.</h3>
       <p>
-        La informacíon financiera sobre el presupuesto asignado, así como los informes del ejercicio trimestral del gasto, en término de la Ley General de Contabilidad Gubernamental y demás normatividad aplicable.
+        La informacíon financiera sobre el presupuesto asignado, así como los informes del ejercicio trimestral del gasto
+        , en término de la Ley General de Contabilidad Gubernamental y demás normatividad aplicable.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1647,15 +1651,18 @@
     <span class="close" onclick="closeModal('modal21')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXI. Gastos relativos a comunicación social y públicidad oficial</h3>
+
+      <div class="junto">
+        <h3>XXI. Gastos relativos a comunicación social y públicidad oficial.</h3>
       <p>
         Los montos destinados a gastos relativos a comunicación social y publicidad oficial desglosada por tipo de medio, proveedores, números de contrato o compaña.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1738,15 +1745,17 @@
     <span class="close" onclick="closeModal('modal22')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXII. Información de resultados de las auditorías al ejercicio presupuestal</h3>
+      <div class="junto">
+        <h3>XXII. Información de resultados de las auditorías al ejercicio presupuestal.</h3>
       <p>
         Los informes de resultados de las auditorias al ejercicio presupuestal de cada sujeto obligado que se realicen y, en su caso, las aclaraciones que corresponda.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1810,15 +1819,17 @@
     <span class="close" onclick="closeModal('modal23')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXIII. Resultado de la dictaminación de los estados financieros</h3>
+      <div class="junto">
+        <h3>XXIII. Resultado de la dictaminación de los estados financieros.</h3>
       <p>
         El resultado de la dictaminación de los estados financieros.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1882,15 +1893,19 @@
     <span class="close" onclick="closeModal('modal24')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXIV. Listado de personas físicas y morales con asignación de recursos públicos </h3>
+      <div class="junto">
+        <h3>XXIV. Listado de personas físicas y morales con asignación de recursos públicos.</h3>
       <p>
-        Los montos,criteriós, convocatorias, listado de personas físicas o morales a quienes, por cualquier motivo, se les asigne o permita usar recursos públicos o, e los términos de las disposiciones aplicables, realicen actos de autoridad. Asimismo, los informes que dichas personas les entreguen sobre el uso y destino de dichos recursos.
+        Los montos,criteriós, convocatorias, listado de personas físicas o morales a quienes, por cualquier motivo
+        , se les asigne o permita usar recursos públicos o, e los términos de las disposiciones aplicables
+        , realicen actos de autoridad. Asimismo, los informes que dichas personas les entreguen sobre el uso y destino de dichos recursos.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1935,15 +1950,19 @@
     <span class="close" onclick="closeModal('modal25')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXV. CONCESIONES, CONTRATOS, CONVENIOS, PERMISOS, LICENCIAS O AUTORIZACIONES OTORGADAS.</h3>
+      <div class="junto">
+        <h3>XXV. Concesiones, contratos, convenios, permisos, licencias o autorizaciones otorgados.</h3>
       <p>
-        Las concesiones, contratos, convenios, permisos, licencias o autorizaciones otorgados, especificando los titurales de aquéllos, debido publicarse su objeto, nombre o razón social del titular, vigencia, tipo, términos, condiciones, monto y modificaciones, así como si el procedimiento involucra el aprovechamiento de bienes, servicios y/o recursos públicos.
+        Las concesiones, contratos, convenios, permisos, licencias o autorizaciones otorgados, especificando los titurales de aquéllos
+        , debido publicarse su objeto, nombre o razón social del titular, vigencia, tipo, términos, condiciones, monto y modificaciones
+        , así como si el procedimiento involucra el aprovechamiento de bienes, servicios y/o recursos públicos.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -1988,16 +2007,43 @@
     <span class="close" onclick="closeModal('modal26')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXVI. PROCEDIMIENTOS DE ADJUDICACIÓN DIRECTA, INVITACIÓN RESTRINGIDA Y LICITACIÓN</h3>
+      <div class="junto">
+        <h3>XXVI. Procedimientos de adjudicación directa, invitación restringida y licitación.</h3>
       <p>
         La información sobre los resultados sobre procedimiento de adjudicación directa, invitación restringida y licitación de cualquier naturaleza, incluyendo la Versión Pública del Expediente respectivo y de los contratos celebrados, que deberá contener, por lo menos, lo siguiente:<br>
-        A) De licitaciones públicas o procedimientos de invitación restringida: 1. La convocatoria o invitación emitida, así como los fundamentos legales aplicados para llevarla a cabo; 2. Los nombres de los participantes o invitados; 3. El nombre del ganador y las razones que lo justifican; 4. El Área solicitante y la responsable de su ejecución; 5. Las convocatorias e invitaciones emitidas; 6. Los dictámenes y fallo de adjudicación; 7. El contrato y, en su caso, sus anexos; 8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda; 9. La partida presupuestal, de conformidad con el clasificador por objeto del gasto, en el caso de ser aplicable; 10. Origen de los recursos especificando si son federales, estatales o municipales, así como el tipo de fondo de participación o aportación respectiva; 11. Los convenios modificatorios que, en su caso, sean firmados, precisando el objeto y la fecha de celebración; 12. Los informes de avance físico y financiero sobre las obras o servicios contratados; 13. El convenio de terminación, y 14. El finiquito;<br>
-        B) De las adjudicaciones directas: 1. La propuesta enviada por el participante; 2. Los motivos y fundamentos legales aplicados para llevarla a cabo; 3. La autorización del ejercicio de la opción; 4. En su caso, las cotizaciones consideradas, especificando los nombres de los Proveedores y los montos; 5. El nombre de la persona física o moral adjudicada; 6. La unidad administrativa solicitante y la responsable de su ejecución; 7. El número, fecha, el monto del contrato y el plazo de entrega o de ejecución de los servicios u obra; 8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda; 9. Los informes de avance sobre las obras o servicios contratados; 10. El convenio de terminación, y 11. El finiquito. </p>
+        A) De licitaciones públicas o procedimientos de invitación restringida:<br>
+         1. La convocatoria o invitación emitida, así como los fundamentos legales aplicados para llevarla a cabo;<br>
+          2. Los nombres de los participantes o invitados;<br>
+           3. El nombre del ganador y las razones que lo justifican;<br>
+            4. El Área solicitante y la responsable de su ejecución;<br>
+             5. Las convocatorias e invitaciones emitidas;<br>
+              6. Los dictámenes y fallo de adjudicación;<br>
+               7. El contrato y, en su caso, sus anexos;<br>
+                8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda;<br>
+                 9. La partida presupuestal, de conformidad con el clasificador por objeto del gasto, en el caso de ser aplicable;<br>
+                  10. Origen de los recursos especificando si son federales, estatales o municipales, así como el tipo de fondo de participación o aportación respectiva;<br>
+                   11. Los convenios modificatorios que, en su caso, sean firmados, precisando el objeto y la fecha de celebración;<br>
+                    12. Los informes de avance físico y financiero sobre las obras o servicios contratados;<br>
+                     13. El convenio de terminación, y<br>
+                      14. El finiquito;<br>
+        B) De las adjudicaciones directas:<br>
+         1. La propuesta enviada por el participante;<br>
+         2. Los motivos y fundamentos legales aplicados para llevarla a cabo;<br>
+          3. La autorización del ejercicio de la opción;<br> 
+         4. En su caso, las cotizaciones consideradas, especificando los nombres de los Proveedores y los montos;<br>
+         5. El nombre de la persona física o moral adjudicada;<br> 
+         6. La unidad administrativa solicitante y la responsable de su ejecución;<br> 
+         7. El número, fecha, el monto del contrato y el plazo de entrega o de ejecución de los servicios u obra;<br> 
+         8. Los mecanismos de vigilancia y supervisión, incluyendo, en su caso, los estudios de impacto urbano y ambiental, según corresponda;<br> 
+         9. Los informes de avance sobre las obras o servicios contratados;<br>
+          10. El convenio de terminación, y<br>
+           11. El finiquito. </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2042,15 +2088,17 @@
     <span class="close" onclick="closeModal('modal27')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXVII. INFORMES QUE GENEREN DE CONFORMIDAD CON LAS DISPOSICIONES JURÍDICAS. </h3>
+      <div class="junto">
+        <h3>XXVII. Informes que generen de conformidad con las disposiciones jurídicas. </h3>
       <p>
         Los informes que por disposición legal generen los sujetos obligados.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2152,15 +2200,17 @@
     <span class="close" onclick="closeModal('modal28')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXVIII. ESTADISTICAS QUE SE GENEREN EN CUMPLIMIENTO A LAS FACULTADES.</h3>
+      <div class="junto">
+        <h3>XXVIII. Estadísticas que se generen en cumplimiento a las facultades.</h3>
       <p>
         Las estadísticas que generen en cumplimiento de sus facultades, competencias o funciones con la mayor desagregación posible.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2205,15 +2255,17 @@
     <span class="close" onclick="closeModal('modal29')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXIX. INFORMES DE AVANCES PROGRAMÁTICOS O PRESUPUESTAL.</h3>
+      <div class="junto">
+        <h3>XXIX. Informes de avances programáticos o presupuestales.</h3>
       <p>
         Informes de avances programáticos o presupuestales, balances generales y su estado financiero.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2277,15 +2329,18 @@
     <span class="close" onclick="closeModal('modal30')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
-        En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
+        En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave
+        , se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXX. PADRÓN DE PROVEEDORES Y CONTRATISTA.</h3>
+      <div class="junto">
+        <h3>XXX. Padrón de proveedores y contratistas.</h3>
       <p>
         Padrón de proveedores y contratista.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2330,15 +2385,17 @@
     <span class="close" onclick="closeModal('modal31')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXXI. CONVENIOS DE COORDINACIÓN DE COORDINACIÓN CON LOS SECTORES SOCIAL Y PRIVADO.</h3>
+      <div class="junto">
+        <h3>XXXI. Convenios de coordinación con los sectores social y privado.</h3>
       <p>
         Los convenios de coordinación de concertación con los sectores social y privado.
       </p>
+      </div>
+
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2402,15 +2459,17 @@
     <span class="close" onclick="closeModal('modal32')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXXII. INVENTARIO DE BIENES MUEBLES E INMUEBLES.</h3>
+      <div class="junto">
+        <h3>XXXII. Inventario de bienes muebles e inmuebles.</h3>
       <p>
         El inventario de bienes muebles e inmuebles en posición y propiedad.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2569,15 +2628,18 @@
     <span class="close" onclick="closeModal('modal33')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXXIII. RECOMENDACIONES EMITIDAS POR LOS ÓRGANOS PÚBLICOS DEL ESTADO MEXICANO U ORGANISMOS INTERNACIONALES.</h3>
+      <div class="junto">
+        <h3>XXXIII. Recomendaciones emitidas por los órganos públicos del Estado mexicano u organismos internacionales.</h3>
       <p>
-        Las recomendaciones emitidas por los órganos públicos del Estado mexicano u organismo internacionales garantes de los derechos humanos, así como las acciones que han llevado a cabo para su atención.
+        Las recomendaciones emitidas por los órganos públicos del Estado mexicano u organismo internacionales garantes de los derechos humanos
+        , así como las acciones que han llevado a cabo para su atención.
       </p>
+      </div>
+
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2660,15 +2722,17 @@
     <span class="close" onclick="closeModal('modal34')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXXIV. RESOLUCIONES QUE SE EMITAN EN PROCESO O PROCEDIMIENTOS SEGUIDOS EN FORMAS DE JUICIO.</h3>
+      <div class="junto">
+        <h3>XXXIV. Resoluciones que se emitan en procesos o procedimientos seguidos en forma de juicio.</h3>
       <p>
         Las resoluciones y laudos que se emitan en procesos o procedimentos seguidos en forma de juicio.
       </p>
+      </div>
+    
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2713,15 +2777,17 @@
     <span class="close" onclick="closeModal('modal35')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXXV. MECANISMO DE PARTICIPACIÓN CIUDADANA.</h3>
+      <div class="junto">
+        <h3>XXXV. Mecanismo de participación ciudadana.</h3>
       <p>
         Los mecanismo de participación ciudadana.
       </p>
+      </div>
+
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -2785,15 +2851,16 @@
     <span class="close" onclick="closeModal('modal37')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXXVII. ACTAS Y RESOLUCIONES DEL COMITÉ DE TRANSPARENCIA DE LOS SUJETOS OBLIGADOS.</h3>
+      <div class="junto">
+        <h3>XXXVII. Actas y resoluciones del comité de transparencia de los sujetos obligados.</h3>
       <p>
         Las actas y resoluciones del Comité de Transparencia de los sujetos obligados.
       </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3123,15 +3190,17 @@
     <span class="close" onclick="closeModal('modal35')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XXXIX. ESTUDIOS FINANCIADOS CON RECURSOS PÚBLICOS.</h3>
+      <div class="junto">
+        <h3>XXXIX. Estudios financiados con recursos públicos.</h3>
       <p>
         Los estudios finaciados con recursos Públicos.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3176,14 +3245,18 @@
     <span class="close" onclick="closeModal('modal35')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>XLI. INGRESOS RECIBIDOS POR CUALQUIER CONCEPTO.</h3>
+      <div class="junto">
+        <h3>XLI. Ingresos recibidos por cualquier concepto.</h3>
       <p>
-        Los ingresos recibidos por cualquier concepto señalado el nombre el nombre de los responsables de recibirlo, administrarlos y ejercerlos, así como su destino, indicando el destino de cada uno de ellos.
+        Los ingresos recibidos por cualquier concepto señalado el nombre el nombre de los responsables de recibirlo
+        , administrarlos y ejercerlos, así como su destino, indicando el destino de cada uno de ellos.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3247,15 +3320,17 @@
     <span class="close" onclick="closeModal('modal35')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XLII. DONACIONES HECHAS A TERCEROS EN DINERO O EN ESPECIE.</h3>
+      <div class="junto">
+        <h3>XLII. Donaciones hechas a terceros en dinero o en especie.</h3>
       <p>
         Donaciones hechas a terceros en dinero o en especie.
       </p>
+      </div>
+
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3300,15 +3375,16 @@
     <span class="close" onclick="closeModal('modal43')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XLIII. CATÁLOGO DE DISPOSICIÓN Y GUIA DE ARCHIVOS DOCUMENTAL.</h3>
-      <p>
+      <div class="junto">
+        <h3>XLIII. Catálogo de disposición y guía de archivos documental.</h3>
+       <p>
         El catálogo de disposición y guía de archivos documental .
       </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3391,15 +3467,17 @@
     <span class="close" onclick="closeModal('modal35')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 50</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 50 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>XLVI. INFORMACIÓN QUE SEA UTILIDAD O SE CONSIDERE RELEVANTE.</h3>
+      <div class="junto">
+        <h3>XLVI. Información que sea útil o se considere relevante.</h3>
       <p>
         Las actas de sesiones ordinarias y extraordinarias, así como las opiniones y recomendaciones que emitan, en su caso, los consejos consultivos.
       </p>
+      </div>
+            
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3576,7 +3654,7 @@
     <div class="card" onclick="openModal('modalB')">
       <div class="icon"><i class="bi bi-file-earmark-text"></i></div>
       <h2 class="titlee">B.</h2>
-      <h3 class="title"><br>Informes presentados por los partidos políticos, asociaciones, agrupaciones políticas o de ciudadanos.</h3>
+      <h3 class="title"><br>Informes presentados por los partidos políticos, asociaciones, agrupaciones políticas o de ciudadanos</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3587,7 +3665,7 @@
       <div class="icon"><i class="bi bi-card-checklist"></i></i>
       </div>
       <h2 class="titlee">D.</h2>
-      <h3 class="title">Registro de candidatos a cargos de elección popular.</h3>
+      <h3 class="title">Registro de candidatos a cargos de elección popular</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3642,7 +3720,7 @@
       <div class="icon"><i class="bi bi-check-circle"></i>
       </div>
       <h2 class="titlee">I.</h2>
-      <h3 class="title">Resultados y declaraciones de validez de las elecciones.</h3>
+      <h3 class="title">Resultados y declaraciones de validez de las elecciones</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3663,7 +3741,7 @@
       <div class="icon"><i class="bi bi-broadcast"></i>
       </div>
       <h2 class="titlee">K.</h2>
-      <h3 class="title">Monitoreo de medios.</h3>
+      <h3 class="title">Monitoreo de medios</h3>
       <div class="card-hover">
         <span>Ver más</span>
         <i class="bi bi-arrow-right"></i>
@@ -3703,20 +3781,21 @@
       </div>
     </div>
   </div>
-
+        <!--info de modal abierto-->
   <div id="modalA" class="modal">
     <span class="close" onclick="closeModal('modalA')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>A). Listado de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos </h3>
+      <div class="junto">
+        <h3>A). Listado de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos. </h3>
       <p>
         Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos regístrados ante la autoridad electoral.
       </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3780,14 +3859,15 @@
     <span class="close" onclick="closeModal('modalB')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>B). Informes presentados por los partidos políticos, asociaciones, agrupaciones políticas o de ciudadanos.</h3>
+      <div class="junto">
+        <h3>B). Informes presentados por los partidos políticos, asociaciones, agrupaciones políticas o de ciudadanos.</h3>
       <p>
         Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos. </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3851,15 +3931,16 @@
     <span class="close" onclick="closeModal('modalD')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>D). Registro de candidatos a cargos de elección popular.</h3>
+      <div class="junto">
+        <h3>D). Registro de candidatos a cargos de elección popular.</h3>
       <p>
         El registro de candidatos a cargos de elección popular.
       </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -3961,14 +4042,16 @@
     <span class="close" onclick="closeModal('modalE')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>E). Montos de financiamiento público por actividades ordinarias, financiamiento privado y topes de campaña</h3>
+      <div class="junto">
+        <h3>E). Montos de financiamiento público por actividades ordinarias, financiamiento privado y topes de campaña.</h3>
       <p>
-        Los montos de financiamiento público por actividades ordinarias, financiamiento privado y topes de campaña .</p>
+        Los montos de financiamiento público por actividades ordinarias, financiamiento privado y topes de campaña .
+      </p>
+      </div>    
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4051,15 +4134,16 @@
     <span class="close" onclick="closeModal('modalF')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>F). Metodología e informes sobre la publicación de encuestas y conteos rápidos.</h3>
+      <div class="junto">
+        <h3>F). Metodología e informes sobre la publicación de encuestas y conteos rápidos.</h3>
       <p>
         La metodología e informe sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos financiados por las autoridades electorales competentes.
       </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4199,15 +4283,16 @@
     <span class="close" onclick="closeModal('modalG')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>G). Metodología e informes del programa de resultados preliminares</h3>
+      <div class="junto">
+        <h3>G). Metodología e informes del programa de resultados preliminares.</h3>
       <p>
         La metodología e informe del programa de Resultados Preliminares Electorales.
       </p>
+      </div> 
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4271,14 +4356,16 @@
     <span class="close" onclick="closeModal('modalH')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>H). Cómputos totales de las elecciones y procesos de participación ciudadana</h3>
+      <div class="junto">
+        <h3>H). Cómputos totales de las elecciones y procesos de participación ciudadana.</h3>
       <p>
-        Los cómputos totales de las elecciones y procesos de participación ciudadana. </p>
+        Los cómputos totales de las elecciones y procesos de participación ciudadana. 
+      </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4323,15 +4410,18 @@
     <span class="close" onclick="closeModal('modalI')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>I). Resultados y declaraciones de validez de las elecciones..</h3>
+
+      <div class="junto">
+      <h3>I). Resultados y declaraciones de validez de las elecciones.</h3>
       <p>
         Los resultados y declaraciones de validez de las elecciones.
       </p>
+      </div>
+      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4376,15 +4466,17 @@
     <span class="close" onclick="closeModal('modalJ')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar"
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>J). Dictámenes, informes y resoluciones sobre pérdida de registro y liquidación de los partidos políticos</h3>
+      <div class="junto">
+        <h3>J). Dictámenes, informes y resoluciones sobre pérdida de registro y liquidación de los partidos políticos.</h3>
       <p>
         Los dictámenes, informes y resoluciones sobre pérdidas de registro y liquidación del patrimonio de los partidos políticos.
       </p>
+
+      </div>      
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4429,15 +4521,16 @@
     <span class="close" onclick="closeModal('modalK')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>K). Monitoreo de medios. </h3>
+      <div class="junto">
+        <h3>K). Monitoreo de medios. </h3>
       <p>
         El monitoreo de los medios.
       </p>
+      </div>  
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4615,15 +4708,16 @@
     <span class="close" onclick="closeModal('modalL')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>L). Expedientes sobre quejas resueltas por violaciones al Código Electoral</h3>
+      <div class="junto">
+        <h3>L). Expedientes sobre quejas resueltas por violaciones al Código Electoral.</h3>
       <p>
         Los expedientes sobre quejas resueltas por violaciones al Código Electoral para el Estado.
       </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4668,14 +4762,16 @@
     <span class="close" onclick="closeModal('modalN')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <h3>N). Resultados de revisiones, auditorías y verificaciones que se practiquen en los procedimientos de fiscalización</h3>
+      <div class="junto">
+        <h3>N). Resultados de revisiones, auditorías y verificaciones que se practiquen en los procedimientos de fiscalización.</h3>
       <p>
         El resultado de las revisiones, auditorias y verificaciones que se practiquen en los procedimientos de fiscalización respectivo.
       </p>
+      </div>
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
@@ -4720,15 +4816,17 @@
     <span class="close" onclick="closeModal('modalñ')">&times;</span>
     <div class="modal-content">
       <h2>Articulo 55</h2>
-      <p>
+      <p id="similar">
         <strong>Información Pública de Oficio</strong><br>
         En términos del artículo 55 de la Ley 875 de Transparencia y Acceso a la Información Pública para el estado de Veracruz de Ignacio de la Llave, se deberá publicar y mantener actualizada la siguiente información:
       </p>
-      <hr class="separ">
-      <h3>Ñ).Versiones estenográficas de las sesiones públicas</h3>
+      <div class="junto">
+        <h3>Ñ).Versiones estenográficas de las sesiones públicas.</h3>
       <p>
         Las versiones estenográficas de las sesiones públicas.
       </p>
+      </div>
+ 
       <div class="fraccion">
         <div class="separador">
           <span class="icon"><i class="fa-solid fa-folder-open"></i></span>
